@@ -1,0 +1,9 @@
+--- a/net/minecraft/server/IDataManager.java
++++ b/net/minecraft/server/IDataManager.java
+@@ -29,4 +29,6 @@
+     DefinedStructureManager h();
+ 
+     DataFixer i();
++
++    java.util.UUID getUUID(); // CraftBukkit
+ }

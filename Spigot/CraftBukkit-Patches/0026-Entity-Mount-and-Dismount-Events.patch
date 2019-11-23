@@ -1,0 +1,41 @@
+From 493b12bca2f646e03896b92aa948afdd7e5c7c20 Mon Sep 17 00:00:00 2001
+From: md_5 <git@md-5.net>
+Date: Sat, 27 Feb 2016 10:07:58 +1100
+Subject: [PATCH] Entity Mount and Dismount Events
+
+
+diff --git a/src/main/java/net/minecraft/server/Entity.java b/src/main/java/net/minecraft/server/Entity.java
+index 31370dc87..7cb13c74d 100644
+--- a/src/main/java/net/minecraft/server/Entity.java
++++ b/src/main/java/net/minecraft/server/Entity.java
+@@ -2006,6 +2006,13 @@ public abstract class Entity implements INamableTileEntity, ICommandListener {
+                 }
+             }
+             // CraftBukkit end
++            // Spigot start
++            org.spigotmc.event.entity.EntityMountEvent event = new org.spigotmc.event.entity.EntityMountEvent(entity.getBukkitEntity(), this.getBukkitEntity());
++            Bukkit.getPluginManager().callEvent(event);
++            if (event.isCancelled()) {
++                return false;
++            }
++            // Spigot end
+             if (!this.world.isClientSide && entity instanceof EntityHuman && !(this.bO() instanceof EntityHuman)) {
+                 this.passengers.add(0, entity);
+             } else {
+@@ -2036,6 +2043,13 @@ public abstract class Entity implements INamableTileEntity, ICommandListener {
+                 }
+             }
+             // CraftBukkit end
++            // Spigot start
++            org.spigotmc.event.entity.EntityDismountEvent event = new org.spigotmc.event.entity.EntityDismountEvent(entity.getBukkitEntity(), this.getBukkitEntity());
++            Bukkit.getPluginManager().callEvent(event);
++            if (event.isCancelled()) {
++                return false;
++            }
++            // Spigot end
+             this.passengers.remove(entity);
+             entity.k = 60;
+         }
+-- 
+2.19.1
+

@@ -1,0 +1,32 @@
+--- a/net/minecraft/server/CraftingManager.java
++++ b/net/minecraft/server/CraftingManager.java
+@@ -95,12 +95,14 @@
+ 
+         do {
+             if (!iterator.hasNext()) {
++                iinventory.setCurrentRecipe(null); // CraftBukkit - Clear recipe when no recipe is found
+                 return ItemStack.a;
+             }
+ 
+             irecipe = (IRecipe) iterator.next();
+         } while (!irecipe.a(iinventory, world));
+ 
++        iinventory.setCurrentRecipe(irecipe); // CraftBukkit
+         return irecipe.craftItem(iinventory);
+     }
+ 
+@@ -112,12 +114,14 @@
+ 
+         do {
+             if (!iterator.hasNext()) {
++                iinventory.setCurrentRecipe(null); // CraftBukkit - Clear recipe when no recipe is found
+                 return null;
+             }
+ 
+             irecipe = (IRecipe) iterator.next();
+         } while (!irecipe.a(iinventory, world));
+ 
++        iinventory.setCurrentRecipe(irecipe); // CraftBukkit
+         return irecipe;
+     }
+ 

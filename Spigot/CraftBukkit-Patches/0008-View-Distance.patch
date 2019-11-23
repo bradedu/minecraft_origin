@@ -1,0 +1,52 @@
+From 353e7a865c8655b2bb0c341ed15f9c299a4997ba Mon Sep 17 00:00:00 2001
+From: md_5 <md_5@live.com.au>
+Date: Sat, 23 Mar 2013 09:52:41 +1100
+Subject: [PATCH] View Distance
+
+This commit allows the user to select per world view distances, and view distances below 3. Be wary of the issues selecting a view distance of 1 or 2 may cause!
+
+diff --git a/src/main/java/net/minecraft/server/EntityTracker.java b/src/main/java/net/minecraft/server/EntityTracker.java
+index 9237ae20e..4eeec21bb 100644
+--- a/src/main/java/net/minecraft/server/EntityTracker.java
++++ b/src/main/java/net/minecraft/server/EntityTracker.java
+@@ -18,7 +18,7 @@ public class EntityTracker {
+ 
+     public EntityTracker(WorldServer worldserver) {
+         this.world = worldserver;
+-        this.trackingDistance = worldserver.getMinecraftServer().getPlayerList().getFurthestViewableBlock();
++        this.trackingDistance = PlayerChunkMap.getFurthestViewableBlock(worldserver.spigotConfig.viewDistance); // Spigot
+     }
+ 
+     public static long a(double d0) {
+diff --git a/src/main/java/net/minecraft/server/PlayerChunkMap.java b/src/main/java/net/minecraft/server/PlayerChunkMap.java
+index 525c020ee..f9c93f7ad 100644
+--- a/src/main/java/net/minecraft/server/PlayerChunkMap.java
++++ b/src/main/java/net/minecraft/server/PlayerChunkMap.java
+@@ -40,7 +40,7 @@ public class PlayerChunkMap {
+ 
+     public PlayerChunkMap(WorldServer worldserver) {
+         this.world = worldserver;
+-        this.a(worldserver.getMinecraftServer().getPlayerList().getViewDistance());
++        this.a(worldserver.spigotConfig.viewDistance); // Spigot
+     }
+ 
+     public WorldServer getWorld() {
+diff --git a/src/main/java/org/spigotmc/SpigotWorldConfig.java b/src/main/java/org/spigotmc/SpigotWorldConfig.java
+index 23ce7243a..0dd4b2d37 100644
+--- a/src/main/java/org/spigotmc/SpigotWorldConfig.java
++++ b/src/main/java/org/spigotmc/SpigotWorldConfig.java
+@@ -125,4 +125,11 @@ public class SpigotWorldConfig
+         expMerge = getDouble("merge-radius.exp", 3.0 );
+         log( "Experience Merge Radius: " + expMerge );
+     }
++
++    public int viewDistance;
++    private void viewDistance()
++    {
++        viewDistance = getInt( "view-distance", Bukkit.getViewDistance() );
++        log( "View Distance: " + viewDistance );
++    }
+ }
+-- 
+2.19.1
+

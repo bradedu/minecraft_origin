@@ -455,6 +455,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2019-08-04 00:21:19 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2017-07-19 23:49:20 +0800"
@@ -956,6 +962,12 @@
   "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2017-07-22 15:30:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2019-08-04 01:53:46 +0800"
     },
     "done": true
   },
@@ -1852,6 +1864,12 @@
     },
     "done": true
   },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2019-08-04 01:53:46 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/packed_ice": {
     "criteria": {
       "has_at_least_9_ice": "2018-10-03 20:43:44 +0800"
@@ -1937,6 +1955,7 @@
       "potato": "2017-07-22 14:10:11 +0800",
       "cooked_cod": "2017-08-22 23:28:17 +0800",
       "bread": "2017-07-18 21:21:24 +0800",
+      "golden_apple": "2019-06-22 00:14:25 +0800",
       "rotten_flesh": "2017-08-08 23:33:10 +0800",
       "dried_kelp": "2018-07-31 23:23:31 +0800",
       "salmon": "2018-08-19 15:44:13 +0800",
@@ -2073,6 +2092,12 @@
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
       "has_sand": "2018-07-28 11:55:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2019-08-04 01:05:42 +0800"
     },
     "done": true
   },
@@ -2429,6 +2454,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2018-09-15 19:21:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_glazed_terracotta": {
+    "criteria": {
+      "has_red_terracotta": "2019-08-04 00:58:43 +0800"
     },
     "done": true
   },
@@ -2795,6 +2826,12 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2017-07-20 22:50:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting": {
+    "criteria": {
+      "has_coal_ore": "2019-08-10 16:12:21 +0800"
     },
     "done": true
   },
@@ -3197,6 +3234,12 @@
   "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_minecart": "2017-07-22 14:18:28 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2019-07-13 23:19:52 +0800"
     },
     "done": true
   },

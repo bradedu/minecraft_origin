@@ -1,0 +1,780 @@
+Loading libraries, please wait...
+Loaded 0 recipes
+[19:43:21 INFO]: Loaded 0 recipes
+[19:43:22 INFO]: Starting minecraft server version 1.13.2
+[19:43:22 INFO]: Loading properties
+[19:43:22 INFO]: Default game type: SURVIVAL
+[19:43:25 INFO]: This server is running CraftBukkit version git-Spigot-b0f4c22-51c118b (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
+[19:43:27 INFO]: Server Ping Player Sample Count: 12
+[19:43:27 INFO]: Using 4 threads for Netty based IO
+[19:43:27 INFO]: Debug logging is disabled
+[19:43:27 INFO]: Generating keypair
+[19:43:32 INFO]: Starting Minecraft server on *:25564
+[19:43:33 INFO]: Using epoll channel type
+[19:43:35 INFO]: Preparing level "world"
+[19:43:36 INFO]: Reloading ResourceManager: Default, bukkit
+[19:43:46 INFO]: Loaded 524 recipes
+[19:43:56 INFO]: -------- World Settings For [world] --------
+[19:43:56 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[19:43:56 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:43:56 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:43:56 INFO]: Random Lighting Updates: false
+[19:43:56 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[19:43:56 INFO]: Experience Merge Radius: 3.0
+[19:43:56 INFO]: Mob Spawn Range: 6
+[19:43:56 INFO]: Cactus Growth Modifier: 100%
+[19:43:56 INFO]: Cane Growth Modifier: 100%
+[19:43:56 INFO]: Melon Growth Modifier: 100%
+[19:43:56 INFO]: Mushroom Growth Modifier: 100%
+[19:43:56 INFO]: Pumpkin Growth Modifier: 100%
+[19:43:56 INFO]: Sapling Growth Modifier: 100%
+[19:43:56 INFO]: Beetroot Growth Modifier: 100%
+[19:43:56 INFO]: Carrot Growth Modifier: 100%
+[19:43:56 INFO]: Potato Growth Modifier: 100%
+[19:43:56 INFO]: Wheat Growth Modifier: 100%
+[19:43:56 INFO]: NetherWart Growth Modifier: 100%
+[19:43:56 INFO]: Vine Growth Modifier: 100%
+[19:43:56 INFO]: Cocoa Growth Modifier: 100%
+[19:43:56 INFO]: Max TNT Explosions: 100
+[19:43:56 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:43:56 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:43:56 INFO]: Item Merge Radius: 2.5
+[19:43:56 INFO]: Item Despawn Rate: 6000
+[19:43:56 INFO]: Arrow Despawn Rate: 1200
+[19:43:56 INFO]: View Distance: 10
+[19:43:56 INFO]: Zombie Aggressive Towards Villager: true
+[19:43:56 INFO]: Nerfing mobs spawned from spawners: false
+[19:43:59 INFO]: -------- World Settings For [world_nether] --------
+[19:43:59 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[19:43:59 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:43:59 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:43:59 INFO]: Random Lighting Updates: false
+[19:43:59 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[19:43:59 INFO]: Experience Merge Radius: 3.0
+[19:43:59 INFO]: Mob Spawn Range: 6
+[19:43:59 INFO]: Cactus Growth Modifier: 100%
+[19:43:59 INFO]: Cane Growth Modifier: 100%
+[19:43:59 INFO]: Melon Growth Modifier: 100%
+[19:43:59 INFO]: Mushroom Growth Modifier: 100%
+[19:43:59 INFO]: Pumpkin Growth Modifier: 100%
+[19:43:59 INFO]: Sapling Growth Modifier: 100%
+[19:43:59 INFO]: Beetroot Growth Modifier: 100%
+[19:43:59 INFO]: Carrot Growth Modifier: 100%
+[19:43:59 INFO]: Potato Growth Modifier: 100%
+[19:43:59 INFO]: Wheat Growth Modifier: 100%
+[19:43:59 INFO]: NetherWart Growth Modifier: 100%
+[19:43:59 INFO]: Vine Growth Modifier: 100%
+[19:43:59 INFO]: Cocoa Growth Modifier: 100%
+[19:43:59 INFO]: Max TNT Explosions: 100
+[19:43:59 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:43:59 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:43:59 INFO]: Item Merge Radius: 2.5
+[19:43:59 INFO]: Item Despawn Rate: 6000
+[19:43:59 INFO]: Arrow Despawn Rate: 1200
+[19:43:59 INFO]: View Distance: 10
+[19:43:59 INFO]: Zombie Aggressive Towards Villager: true
+[19:43:59 INFO]: Nerfing mobs spawned from spawners: false
+[19:43:59 INFO]: -------- World Settings For [world_the_end] --------
+[19:43:59 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[19:43:59 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:43:59 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:43:59 INFO]: Random Lighting Updates: false
+[19:43:59 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[19:43:59 INFO]: Experience Merge Radius: 3.0
+[19:43:59 INFO]: Mob Spawn Range: 6
+[19:43:59 INFO]: Cactus Growth Modifier: 100%
+[19:43:59 INFO]: Cane Growth Modifier: 100%
+[19:43:59 INFO]: Melon Growth Modifier: 100%
+[19:43:59 INFO]: Mushroom Growth Modifier: 100%
+[19:43:59 INFO]: Pumpkin Growth Modifier: 100%
+[19:43:59 INFO]: Sapling Growth Modifier: 100%
+[19:43:59 INFO]: Beetroot Growth Modifier: 100%
+[19:43:59 INFO]: Carrot Growth Modifier: 100%
+[19:43:59 INFO]: Potato Growth Modifier: 100%
+[19:43:59 INFO]: Wheat Growth Modifier: 100%
+[19:43:59 INFO]: NetherWart Growth Modifier: 100%
+[19:43:59 INFO]: Vine Growth Modifier: 100%
+[19:43:59 INFO]: Cocoa Growth Modifier: 100%
+[19:43:59 INFO]: Max TNT Explosions: 100
+[19:43:59 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:43:59 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:43:59 INFO]: Item Merge Radius: 2.5
+[19:43:59 INFO]: Item Despawn Rate: 6000
+[19:43:59 INFO]: Arrow Despawn Rate: 1200
+[19:43:59 INFO]: View Distance: 10
+[19:43:59 INFO]: Zombie Aggressive Towards Villager: true
+[19:43:59 INFO]: Nerfing mobs spawned from spawners: false
+[19:44:00 INFO]: Preparing start region for level minecraft:overworld (Seed: -8072977052885339078)
+[19:44:05 INFO]: Preparing spawn area: 4%
+[19:44:06 INFO]: Preparing spawn area: 8%
+[19:44:07 INFO]: Preparing spawn area: 12%
+[19:44:08 INFO]: Preparing spawn area: 16%
+[19:44:09 INFO]: Preparing spawn area: 20%
+[19:44:10 INFO]: Preparing spawn area: 24%
+[19:44:11 INFO]: Preparing spawn area: 28%
+[19:44:12 INFO]: Preparing spawn area: 32%
+[19:44:13 INFO]: Preparing spawn area: 36%
+[19:44:15 INFO]: Preparing spawn area: 40%
+[19:44:18 INFO]: Preparing spawn area: 44%
+[19:44:20 INFO]: Preparing spawn area: 48%
+[19:44:22 INFO]: Preparing spawn area: 52%
+[19:44:23 INFO]: Preparing spawn area: 56%
+[19:44:24 INFO]: Preparing spawn area: 60%
+[19:44:25 INFO]: Preparing spawn area: 64%
+[19:44:25 INFO]: Preparing spawn area: 68%
+[19:44:27 INFO]: Preparing spawn area: 72%
+[19:44:28 INFO]: Preparing spawn area: 76%
+[19:44:28 INFO]: Preparing spawn area: 80%
+[19:44:29 INFO]: Preparing spawn area: 84%
+[19:44:30 INFO]: Preparing spawn area: 88%
+[19:44:31 INFO]: Preparing spawn area: 92%
+[19:44:31 INFO]: Preparing spawn area: 96%
+[19:44:32 INFO]: Preparing spawn area: 100%
+[19:44:32 INFO]: Preparing start region for level minecraft:the_nether (Seed: -8072977052885339078)
+[19:44:33 INFO]: Preparing spawn area: 4%
+[19:44:34 INFO]: Preparing spawn area: 8%
+[19:44:34 INFO]: Preparing spawn area: 12%
+[19:44:35 INFO]: Preparing spawn area: 16%
+[19:44:36 INFO]: Preparing spawn area: 20%
+[19:44:37 INFO]: Preparing spawn area: 24%
+[19:44:37 INFO]: Preparing spawn area: 28%
+[19:44:38 INFO]: Preparing spawn area: 32%
+[19:44:39 INFO]: Preparing spawn area: 36%
+[19:44:39 INFO]: Preparing spawn area: 40%
+[19:44:40 INFO]: Preparing spawn area: 44%
+[19:44:41 INFO]: Preparing spawn area: 48%
+[19:44:41 INFO]: Preparing spawn area: 52%
+[19:44:42 INFO]: Preparing spawn area: 56%
+[19:44:43 INFO]: Preparing spawn area: 60%
+[19:44:44 INFO]: Preparing spawn area: 64%
+[19:44:45 INFO]: Preparing spawn area: 68%
+[19:44:45 INFO]: Preparing spawn area: 72%
+[19:44:46 INFO]: Preparing spawn area: 76%
+[19:44:47 INFO]: Preparing spawn area: 80%
+[19:44:48 INFO]: Preparing spawn area: 84%
+[19:44:48 INFO]: Preparing spawn area: 88%
+[19:44:49 INFO]: Preparing spawn area: 92%
+[19:44:50 INFO]: Preparing spawn area: 96%
+[19:44:50 INFO]: Preparing spawn area: 100%
+[19:44:50 INFO]: Preparing start region for level minecraft:the_end (Seed: -8072977052885339078)
+[19:44:51 INFO]: Preparing spawn area: 4%
+[19:44:51 INFO]: Preparing spawn area: 8%
+[19:44:51 INFO]: Preparing spawn area: 12%
+[19:44:51 INFO]: Preparing spawn area: 16%
+[19:44:51 INFO]: Preparing spawn area: 20%
+[19:44:52 INFO]: Preparing spawn area: 24%
+[19:44:52 INFO]: Preparing spawn area: 28%
+[19:44:52 INFO]: Preparing spawn area: 32%
+[19:44:52 INFO]: Preparing spawn area: 36%
+[19:44:52 INFO]: Preparing spawn area: 40%
+[19:44:52 INFO]: Preparing spawn area: 44%
+[19:44:53 INFO]: Preparing spawn area: 48%
+[19:44:53 INFO]: Preparing spawn area: 52%
+[19:44:53 INFO]: Preparing spawn area: 56%
+[19:44:53 INFO]: Preparing spawn area: 60%
+[19:44:53 INFO]: Preparing spawn area: 64%
+[19:44:53 INFO]: Preparing spawn area: 68%
+[19:44:53 INFO]: Preparing spawn area: 72%
+[19:44:53 INFO]: Preparing spawn area: 76%
+[19:44:53 INFO]: Preparing spawn area: 80%
+[19:44:53 INFO]: Preparing spawn area: 84%
+[19:44:53 INFO]: Preparing spawn area: 88%
+[19:44:53 INFO]: Preparing spawn area: 92%
+[19:44:53 INFO]: Preparing spawn area: 96%
+[19:44:53 INFO]: Preparing spawn area: 100%
+[19:44:53 INFO]: Time elapsed: 53689 ms
+[19:44:54 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:44:54 INFO]: Done (78.973s)! For help, type "help"
+[19:45:46 INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[19:46:07 ERROR]: ------------------------------
+[19:46:07 ERROR]: The server has stopped responding! This is (probably) not a Spigot bug.
+[19:46:07 ERROR]: If you see a plugin in the Server thread dump below, then please report it to that author
+[19:46:07 ERROR]: 	 *Especially* if it looks like HTTP or MySQL operations are occurring
+[19:46:07 ERROR]: If you see a world save or edit, then it means you did far more than your server can handle at once
+[19:46:07 ERROR]: 	 If this is the case, consider increasing timeout-time in spigot.yml but note that this will replace the crash with LARGE lag spikes
+[19:46:07 ERROR]: If you are unsure or still think this is a Spigot bug, please report to https://www.spigotmc.org/
+[19:46:07 ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[19:46:07 ERROR]: Spigot version: git-Spigot-b0f4c22-51c118b (MC: 1.13.2)
+[19:46:07 ERROR]: ------------------------------
+[19:46:07 ERROR]: Server thread dump (Look for plugins here before reporting to Spigot!):
+[19:46:07 ERROR]: ------------------------------
+[19:46:07 ERROR]: Current Thread: Server thread
+[19:46:07 ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
+[19:46:07 ERROR]: 	Stack:
+[19:46:07 ERROR]: 		com.mojang.datafixers.util.Either$Right.<init>(Either.java:88)
+[19:46:07 ERROR]: 		com.mojang.datafixers.util.Either.right(Either.java:174)
+[19:46:07 ERROR]: 		com.mojang.datafixers.FieldFinder$Matcher.match(FieldFinder.java:110)
+[19:46:07 ERROR]: 		com.mojang.datafixers.types.Type.findType(Type.java:226)
+[19:46:07 ERROR]: 		com.mojang.datafixers.types.Type.findTypeCached(Type.java:222)
+[19:46:07 ERROR]: 		com.mojang.datafixers.FieldFinder.findType(FieldFinder.java:36)
+[19:46:07 ERROR]: 		com.mojang.datafixers.OpticFinder.findType(OpticFinder.java:16)
+[19:46:07 ERROR]: 		com.mojang.datafixers.Typed.getOptional(Typed.java:63)
+[19:46:07 ERROR]: 		net.minecraft.server.v1_13_R2.DataConverterFlattenSpawnEgg.a(SourceFile:81)
+[19:46:07 ERROR]: 		net.minecraft.server.v1_13_R2.DataConverterFlattenSpawnEgg$$Lambda$503/217020425.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.DataFix.lambda$null$4(DataFix.java:75)
+[19:46:07 ERROR]: 		com.mojang.datafixers.DataFix$$Lambda$1523/1914498058.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:07 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:07 ERROR]: 		com.mojang.datafixers.types.Type.capWrite(Type.java:157)
+[19:46:07 ERROR]: 		com.mojang.datafixers.types.Type.lambda$null$7(Type.java:148)
+[19:46:07 ERROR]: 		com.mojang.datafixers.types.Type$$Lambda$1424/90104312.apply(Unknown Source)
+[19:46:07 ERROR]: 		java.util.Optional.map(Optional.java:215)
+[19:46:07 ERROR]: 		com.mojang.datafixers.types.Type.lambda$readAndWrite$8(Type.java:147)
+[19:46:07 ERROR]: 		com.mojang.datafixers.types.Type$$Lambda$1423/783131408.apply(Unknown Source)
+[19:46:07 ERROR]: 		java.util.Optional.flatMap(Optional.java:241)
+[19:46:07 ERROR]: 		com.mojang.datafixers.types.Type.readAndWrite(Type.java:146)
+[19:46:07 ERROR]: 		com.mojang.datafixers.DataFixerUpper.update(DataFixerUpper.java:84)
+[19:46:07 ERROR]: 		org.bukkit.craftbukkit.v1_13_R2.util.CraftLegacy.<clinit>(CraftLegacy.java:403)
+[19:46:07 ERROR]: 		org.bukkit.craftbukkit.v1_13_R2.util.CraftMagicNumbers.key(CraftMagicNumbers.java:111)
+[19:46:07 ERROR]: 		org.bukkit.craftbukkit.v1_13_R2.util.CraftMagicNumbers.<clinit>(CraftMagicNumbers.java:86)
+[19:46:07 ERROR]: 		org.bukkit.craftbukkit.v1_13_R2.block.CraftBlock.getType(CraftBlock.java:182)
+[19:46:07 ERROR]: 		org.bukkit.craftbukkit.v1_13_R2.block.CraftBlock.getState(CraftBlock.java:278)
+[19:46:07 ERROR]: 		net.minecraft.server.v1_13_R2.TileEntity.getOwner(TileEntity.java:182)
+[19:46:07 ERROR]: 		net.minecraft.server.v1_13_R2.TileEntityHopper.s(TileEntityHopper.java:219)
+[19:46:07 ERROR]: 		net.minecraft.server.v1_13_R2.TileEntityHopper.a(TileEntityHopper.java:136)
+[19:46:07 ERROR]: 		net.minecraft.server.v1_13_R2.TileEntityHopper.tick(TileEntityHopper.java:118)
+[19:46:07 ERROR]: 		net.minecraft.server.v1_13_R2.World.tickEntities(World.java:1198)
+[19:46:07 ERROR]: 		net.minecraft.server.v1_13_R2.WorldServer.tickEntities(WorldServer.java:583)
+[19:46:07 ERROR]: 		net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:968)
+[19:46:07 ERROR]: 		net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417)
+[19:46:07 ERROR]: 		net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[19:46:07 ERROR]: 		net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[19:46:07 ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[19:46:07 ERROR]: ------------------------------
+[19:46:07 ERROR]: Entire Thread Dump:
+[19:46:08 ERROR]: ------------------------------
+[19:46:08 ERROR]: Current Thread: Netty Epoll Server IO #2
+[19:46:08 ERROR]: 	PID: 27 | Suspended: false | Native: true | State: RUNNABLE
+[19:46:08 ERROR]: 	Stack:
+[19:46:08 ERROR]: 		io.netty.channel.epoll.Native.epollWait0(Native Method)
+[19:46:08 ERROR]: 		io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[19:46:08 ERROR]: 		io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[19:46:08 ERROR]: 		io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[19:46:08 ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[19:46:08 ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[19:46:08 ERROR]: ------------------------------
+[19:46:08 ERROR]: Current Thread: Netty Epoll Server IO #1
+[19:46:08 ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
+[19:46:08 ERROR]: 	Stack:
+[19:46:08 ERROR]: 		io.netty.channel.epoll.Native.epollWait0(Native Method)
+[19:46:08 ERROR]: 		io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[19:46:08 ERROR]: 		io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[19:46:08 ERROR]: 		io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[19:46:08 ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[19:46:08 ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[19:46:08 ERROR]: ------------------------------
+[19:46:08 ERROR]: Current Thread: Netty Epoll Server IO #0
+[19:46:08 ERROR]: 	PID: 25 | Suspended: false | Native: true | State: RUNNABLE
+[19:46:08 ERROR]: 	Stack:
+[19:46:08 ERROR]: 		io.netty.channel.epoll.Native.epollWait0(Native Method)
+[19:46:08 ERROR]: 		io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[19:46:08 ERROR]: 		io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[19:46:08 ERROR]: 		io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[19:46:08 ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[19:46:08 ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[19:46:08 ERROR]: ------------------------------
+[19:46:08 ERROR]: Current Thread: ObjectCleanerThread
+[19:46:08 ERROR]: 	PID: 24 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:46:08 ERROR]: 	Stack:
+[19:46:08 ERROR]: 		java.lang.Object.wait(Native Method)
+[19:46:08 ERROR]: 		java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+[19:46:08 ERROR]: 		io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+[19:46:08 ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[19:46:08 ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[19:46:08 ERROR]: ------------------------------
+[19:46:08 ERROR]: Current Thread: Spigot Metrics Thread
+[19:46:08 ERROR]: 	PID: 23 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:46:08 ERROR]: 	Stack:
+[19:46:08 ERROR]: 		java.lang.Object.wait(Native Method)
+[19:46:08 ERROR]: 		java.util.TimerThread.mainLoop(Timer.java:552)
+[19:46:08 ERROR]: 		java.util.TimerThread.run(Timer.java:505)
+[19:46:08 ERROR]: ------------------------------
+[19:46:08 ERROR]: Current Thread: Spigot Watchdog Thread
+[19:46:08 ERROR]: 	PID: 22 | Suspended: false | Native: false | State: RUNNABLE
+[19:46:08 ERROR]: 	Stack:
+[19:46:08 ERROR]: 		sun.management.ThreadImpl.dumpThreads0(Native Method)
+[19:46:08 ERROR]: 		sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:454)
+[19:46:08 ERROR]: 		org.spigotmc.WatchdogThread.run(WatchdogThread.java:86)
+[19:46:08 ERROR]: ------------------------------
+[19:46:08 ERROR]: Current Thread: Server console handler
+[19:46:08 ERROR]: 	PID: 20 | Suspended: false | Native: true | State: RUNNABLE
+[19:46:08 ERROR]: 	Thread is waiting on monitor(s):
+[19:46:08 ERROR]: 		Locked on:java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+[19:46:08 ERROR]: 		Locked on:org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[19:46:08 ERROR]: 		Locked on:org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[19:46:08 ERROR]: 	Stack:
+[19:46:08 ERROR]: 		java.io.FileInputStream.readBytes(Native Method)
+[19:46:08 ERROR]: 		java.io.FileInputStream.read(FileInputStream.java:255)
+[19:46:08 ERROR]: 		java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+[19:46:08 ERROR]: 		java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+[19:46:08 ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248)
+[19:46:08 ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[19:46:08 ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[19:46:08 ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
+[19:46:08 ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183)
+[19:46:08 ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333)
+[19:46:08 ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269)
+[19:46:08 ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257)
+[19:46:08 ERROR]: 		net.minecraft.server.v1_13_R2.DedicatedServer$2.run(DedicatedServer.java:93)
+[19:46:08 ERROR]: ------------------------------
+[19:46:08 ERROR]: Current Thread: Thread-3
+[19:46:08 ERROR]: 	PID: 21 | Suspended: false | Native: false | State: WAITING
+[19:46:08 ERROR]: 	Stack:
+[19:46:08 ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[19:46:08 ERROR]: 		java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[19:46:08 ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[19:46:08 ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+[19:46:08 ERROR]: 		com.mojang.util.QueueLogAppender.getNextLogEvent(QueueLogAppender.java:77)
+[19:46:08 ERROR]: 		org.bukkit.craftbukkit.v1_13_R2.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:27)
+[19:46:08 ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[19:46:08 ERROR]: ------------------------------
+[19:46:08 ERROR]: Current Thread: DestroyJavaVM
+[19:46:08 ERROR]: 	PID: 19 | Suspended: false | Native: false | State: RUNNABLE
+[19:46:08 ERROR]: 	Stack:
+[19:46:08 ERROR]: ------------------------------
+[19:46:08 ERROR]: Current Thread: Server thread
+[19:46:08 ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
+[19:46:08 ERROR]: 	Stack:
+[19:46:08 ERROR]: 		java.util.stream.StreamOpFlag.fromCharacteristics(StreamOpFlag.java:733)
+[19:46:08 ERROR]: 		java.util.stream.StreamSupport.stream(StreamSupport.java:70)
+[19:46:08 ERROR]: 		java.util.Collection.stream(Collection.java:581)
+[19:46:08 ERROR]: 		com.mojang.datafixers.TypedOptic.instanceOf(TypedOptic.java:112)
+[19:46:08 ERROR]: 		com.mojang.datafixers.TypedOptic.upCast(TypedOptic.java:105)
+[19:46:08 ERROR]: 		com.mojang.datafixers.TypedOptic.apply(TypedOptic.java:57)
+[19:46:08 ERROR]: 		com.mojang.datafixers.Typed.get(Typed.java:46)
+[19:46:08 ERROR]: 		net.minecraft.server.v1_13_R2.DataConverterFlatten.lambda$2(DataConverterFlatten.java:367)
+[19:46:08 ERROR]: 		net.minecraft.server.v1_13_R2.DataConverterFlatten$$Lambda$502/708402525.apply(Unknown Source)
+[19:46:08 ERROR]: 		com.mojang.datafixers.DataFix.lambda$null$4(DataFix.java:75)
+[19:46:08 ERROR]: 		com.mojang.datafixers.DataFix$$Lambda$1523/1914498058.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$null$5(Comp.java:69)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$1510/1570160042.apply(Unknown Source)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.Type.capWrite(Type.java:157)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.Type.lambda$null$7(Type.java:148)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.Type$$Lambda$1424/90104312.apply(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.map(Optional.java:215)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.Type.lambda$readAndWrite$8(Type.java:147)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.Type$$Lambda$1423/783131408.apply(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.flatMap(Optional.java:241)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.Type.readAndWrite(Type.java:146)
+[19:46:09 ERROR]: 		com.mojang.datafixers.DataFixerUpper.update(DataFixerUpper.java:84)
+[19:46:09 ERROR]: 		org.bukkit.craftbukkit.v1_13_R2.util.CraftLegacy.<clinit>(CraftLegacy.java:403)
+[19:46:09 ERROR]: 		org.bukkit.craftbukkit.v1_13_R2.util.CraftMagicNumbers.key(CraftMagicNumbers.java:111)
+[19:46:09 ERROR]: 		org.bukkit.craftbukkit.v1_13_R2.util.CraftMagicNumbers.<clinit>(CraftMagicNumbers.java:86)
+[19:46:09 ERROR]: 		org.bukkit.craftbukkit.v1_13_R2.block.CraftBlock.getType(CraftBlock.java:182)
+[19:46:09 ERROR]: 		org.bukkit.craftbukkit.v1_13_R2.block.CraftBlock.getState(CraftBlock.java:278)
+[19:46:09 ERROR]: 		net.minecraft.server.v1_13_R2.TileEntity.getOwner(TileEntity.java:182)
+[19:46:09 ERROR]: 		net.minecraft.server.v1_13_R2.TileEntityHopper.s(TileEntityHopper.java:219)
+[19:46:09 ERROR]: 		net.minecraft.server.v1_13_R2.TileEntityHopper.a(TileEntityHopper.java:136)
+[19:46:09 ERROR]: 		net.minecraft.server.v1_13_R2.TileEntityHopper.tick(TileEntityHopper.java:118)
+[19:46:09 ERROR]: 		net.minecraft.server.v1_13_R2.World.tickEntities(World.java:1198)
+[19:46:09 ERROR]: 		net.minecraft.server.v1_13_R2.WorldServer.tickEntities(WorldServer.java:583)
+[19:46:09 ERROR]: 		net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:968)
+[19:46:09 ERROR]: 		net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417)
+[19:46:09 ERROR]: 		net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831)
+[19:46:09 ERROR]: 		net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729)
+[19:46:09 ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[19:46:09 ERROR]: ------------------------------
+[19:46:09 ERROR]: Current Thread: Server Infinisleeper
+[19:46:09 ERROR]: 	PID: 18 | Suspended: false | Native: false | State: TIMED_WAITING
+[19:46:09 ERROR]: 	Stack:
+[19:46:09 ERROR]: 		java.lang.Thread.sleep(Native Method)
+[19:46:09 ERROR]: 		net.minecraft.server.v1_13_R2.DedicatedServer$1.run(DedicatedServer.java:66)
+[19:46:09 ERROR]: ------------------------------
+[19:46:09 ERROR]: Current Thread: Snooper Timer
+[19:46:09 ERROR]: 	PID: 14 | Suspended: false | Native: false | State: WAITING
+[19:46:09 ERROR]: 	Stack:
+[19:46:09 ERROR]: 		java.lang.Object.wait(Native Method)
+[19:46:09 ERROR]: 		java.lang.Object.wait(Object.java:502)
+[19:46:09 ERROR]: 		java.util.TimerThread.mainLoop(Timer.java:526)
+[19:46:09 ERROR]: 		java.util.TimerThread.run(Timer.java:505)
+[19:46:09 ERROR]: ------------------------------
+[19:46:09 ERROR]: Current Thread: ForkJoinPool-1-worker-0
+[19:46:09 ERROR]: 	PID: 13 | Suspended: false | Native: false | State: RUNNABLE
+[19:46:09 ERROR]: 	Stack:
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$SortInj.doRewrite(PointFreeRule.java:292)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$CompRewrite.rewrite(PointFreeRule.java:182)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:569)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:569)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Apply.lambda$one$5(Apply.java:46)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Apply$$Lambda$617/1879836961.get(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.orElseGet(Optional.java:267)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Apply.one(Apply.java:46)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$Many.lambda$rewrite$1(PointFreeRule.java:685)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$Many$$Lambda$587/2023148287.apply(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.flatMap(Optional.java:241)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$Many.rewrite(PointFreeRule.java:685)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$Seq.lambda$rewrite$0(PointFreeRule.java:527)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$Seq$$Lambda$586/1516348974.apply(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.flatMap(Optional.java:241)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$Seq.rewrite(PointFreeRule.java:527)
+[19:46:09 ERROR]: 		com.mojang.datafixers.View.rewrite(View.java:77)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.Type.lambda$rewrite$11(Type.java:179)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.Type$$Lambda$585/1999402209.apply(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.flatMap(Optional.java:241)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.Type.rewrite(Type.java:179)
+[19:46:09 ERROR]: 		com.mojang.datafixers.DataFixerBuilder.lambda$build$1(DataFixerBuilder.java:73)
+[19:46:09 ERROR]: 		com.mojang.datafixers.DataFixerBuilder$$Lambda$385/778925754.run(Unknown Source)
+[19:46:09 ERROR]: 		java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
+[19:46:09 ERROR]: 		java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1618)
+[19:46:09 ERROR]: 		java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+[19:46:09 ERROR]: 		java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+[19:46:09 ERROR]: 		java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+[19:46:09 ERROR]: 		java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+[19:46:09 ERROR]: ------------------------------
+[19:46:09 ERROR]: Current Thread: ForkJoinPool-1-worker-1
+[19:46:09 ERROR]: 	PID: 12 | Suspended: false | Native: false | State: RUNNABLE
+[19:46:09 ERROR]: 	Stack:
+[19:46:09 ERROR]: 		java.util.Objects.equals(Objects.java:59)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.templates.Tag.equals(Tag.java:123)
+[19:46:09 ERROR]: 		java.util.Objects.equals(Objects.java:59)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.templates.Sum.equals(Sum.java:143)
+[19:46:09 ERROR]: 		java.util.Objects.equals(Objects.java:59)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.templates.Product.equals(Product.java:143)
+[19:46:09 ERROR]: 		java.util.AbstractMap.equals(AbstractMap.java:495)
+[19:46:09 ERROR]: 		java.util.Objects.equals(Objects.java:59)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.templates.TaggedChoice.equals(TaggedChoice.java:109)
+[19:46:09 ERROR]: 		java.util.Objects.equals(Objects.java:59)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.templates.Named.equals(Named.java:79)
+[19:46:09 ERROR]: 		java.util.Objects.equals(Objects.java:59)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.templates.Check.equals(Check.java:95)
+[19:46:09 ERROR]: 		java.util.Objects.equals(Objects.java:59)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.templates.Sum.equals(Sum.java:143)
+[19:46:09 ERROR]: 		java.util.Objects.equals(Objects.java:59)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.templates.Sum.equals(Sum.java:143)
+[19:46:09 ERROR]: 		java.util.Objects.equals(Objects.java:59)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.templates.Sum.equals(Sum.java:143)
+[19:46:09 ERROR]: 		java.util.Objects.equals(Objects.java:59)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.templates.Sum.equals(Sum.java:143)
+[19:46:09 ERROR]: 		java.util.Objects.equals(Objects.java:59)
+[19:46:09 ERROR]: 		com.mojang.datafixers.types.families.RecursiveTypeFamily.equals(RecursiveTypeFamily.java:208)
+[19:46:09 ERROR]: 		java.util.Objects.equals(Objects.java:59)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$CataFuseSame.doRewrite(PointFreeRule.java:395)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$CompRewrite.rewrite(PointFreeRule.java:192)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:569)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:569)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:569)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:569)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$one$4(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$602/2124477923.get(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.orElseGet(Optional.java:267)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Apply.lambda$one$5(Apply.java:46)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Apply$$Lambda$617/1879836961.get(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.orElseGet(Optional.java:267)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Apply.one(Apply.java:46)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Apply.lambda$one$5(Apply.java:46)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Apply$$Lambda$617/1879836961.get(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.orElseGet(Optional.java:267)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Apply.one(Apply.java:46)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:43)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$one$4(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$602/2124477923.get(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.orElseGet(Optional.java:267)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$one$4(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$602/2124477923.get(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.orElseGet(Optional.java:267)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$one$4(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$602/2124477923.get(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.orElseGet(Optional.java:267)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$one$4(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$602/2124477923.get(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.orElseGet(Optional.java:267)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$one$4(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$602/2124477923.get(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.orElseGet(Optional.java:267)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$one$4(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$602/2124477923.get(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.orElseGet(Optional.java:267)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$one$4(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$602/2124477923.get(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.orElseGet(Optional.java:267)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$one$4(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$602/2124477923.get(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.orElseGet(Optional.java:267)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$one$4(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$602/2124477923.get(Unknown Source)
+[19:46:09 ERROR]: 		java.util.Optional.orElseGet(Optional.java:267)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:44)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:09 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$one$4(Comp.java:44)
+[19:46:10 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$602/2124477923.get(Unknown Source)
+[19:46:10 ERROR]: 		java.util.Optional.orElseGet(Optional.java:267)
+[19:46:10 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:44)
+[19:46:10 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:10 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:10 ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$one$4(Comp.java:44)
+[19:46:10 ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda$602/2124477923.get(Unknown Source)
+[19:46:10 ERROR]: 		java.util.Optional.orElseGet(Optional.java:267)
+[19:46:10 ERROR]: 		com.mojang.datafixers.functions.Comp.one(Comp.java:44)
+[19:46:10 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:653)
+[19:46:10 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:573)
+[19:46:10 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$Many.lambda$rewrite$1(PointFreeRule.java:685)
+[19:46:10 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$Many$$Lambda$587/2023148287.apply(Unknown Source)
+[19:46:10 ERROR]: 		java.util.Optional.flatMap(Optional.java:241)
+[19:46:10 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$Many.rewrite(PointFreeRule.java:685)
+[19:46:10 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$Seq.lambda$rewrite$0(PointFreeRule.java:527)
+[19:46:10 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$Seq$$Lambda$586/1516348974.apply(Unknown Source)
+[19:46:10 ERROR]: 		java.util.Optional.flatMap(Optional.java:241)
+[19:46:10 ERROR]: 		com.mojang.datafixers.functions.PointFreeRule$Seq.rewrite(PointFreeRule.java:527)
+[19:46:10 ERROR]: 		com.mojang.datafixers.View.rewrite(View.java:77)
+[19:46:10 ERROR]: 		com.mojang.datafixers.types.Type.lambda$rewrite$11(Type.java:179)
+[19:46:10 ERROR]: 		com.mojang.datafixers.types.Type$$Lambda$585/1999402209.apply(Unknown Source)
+[19:46:10 ERROR]: 		java.util.Optional.flatMap(Optional.java:241)
+[19:46:10 ERROR]: 		com.mojang.datafixers.types.Type.rewrite(Type.java:179)
+[19:46:10 ERROR]: 		com.mojang.datafixers.DataFixerBuilder.lambda$build$1(DataFixerBuilder.java:73)
+[19:46:10 ERROR]: 		com.mojang.datafixers.DataFixerBuilder$$Lambda$385/778925754.run(Unknown Source)
+[19:46:10 ERROR]: 		java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
+[19:46:10 ERROR]: 		java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1618)
+[19:46:10 ERROR]: 		java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+[19:46:10 ERROR]: 		java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+[19:46:10 ERROR]: 		java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+[19:46:10 ERROR]: 		java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+[19:46:10 ERROR]: ------------------------------
+[19:46:10 ERROR]: Current Thread: Signal Dispatcher
+[19:46:10 ERROR]: 	PID: 4 | Suspended: false | Native: false | State: RUNNABLE
+[19:46:10 ERROR]: 	Stack:
+[19:46:10 ERROR]: ------------------------------
+[19:46:10 ERROR]: Current Thread: Finalizer
+[19:46:10 ERROR]: 	PID: 3 | Suspended: false | Native: false | State: WAITING
+[19:46:10 ERROR]: 	Stack:
+[19:46:10 ERROR]: 		java.lang.Object.wait(Native Method)
+[19:46:10 ERROR]: 		java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+[19:46:10 ERROR]: 		java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+[19:46:10 ERROR]: 		java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+[19:46:10 ERROR]: ------------------------------
+[19:46:10 ERROR]: Current Thread: Reference Handler
+[19:46:10 ERROR]: 	PID: 2 | Suspended: false | Native: false | State: WAITING
+[19:46:10 ERROR]: 	Stack:
+[19:46:10 ERROR]: 		java.lang.Object.wait(Native Method)
+[19:46:10 ERROR]: 		java.lang.Object.wait(Object.java:502)
+[19:46:10 ERROR]: 		java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+[19:46:10 ERROR]: 		java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+[19:46:10 ERROR]: ------------------------------
+[19:46:10 INFO]: Attempting to restart with ./start.sh
+[19:46:10 INFO]: Stopping server
+[19:46:10 INFO]: Saving players
+[19:46:10 INFO]: Saving worlds
+[19:46:10 INFO]: Saving chunks for level 'world'/minecraft:overworld
+[19:46:20 INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
