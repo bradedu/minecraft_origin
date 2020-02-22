@@ -1,37 +1,5 @@
-[11:26:13] [Server thread/INFO]: com.mojang.authlib.GameProfile@d3f3e34[id=<null>,name=plumage29,properties={},legacy=false] (/111.249.132.159:50097) lost connection: Disconnected
-[11:26:31] [Server thread/INFO]: com.mojang.authlib.GameProfile@42765b44[id=<null>,name=plumage29,properties={},legacy=false] (/111.249.132.159:50098) lost connection: Disconnected
-[11:29:23] [Server thread/INFO]: com.mojang.authlib.GameProfile@22999e3d[id=<null>,name=plumage29,properties={},legacy=false] (/111.249.132.159:50136) lost connection: Disconnected
-[11:29:30] [User Authenticator #15/INFO]: UUID of player plumage29 is f752a604-eb4d-49ed-a1af-aaa2a3d1d880
-[11:29:31] [Server thread/INFO]: plumage29[/111.249.132.159:50138] logged in with entity id 4023868 at ([world]-1017.2373835316412, 66.0, 151.34471964750634)
-[11:29:56] [Server thread/INFO]: plumage29 lost connection: Timed out
-[11:29:56] [Server thread/INFO]: plumage29 left the game
-[11:30:18] [User Authenticator #16/INFO]: UUID of player plumage29 is f752a604-eb4d-49ed-a1af-aaa2a3d1d880
-[11:30:19] [Server thread/INFO]: plumage29[/111.249.132.159:50141] logged in with entity id 4024525 at ([world]-1017.2373835316412, 66.0, 151.34471964750634)
-[11:30:44] [Server thread/INFO]: plumage29 lost connection: Timed out
-[11:30:44] [Server thread/INFO]: plumage29 left the game
-[11:31:09] [User Authenticator #17/INFO]: UUID of player plumage29 is f752a604-eb4d-49ed-a1af-aaa2a3d1d880
-[11:31:09] [Server thread/INFO]: plumage29[/111.249.132.159:50163] logged in with entity id 4025022 at ([world]-1017.2373835316412, 66.0, 151.34471964750634)
-[11:31:34] [Server thread/INFO]: plumage29 lost connection: Timed out
-[11:31:34] [Server thread/INFO]: plumage29 left the game
-[21:13:25] [User Authenticator #18/INFO]: UUID of player plumage29 is f752a604-eb4d-49ed-a1af-aaa2a3d1d880
-[21:13:25] [Server thread/INFO]: plumage29[/111.249.132.159:56607] logged in with entity id 4194808 at ([world]-1017.2373835316412, 66.0, 151.34471964750634)
-[21:14:18] [Server thread/INFO]: plumage29 issued server command: /gamemode adventure
-[21:14:18] [Server thread/INFO]: [plumage29: Set own game mode to Adventure Mode]
-[21:14:24] [Server thread/INFO]: plumage29 issued server command: /gamemode survival
-[21:14:24] [Server thread/INFO]: [plumage29: Set own game mode to Survival Mode]
-[21:33:39] [Server thread/INFO]: plumage29 lost connection: Disconnected
-[21:33:39] [Server thread/INFO]: plumage29 left the game
-[21:34:05] [User Authenticator #19/INFO]: UUID of player plumage29 is f752a604-eb4d-49ed-a1af-aaa2a3d1d880
-[21:34:05] [Server thread/INFO]: plumage29[/111.249.132.159:56825] logged in with entity id 4216872 at ([world]-1015.8845600062358, 66.0, 160.13239599885793)
-[21:34:09] [User Authenticator #20/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
-[21:34:12] [Server thread/INFO]: miemiesheep[/123.192.29.190:51484] logged in with entity id 4216988 at ([world]-342.7179511107371, 70.0, 358.9072068249277)
-[21:34:12] [Server thread/WARN]: plumage29 moved too quickly! -2.917722289265612,0.0,-9.696007181113572
-[21:34:35] [Server thread/INFO]: miemiesheep issued server command: /tp -800 100 100
-[21:34:35] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -799.5, 100.0, 100.5]
-[21:34:36] [Server thread/WARN]: miemiesheep moved too quickly! -456.7820488892629,30.0,-258.4072068249277
-[21:35:00] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[21:35:00] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[21:42:16] [Server thread/INFO]: plumage29 lost connection: Disconnected
-[21:42:16] [Server thread/INFO]: plumage29 left the game
-[21:43:01] [Server thread/INFO]: miemiesheep lost connection: Disconnected
-[21:43:02] [Server thread/INFO]: miemiesheep left the game
+[16:09:19] [User Authenticator #7/INFO]: UUID of player loser37 is e2763138-08ab-4054-b2ac-ec06f7628869
+[16:09:20] [Server thread/INFO]: loser37[/114.44.122.139:58082] logged in with entity id 818260 at ([world]5264.001356429525, 63.0, -6132.908398077756)
+[16:13:19] [Server thread/WARN]: loser37 moved too quickly! -32.57740890982768,-6.565387026480437,-42.00398446206691
+[16:29:35] [Server thread/INFO]: loser37 lost connection: Disconnected
+[16:29:35] [Server thread/INFO]: loser37 left the game
