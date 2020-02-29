@@ -1,5 +1,11 @@
-[16:09:19] [User Authenticator #7/INFO]: UUID of player loser37 is e2763138-08ab-4054-b2ac-ec06f7628869
-[16:09:20] [Server thread/INFO]: loser37[/114.44.122.139:58082] logged in with entity id 818260 at ([world]5264.001356429525, 63.0, -6132.908398077756)
-[16:13:19] [Server thread/WARN]: loser37 moved too quickly! -32.57740890982768,-6.565387026480437,-42.00398446206691
-[16:29:35] [Server thread/INFO]: loser37 lost connection: Disconnected
-[16:29:35] [Server thread/INFO]: loser37 left the game
+[09:35:19] [User Authenticator #10/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[09:35:22] [Server thread/INFO]: HTChen[/114.44.131.186:59389] logged in with entity id 1634196 at ([world]-875.1263453912271, 73.0, 354.9029752887711)
+[10:51:01] [Server thread/INFO]: HTChen lost connection: Disconnected
+[10:51:02] [Server thread/INFO]: HTChen left the game
+[11:01:37] [User Authenticator #11/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[11:01:38] [Server thread/INFO]: HTChen[/114.44.131.186:60861] logged in with entity id 1670517 at ([world]4702.257309048953, 68.0, -6299.255828100174)
+[11:26:49] [Server thread/WARN]: HTChen moved too quickly! 31.468640601161496,-0.33434403607937213,-5.918016805698244
+[11:31:31] [Server thread/INFO]: HTChen lost connection: Disconnected
+[11:31:31] [Server thread/INFO]: HTChen left the game
+[18:10:05] [User Authenticator #12/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[18:10:06] [Server thread/INFO]: HTChen[/114.44.131.186:52745] logged in with entity id 1713140 at ([world]5274.448312612122, 63.0, -6264.648654743583)
