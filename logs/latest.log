@@ -1,17 +1,225 @@
-[10:52:59] [User Authenticator #3/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
-[10:52:59] [Server thread/INFO]: HTChen[/220.137.153.69:59494] logged in with entity id 168258 at ([world]-787.3000000119209, 188.0, -782.3000000119209)
-[15:51:15] [User Authenticator #4/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
-[15:51:16] [Server thread/INFO]: miemiesheep[/123.192.29.190:52475] logged in with entity id 5996294 at ([world_nether]-111.02588635576616, 71.875, -93.69999998807907)
-[15:54:12] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[15:54:12] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[15:55:24] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[15:55:24] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[17:33:01] [Async Chat Thread - #0/INFO]: <HTChen> HI[m
-[17:37:36] [Server thread/INFO]: HTChen issued server command: /gamemode creative
-[17:37:36] [Server thread/INFO]: [HTChen: Set own game mode to Creative Mode]
-[17:39:18] [Server thread/INFO]: HTChen issued server command: /gamemode survival
-[17:39:18] [Server thread/INFO]: [HTChen: Set own game mode to Survival Mode]
-[17:44:25] [Server thread/INFO]: HTChen lost connection: Disconnected
-[17:44:25] [Server thread/INFO]: HTChen left the game
-[18:21:42] [Server thread/INFO]: miemiesheep lost connection: Disconnected
-[18:21:42] [Server thread/INFO]: miemiesheep left the game
+[12:31:39] [Server thread/INFO]: Starting minecraft server version 1.13.2
+[12:31:39] [Server thread/INFO]: Loading properties
+[12:31:39] [Server thread/INFO]: Default game type: SURVIVAL
+[12:31:39] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-b0f4c22-51c118b (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
+[12:31:39] [Server thread/INFO]: Debug logging is disabled
+[12:31:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:31:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:31:39] [Server thread/INFO]: Generating keypair
+[12:31:39] [Server thread/INFO]: Starting Minecraft server on *:25564
+[12:31:39] [Server thread/INFO]: Using default channel type
+[12:31:40] [Server thread/INFO]: Preparing level "world"
+[12:31:40] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[12:31:41] [Server thread/INFO]: Loaded 524 recipes
+[12:31:42] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:31:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:31:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:31:42] [Server thread/INFO]: View Distance: 10
+[12:31:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:31:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:31:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:31:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:31:42] [Server thread/INFO]: Mob Spawn Range: 6
+[12:31:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:31:42] [Server thread/INFO]: Max TNT Explosions: 100
+[12:31:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:31:42] [Server thread/INFO]: Random Lighting Updates: false
+[12:31:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:31:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:31:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:31:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:31:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:31:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:31:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:31:42] [Server thread/INFO]: View Distance: 10
+[12:31:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:31:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:31:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:31:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:31:42] [Server thread/INFO]: Mob Spawn Range: 6
+[12:31:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:31:42] [Server thread/INFO]: Max TNT Explosions: 100
+[12:31:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:31:42] [Server thread/INFO]: Random Lighting Updates: false
+[12:31:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:31:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:31:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:31:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:31:42] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:31:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:31:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:31:42] [Server thread/INFO]: View Distance: 10
+[12:31:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:31:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:31:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:31:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:31:42] [Server thread/INFO]: Mob Spawn Range: 6
+[12:31:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:31:42] [Server thread/INFO]: Max TNT Explosions: 100
+[12:31:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:31:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:31:42] [Server thread/INFO]: Random Lighting Updates: false
+[12:31:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:31:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:31:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:31:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:31:42] [Server thread/INFO]: Preparing start region for level minecraft:overworld (Seed: -8072977052885339078)
+[12:31:43] [Server thread/INFO]: Preparing spawn area: 4%
+[12:31:43] [Server thread/INFO]: Preparing spawn area: 8%
+[12:31:43] [Server thread/INFO]: Preparing spawn area: 12%
+[12:31:43] [Server thread/INFO]: Preparing spawn area: 16%
+[12:31:43] [Server thread/INFO]: Preparing spawn area: 20%
+[12:31:43] [Server thread/INFO]: Preparing spawn area: 24%
+[12:31:43] [Server thread/INFO]: Preparing spawn area: 28%
+[12:31:43] [Server thread/INFO]: Preparing spawn area: 32%
+[12:31:43] [Server thread/INFO]: Preparing spawn area: 36%
+[12:31:43] [Server thread/INFO]: Preparing spawn area: 40%
+[12:31:43] [Server thread/INFO]: Preparing spawn area: 44%
+[12:31:43] [Server thread/INFO]: Preparing spawn area: 48%
+[12:31:43] [Server thread/INFO]: Preparing spawn area: 52%
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 56%
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 60%
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 64%
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 68%
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 72%
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 76%
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 80%
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 84%
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 88%
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 92%
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 96%
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 100%
+[12:31:44] [Server thread/INFO]: Preparing start region for level minecraft:the_nether (Seed: -8072977052885339078)
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 4%
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 8%
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 12%
+[12:31:44] [Server thread/INFO]: Preparing spawn area: 16%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 20%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 24%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 28%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 32%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 36%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 40%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 44%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 48%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 52%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 56%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 60%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 64%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 68%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 72%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 76%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 80%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 84%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 88%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 92%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 96%
+[12:31:45] [Server thread/INFO]: Preparing spawn area: 100%
+[12:31:45] [Server thread/INFO]: Preparing start region for level minecraft:the_end (Seed: -8072977052885339078)
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 4%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 8%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 12%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 16%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 20%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 24%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 28%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 32%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 36%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 40%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 44%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 48%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 52%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 56%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 60%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 64%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 68%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 72%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 76%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 80%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 84%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 88%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 92%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 96%
+[12:31:46] [Server thread/INFO]: Preparing spawn area: 100%
+[12:31:46] [Server thread/INFO]: Time elapsed: 3537 ms
+[12:31:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:31:46] [Server thread/INFO]: Done (5.847s)! For help, type "help"
+[12:32:33] [User Authenticator #1/INFO]: UUID of player plumage29 is f752a604-eb4d-49ed-a1af-aaa2a3d1d880
+[12:32:34] [Server thread/INFO]: plumage29[/36.229.10.34:51307] logged in with entity id 1660 at ([world]-1019.0646637888105, 66.5625, 168.38934727110112)
+[12:33:37] [Server thread/INFO]: plumage29 issued server command: /gamemode creative
+[12:33:37] [Server thread/INFO]: [plumage29: Set own game mode to Creative Mode]
+[12:34:31] [Server thread/INFO]: plumage29 issued server command: /fill -1045
+[12:34:39] [Server thread/INFO]: plumage29 issued server command: /fill -1045
+[12:36:20] [Server thread/INFO]: plumage29 issued server command: /fill -1062 66 130 -1045 66 101 minecraft:air
+[12:36:20] [Server thread/INFO]: [plumage29: Successfully filled 435 blocks]
+[12:36:37] [Server thread/INFO]: plumage29 issued server command: /fill -1062 66 130 -1045 68 101 minecraft:air
+[12:36:38] [Server thread/INFO]: [plumage29: Successfully filled 834 blocks]
+[12:36:44] [Server thread/INFO]: plumage29 issued server command: /fill -1062 66 130 -1045 72 101 minecraft:air
+[12:36:44] [Server thread/INFO]: [plumage29: Successfully filled 1192 blocks]
+[12:41:04] [Server thread/INFO]: plumage29 issued server command: /fill -1045 66 101 -1045 86 109 minecraft:white_concrete
+[12:41:04] [Server thread/INFO]: [plumage29: Successfully filled 189 blocks]
+[12:41:26] [Server thread/INFO]: plumage29 issued server command: /fill -1045 66 101 -1045 86 119 minecraft:white_concrete
+[12:41:26] [Server thread/INFO]: [plumage29: Successfully filled 210 blocks]
+[12:41:51] [Server thread/INFO]: plumage29 issued server command: /fill -1045 80 101 -1045 86 119 minecraft:air
+[12:41:51] [Server thread/INFO]: [plumage29: Successfully filled 133 blocks]
+[12:42:36] [Server thread/INFO]: plumage29 issued server command: /fill -1045 66 119 -1062 80 120 minecraft:white_concrete
+[12:42:36] [Server thread/INFO]: [plumage29: Successfully filled 526 blocks]
+[12:43:03] [Server thread/INFO]: plumage29 issued server command: /fill -1062 80 120 -1062 66 101 minecraft:white_concrete
+[12:43:03] [Server thread/INFO]: [plumage29: Successfully filled 270 blocks]
+[12:43:27] [Server thread/INFO]: plumage29 issued server command: /fill -1062 66 101 -1045 80 101 minecraft:white_concrete
+[12:43:27] [Server thread/INFO]: [plumage29: Successfully filled 241 blocks]
+[12:45:41] [Server thread/INFO]: plumage29 issued server command: /fill -1045 81 120 -1062 81 101
+[12:45:51] [Server thread/INFO]: plumage29 issued server command: /fill -1045 81 120 -1062 81 101 minecraft:black_concrete
+[12:45:51] [Server thread/INFO]: [plumage29: Successfully filled 358 blocks]
+[12:46:30] [Server thread/INFO]: plumage29 lost connection: Disconnected
+[12:46:30] [Server thread/INFO]: plumage29 left the game
+[12:59:38] [User Authenticator #2/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[12:59:39] [Server thread/INFO]: miemiesheep[/123.192.29.190:62830] logged in with entity id 12912 at ([world_nether]-109.9662887852235, 71.875, -93.14233320628118)
+[13:02:05] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
+[13:02:05] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
+[13:02:46] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[13:02:46] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[13:10:51] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
+[13:10:51] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
+[13:12:32] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[13:12:32] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[13:21:32] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[13:21:32] [Server thread/INFO]: miemiesheep left the game
