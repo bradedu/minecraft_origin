@@ -1,202 +1,72 @@
-[04:47:26] [Server thread/INFO]: HTChen lost connection: Disconnected
-[04:47:26] [Server thread/INFO]: HTChen left the game
-[12:30:54] [Server thread/INFO]: com.mojang.authlib.GameProfile@3084501d[id=<null>,name=HTChen,properties={},legacy=false] (/220.137.152.66:63508) lost connection: Disconnected
-[12:31:52] [User Authenticator #9/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
-[12:31:54] [Server thread/INFO]: HTChen[/220.137.152.66:63778] logged in with entity id 1403672 at ([world]-1069.300000011921, 64.0, -48.30000001192093)
-[12:49:40] [User Authenticator #10/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
-[12:49:40] [Server thread/INFO]: miemiesheep[/123.192.29.190:54978] logged in with entity id 1407449 at ([world]-918.6289906667434, 63.0, 56.5820904216999)
-[12:51:15] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[12:51:15] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[12:52:21] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
-[12:52:21] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
-[12:54:11] [Server thread/INFO]: miemiesheep lost connection: Disconnected
-[12:54:11] [Server thread/INFO]: miemiesheep left the game
-[12:57:47] [User Authenticator #11/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
-[12:57:47] [Server thread/INFO]: miemiesheep[/123.192.29.190:55124] logged in with entity id 1410817 at ([world]-939.5691361209551, 103.61247751893967, 81.34375875882645)
-[12:58:55] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[12:58:55] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[12:59:02] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[12:59:02] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[13:22:54] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
-[13:22:54] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
-[13:23:15] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[13:23:15] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[13:23:18] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[13:23:18] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[13:34:38] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[13:34:38] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[13:36:06] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[13:36:06] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[13:53:09] [Server thread/INFO]: miemiesheep lost connection: Disconnected
-[13:53:09] [Server thread/INFO]: miemiesheep left the game
-[16:03:00] [Server thread/INFO]: HTChen lost connection: Disconnected
-[16:03:00] [Server thread/INFO]: HTChen left the game
-[16:10:29] [User Authenticator #12/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
-[16:10:29] [Server thread/INFO]: HTChen[/114.44.149.30:62451] logged in with entity id 1456376 at ([world]-1069.699999988079, 64.0, -48.30000001192093)
-[19:38:14] [User Authenticator #13/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
-[19:38:14] [Server thread/INFO]: miemiesheep[/123.192.29.190:64521] logged in with entity id 1497610 at ([world]-924.039258749923, 64.0, 53.99121907474001)
-[19:39:46] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[19:39:46] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[19:40:59] [Server thread/INFO]: miemiesheep lost connection: Disconnected
-[19:40:59] [Server thread/INFO]: miemiesheep left the game
-[20:08:02] [User Authenticator #14/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
-[20:08:02] [Server thread/INFO]: miemiesheep[/123.192.29.190:64779] logged in with entity id 1504102 at ([world]-931.1581986510871, 93.6124675593203, 73.22774574200076)
-[20:11:33] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[20:11:33] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[20:19:28] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[20:19:28] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[20:20:11] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[20:20:15] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[20:20:15] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[20:23:35] [Server thread/WARN]: miemiesheep moved too quickly! -6.388690875390012,3.495200877005928,-57.00567593462779
-[20:26:32] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[20:26:32] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[20:26:40] [Server thread/INFO]: miemiesheep issued server command: /tp -900 100 200
-[20:26:40] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -899.5, 100.0, 200.5]
-[20:26:56] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[20:26:56] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[20:28:22] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[20:28:22] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[20:28:34] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[20:28:34] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[20:29:55] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[20:29:55] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[20:30:25] [Server thread/INFO]: miemiesheep issued server command: /time set night
-[20:30:25] [Server thread/INFO]: [miemiesheep: Set the time to 13000]
-[20:31:11] [Server thread/INFO]: miemiesheep issued server command: /time set day
-[20:31:11] [Server thread/INFO]: [miemiesheep: Set the time to 1000]
-[20:31:48] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[20:31:48] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[20:32:49] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[20:32:49] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[20:37:56] [Server thread/INFO]: miemiesheep lost connection: Disconnected
-[20:37:57] [Server thread/INFO]: miemiesheep left the game
-[20:44:34] [User Authenticator #15/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
-[20:44:34] [Server thread/INFO]: miemiesheep[/123.192.29.190:50037] logged in with entity id 1520053 at ([world]-940.576144556264, 63.0, 70.93613527484041)
-[20:44:44] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[20:44:44] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[20:50:44] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[20:50:44] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[20:53:43] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[20:53:43] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[21:01:35] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[21:01:35] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[21:03:20] [Server thread/WARN]: miemiesheep moved too quickly! -48.738613973327574,0.0,-41.47407548263209
-[21:04:07] [Server thread/WARN]: miemiesheep moved too quickly! -9.509171726263048,-15.274301288483997,-6.817404190755042
-[21:04:09] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
-[21:04:09] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
-[21:04:14] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[21:04:14] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[21:04:42] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
-[21:04:42] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
-[21:04:49] [Server thread/INFO]: miemiesheep issued server command: /tp -900 70 200
-[21:04:49] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -899.5, 70.0, 200.5]
-[21:05:00] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[21:05:00] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[21:05:22] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[21:05:22] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[21:06:06] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[21:06:06] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[21:14:42] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[21:14:42] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[21:18:50] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[21:18:50] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[21:27:07] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[21:27:07] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[21:27:36] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[21:27:36] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[21:28:01] [Server thread/INFO]: miemiesheep issued server command: /tp -900 66 200
-[21:28:01] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -899.5, 66.0, 200.5]
-[21:28:58] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[21:28:58] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[21:30:44] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[21:30:44] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[21:35:49] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[21:35:49] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[21:37:07] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[21:37:07] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[21:37:53] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[21:37:53] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[21:38:48] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[21:38:48] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[21:39:20] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[21:39:20] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[21:39:44] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[21:39:44] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[21:40:43] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[21:40:43] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[21:41:10] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[21:41:10] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[21:41:37] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[21:41:37] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[21:42:29] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[21:42:29] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[21:42:53] [Async Chat Thread - #0/INFO]: <HTChen> HI[m
-[21:42:56] [Async Chat Thread - #0/INFO]: <miemiesheep> HI[m
-[21:43:13] [Async Chat Thread - #0/INFO]: <HTChen> ¦b¦£·s«Ø®×£v[m
-[21:43:37] [Async Chat Thread - #0/INFO]: <miemiesheep> ºâ¬O§a(?)[m
-[21:43:42] [Async Chat Thread - #0/INFO]: <miemiesheep> ²¦³º¬OÂÂªºXD[m
-[21:44:07] [Async Chat Thread - #0/INFO]: <HTChen> ¶W²rXD[m
-[21:44:19] [Async Chat Thread - #0/INFO]: <HTChen> ¾ã­Ó»\ªá¶é¤F°ÕXD[m
-[21:44:22] [Async Chat Thread - #0/INFO]: <miemiesheep> ¤j¤j­nµ¹¹q·N¨££v[m
-[21:44:37] [Async Chat Thread - #0/INFO]: <HTChen> ¤£´±[m
-[21:44:48] [Async Chat Thread - #0/INFO]: <miemiesheep> ªá¶é¤]¬O­q³æ¤§£¸ªü[m
-[21:44:55] [Async Chat Thread - #0/INFO]: <HTChen> §Ú¥h«á­±À°¦£¾ã¦a[m
-[21:44:58] [Async Chat Thread - #0/INFO]: <miemiesheep> ¤°»ò¤£´±XD[m
-[21:45:04] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[21:45:04] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[21:45:31] [Async Chat Thread - #0/INFO]: <miemiesheep> §Ë­Óªá¶é´N§â¤§«e¾ãªº¦a¸¹¤F¤@¥b[m
-[21:46:14] [Async Chat Thread - #0/INFO]: <miemiesheep> §Ú¤Á¨ì±ß¤W³á §Ú¬Ý¤@¤U·Ó©ú[m
-[21:46:20] [Async Chat Thread - #0/INFO]: <HTChen> OK[m
-[21:46:25] [Server thread/INFO]: miemiesheep issued server command: /time set night
-[21:46:25] [Server thread/INFO]: [miemiesheep: Set the time to 13000]
-[21:46:45] [Async Chat Thread - #0/INFO]: <HTChen> ¼Q¬u¦³ÂI¶Â[m
-[21:47:07] [Async Chat Thread - #0/INFO]: <miemiesheep> §A¦³§É£v[m
-[21:47:13] [Async Chat Thread - #0/INFO]: <HTChen> NO[m
-[21:47:18] [Async Chat Thread - #0/INFO]: <miemiesheep> ³Ì¦nºÎ¤@®L ¤£µM³Ìªñ«Ü®e©ö¦³¹p«B[m
-[21:47:22] [Async Chat Thread - #0/INFO]: <HTChen> OK[m
-[21:47:34] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
-[21:47:34] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
-[21:48:03] [Async Chat Thread - #0/INFO]: <miemiesheep> ­n·Q¤@¤U¸ô¿O­n«ç»ò°µ £~[m
-[21:48:25] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[21:48:25] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[21:48:27] [Async Chat Thread - #0/INFO]: <HTChen> §ó·s¤§«á¦³¿OÅ¢³áXD[m
-[21:49:00] [Async Chat Thread - #0/INFO]: <miemiesheep> ¨º¤]¬O¤§«áªº¨Æ·S[m
-[21:49:13] [Async Chat Thread - #0/INFO]: <miemiesheep> ¥ý·Q¤@¤U³o­Óª©¥»ªºXD[m
-[21:50:38] [Async Chat Thread - #1/INFO]: <miemiesheep> ¨Æ±ö«Bªü[m
-[21:50:43] [Async Chat Thread - #1/INFO]: <miemiesheep> ¨Æ¹p«B[m
-[21:50:45] [Async Chat Thread - #1/INFO]: <HTChen> XDD[m
-[21:51:09] [Async Chat Thread - #1/INFO]: <miemiesheep> ÁÙ³Q»\¤ÑªáªO ©È³ø[m
-[21:51:17] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[21:51:17] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[21:52:09] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[21:52:09] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[21:52:45] [Async Chat Thread - #2/INFO]: <HTChen> ¤j¤j§Ú»\®yÁ{®Éª÷¦r¶ð³á[m
-[21:52:53] [Async Chat Thread - #2/INFO]: <miemiesheep> ¦n°Ú[m
-[21:56:01] [Async Chat Thread - #3/INFO]: <miemiesheep> ·PÁÂ¤j¤j[m
-[21:56:28] [Async Chat Thread - #3/INFO]: <HTChen> ¨â²Õ³ºµM¤£°÷[m
-[21:56:47] [Async Chat Thread - #3/INFO]: <miemiesheep> ­n³o»ò¦h³á Ê¨"[m
-[22:01:29] [Async Chat Thread - #4/INFO]: <miemiesheep> §A¦³§É£v[m
-[22:01:55] [Async Chat Thread - #4/INFO]: <miemiesheep> ­ì¨Ó§A¿ï¾Ü³q¶ÔXD[m
-[22:02:11] [Async Chat Thread - #4/INFO]: <HTChen> ·f­¸¾÷³q¶Ô[m
-[22:02:44] [Async Chat Thread - #4/INFO]: <miemiesheep> ¯u°øµØXD[m
-[22:21:27] [Async Chat Thread - #5/INFO]: <miemiesheep> §A¤U­±¬OªÅªº[m
-[22:21:32] [Async Chat Thread - #5/INFO]: <HTChen> OK[m
-[22:46:30] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[22:46:30] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[22:47:30] [Async Chat Thread - #6/INFO]: <miemiesheep> ·PÁÂ¤j¤jÀ°¦£[m
-[22:49:54] [Async Chat Thread - #7/INFO]: <HTChen> §A¤]¨¯­W¤FXD[m
-[22:50:17] [Async Chat Thread - #7/INFO]: <miemiesheep> ©Ð¤l´N¤§«á¦A»¡ £~£~[m
-[22:51:33] [Async Chat Thread - #8/INFO]: <HTChen> §Aµ¥µ¥­nÄ~Äò»\¶Ü?[m
-[22:51:43] [Async Chat Thread - #8/INFO]: <miemiesheep> §ï¤Ñ¦A»\£t[m
-[22:52:16] [Async Chat Thread - #8/INFO]: <HTChen> s84ji3ej84wu,3bp6[m
-[22:52:26] [Async Chat Thread - #8/INFO]: <HTChen> ¨º§Ú±¾ÅK¤H[m
-[22:52:44] [Async Chat Thread - #8/INFO]: <miemiesheep> ¦n°Ú[m
-[22:52:49] [Async Chat Thread - #8/INFO]: <miemiesheep> https://images.app.goo.gl/aABSafnAGJTAo7Bv7[m
-[22:52:57] [Async Chat Thread - #8/INFO]: <HTChen> ¨Ó¥h¥´­ÓÅ]ª«¨C¤é¡A¬~¬~ºÎ[m
-[22:52:59] [Async Chat Thread - #8/INFO]: <miemiesheep> §Ú¬O°Ñ¦Ò³o±iªº[m
-[22:53:31] [Async Chat Thread - #8/INFO]: <miemiesheep> °µ¥X¨ÓÁÙ¬O¨S¦o¦n¬Ý £~[m
-[22:53:42] [Async Chat Thread - #8/INFO]: <HTChen> ¤£¿ù¤F°Õ[m
-[22:54:22] [Async Chat Thread - #8/INFO]: <miemiesheep> ¥i¯à¤§«á·|¦A§ï£t[m
-[22:56:53] [Server thread/INFO]: miemiesheep lost connection: Disconnected
-[22:56:53] [Server thread/INFO]: miemiesheep left the game
+[13:43:07] [User Authenticator #23/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[13:43:08] [Server thread/INFO]: miemiesheep[/123.192.29.190:57749] logged in with entity id 3218508 at ([world]-937.9110520970602, 63.0, 64.5074527542371)
+[13:44:33] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[13:44:33] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[14:39:59] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[14:39:59] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[14:51:47] [Server thread/INFO]: miemiesheep issued server command: /tp -1517 65 309
+[14:51:47] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -1516.5, 65.0, 309.5]
+[14:51:52] [Server thread/INFO]: miemiesheep issued server command: /tp -900 70 200
+[14:51:52] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -899.5, 70.0, 200.5]
+[14:52:15] [Server thread/INFO]: miemiesheep issued server command: /tp -1517 65 309
+[14:52:15] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -1516.5, 65.0, 309.5]
+[14:52:38] [Server thread/INFO]: miemiesheep issued server command: /tp -900 70 200
+[14:52:38] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -899.5, 70.0, 200.5]
+[14:52:57] [Server thread/INFO]: miemiesheep issued server command: /tp -1517 65 309
+[14:52:57] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -1516.5, 65.0, 309.5]
+[14:53:19] [Server thread/INFO]: miemiesheep issued server command: /tp -900 70 200
+[14:53:19] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -899.5, 70.0, 200.5]
+[14:53:37] [Server thread/INFO]: miemiesheep issued server command: /tp -1517 65 309
+[14:53:37] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -1516.5, 65.0, 309.5]
+[14:54:07] [Server thread/INFO]: miemiesheep issued server command: /tp -900 70 200
+[14:54:07] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -899.5, 70.0, 200.5]
+[14:54:25] [Server thread/INFO]: miemiesheep issued server command: /tp -1517 65 309
+[14:54:25] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -1516.5, 65.0, 309.5]
+[14:54:51] [Server thread/INFO]: miemiesheep issued server command: /tp -900 70 200
+[14:54:51] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -899.5, 70.0, 200.5]
+[14:55:10] [Server thread/INFO]: miemiesheep issued server command: /tp -1517 65 309
+[14:55:10] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -1516.5, 65.0, 309.5]
+[14:56:23] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[14:56:23] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[14:57:00] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[14:57:00] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[15:52:13] [Async Chat Thread - #9/INFO]: <miemiesheep> ¬Á¼þ§Ú¦³©ñ¨ì®a¸Ì·S §Æ±æ³o¨Ç°÷§A¥Î ¤£°÷ªºµe¦b¨Ó¨Fºz£t[m
+[15:53:05] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
+[15:53:05] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
+[15:53:28] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[15:53:28] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[15:53:59] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
+[15:53:59] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
+[15:54:12] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[15:54:12] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[16:06:01] [Async Chat Thread - #10/INFO]: <HTChen> HI~~~~[m
+[16:11:42] [Async Chat Thread - #11/INFO]: <miemiesheep> HI[m
+[16:12:20] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
+[16:12:20] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
+[16:17:59] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
+[16:17:59] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
+[16:18:25] [Async Chat Thread - #12/INFO]: <HTChen> zz?[m
+[16:18:35] [Async Chat Thread - #12/INFO]: <miemiesheep> ­ì¨Ó¦³±K«Ç[m
+[16:18:49] [Async Chat Thread - #12/INFO]: <HTChen> §Aª¾¹Dªº¤Ó¦h¤FXD[m
+[16:18:54] [Async Chat Thread - #12/INFO]: <miemiesheep> £~£~[m
+[16:21:00] [Async Chat Thread - #13/INFO]: <HTChen> ­n¤Wdiscord¶Ü[m
+[16:21:07] [Async Chat Thread - #13/INFO]: <miemiesheep> ¦n°Ú µ¥§Ú¤@®L[m
+[16:37:07] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
+[16:37:07] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
+[16:38:03] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
+[16:38:03] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
+[16:38:16] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[16:38:16] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[16:41:30] [Server thread/INFO]: HTChen lost connection: Disconnected
+[16:41:30] [Server thread/INFO]: HTChen left the game
+[17:10:09] [Server thread/INFO]: com.mojang.authlib.GameProfile@3c5b1565[id=<null>,name=HTChen,properties={},legacy=false] (/114.44.132.126:64789) lost connection: Disconnected
+[17:12:35] [User Authenticator #24/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[17:12:36] [Server thread/INFO]: HTChen[/114.44.132.126:65057] logged in with entity id 3362315 at ([world]-1016.9153058895805, 103.0, 332.59082691591743)
+[17:17:13] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
+[17:17:13] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
+[17:27:13] [Server thread/INFO]: miemiesheep issued server command: /tp -26 66 107
+[17:27:13] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -25.5, 66.0, 107.5]
+[17:27:32] [Server thread/INFO]: miemiesheep issued server command: /tp -900 65 200
+[17:27:32] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -899.5, 65.0, 200.5]
+[17:33:05] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[17:33:05] [Server thread/INFO]: miemiesheep left the game
