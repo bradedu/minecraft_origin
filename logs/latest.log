@@ -1,5 +1,52 @@
-[04:38:28] [Server thread/INFO]: HTChen lost connection: Disconnected
-[04:38:28] [Server thread/INFO]: HTChen left the game
-[10:04:26] [Server thread/INFO]: com.mojang.authlib.GameProfile@1c059d42[id=<null>,name=HTChen,properties={},legacy=false] (/220.137.152.133:64316) lost connection: Disconnected
-[10:05:13] [User Authenticator #33/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
-[10:05:13] [Server thread/INFO]: HTChen[/220.137.152.133:64596] logged in with entity id 6800929 at ([world]-1069.699999988079, 64.0, -48.30000001192093)
+[00:12:36] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[00:12:36] [Server thread/INFO]: miemiesheep left the game
+[01:25:36] [Server thread/INFO]: HTChen lost connection: Disconnected
+[01:25:36] [Server thread/INFO]: HTChen left the game
+[10:48:05] [User Authenticator #38/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[10:48:06] [Server thread/INFO]: HTChen[/114.44.148.214:49963] logged in with entity id 10630161 at ([world]-5382.236011478377, 75.0, -6482.5399589895915)
+[10:56:31] [Server thread/INFO]: HTChen lost connection: Disconnected
+[10:56:31] [Server thread/INFO]: HTChen left the game
+[11:44:16] [User Authenticator #39/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[11:44:17] [Server thread/INFO]: HTChen[/114.44.148.214:50060] logged in with entity id 10650043 at ([world]-5349.045993088254, 69.0, -6411.837520263544)
+[12:05:37] [Server thread/INFO]: HTChen lost connection: Disconnected
+[12:05:37] [Server thread/INFO]: HTChen left the game
+[13:14:43] [User Authenticator #40/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[13:14:44] [Server thread/INFO]: miemiesheep[/123.192.29.190:51711] logged in with entity id 10679739 at ([world]-5361.043612613964, 69.0, -6473.850466161227)
+[13:15:32] [Server thread/INFO]: miemiesheep issued server command: /tp -900 70 200
+[13:15:32] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -899.5, 70.0, 200.5]
+[13:15:57] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[13:15:57] [Server thread/INFO]: miemiesheep left the game
+[14:50:50] [User Authenticator #41/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[14:50:51] [Server thread/INFO]: HTChen[/114.44.148.214:50498] logged in with entity id 10719660 at ([world]-5345.4607785989765, 68.0, -6399.699999988079)
+[14:52:45] [Server thread/INFO]: HTChen issued server command: /gamemode creative
+[14:52:45] [Server thread/INFO]: [HTChen: Set own game mode to Creative Mode]
+[15:06:17] [Server thread/INFO]: HTChen issued server command: /gamemode survival
+[15:06:17] [Server thread/INFO]: [HTChen: Set own game mode to Survival Mode]
+[15:50:55] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[15:50:55] [Server thread/INFO]: Found that the dragon has been killed in this world already.
+[16:04:33] [Server thread/INFO]: HTChen lost connection: Disconnected
+[16:04:34] [Server thread/INFO]: HTChen left the game
+[16:04:45] [User Authenticator #42/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[16:04:46] [Server thread/INFO]: HTChen[/114.44.148.214:50604] logged in with entity id 10762600 at ([world]-5357.505960929466, 73.0, -6392.959731510827)
+[16:23:31] [Server thread/INFO]: HTChen lost connection: Disconnected
+[16:23:31] [Server thread/INFO]: HTChen left the game
+[16:28:25] [User Authenticator #43/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[16:28:26] [Server thread/INFO]: HTChen[/114.44.148.214:50653] logged in with entity id 10774024 at ([world]-5349.849813755156, 69.0, -6408.619309319331)
+[16:37:21] [Server thread/INFO]: HTChen lost connection: Disconnected
+[16:37:21] [Server thread/INFO]: HTChen left the game
+[16:44:46] [User Authenticator #44/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[16:44:46] [Server thread/INFO]: HTChen[/114.44.148.214:50733] logged in with entity id 10780767 at ([world]-5355.699999988079, 68.0, -6387.449087913193)
+[17:13:52] [Server thread/INFO]: HTChen lost connection: Disconnected
+[17:13:52] [Server thread/INFO]: HTChen left the game
+[19:58:10] [User Authenticator #45/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[19:58:11] [Server thread/INFO]: HTChen[/114.44.148.214:51738] logged in with entity id 10850624 at ([world]-5367.811551638156, 71.0, -6490.715250784377)
+[20:28:53] [User Authenticator #46/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[20:28:54] [Server thread/INFO]: miemiesheep[/123.192.29.190:55975] logged in with entity id 10868074 at ([world]-937.3000000119209, 55.0, 76.35360430081951)
+[20:29:50] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
+[20:29:50] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
+[20:31:32] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
+[20:31:32] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
+[21:43:31] [Server thread/INFO]: HTChen lost connection: Disconnected
+[21:43:31] [Server thread/INFO]: HTChen left the game
+[21:43:38] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[21:43:38] [Server thread/INFO]: miemiesheep left the game
