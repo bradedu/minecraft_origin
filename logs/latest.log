@@ -1,52 +1,53 @@
-[00:12:36] [Server thread/INFO]: miemiesheep lost connection: Disconnected
-[00:12:36] [Server thread/INFO]: miemiesheep left the game
-[01:25:36] [Server thread/INFO]: HTChen lost connection: Disconnected
-[01:25:36] [Server thread/INFO]: HTChen left the game
-[10:48:05] [User Authenticator #38/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
-[10:48:06] [Server thread/INFO]: HTChen[/114.44.148.214:49963] logged in with entity id 10630161 at ([world]-5382.236011478377, 75.0, -6482.5399589895915)
-[10:56:31] [Server thread/INFO]: HTChen lost connection: Disconnected
-[10:56:31] [Server thread/INFO]: HTChen left the game
-[11:44:16] [User Authenticator #39/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
-[11:44:17] [Server thread/INFO]: HTChen[/114.44.148.214:50060] logged in with entity id 10650043 at ([world]-5349.045993088254, 69.0, -6411.837520263544)
-[12:05:37] [Server thread/INFO]: HTChen lost connection: Disconnected
-[12:05:37] [Server thread/INFO]: HTChen left the game
-[13:14:43] [User Authenticator #40/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
-[13:14:44] [Server thread/INFO]: miemiesheep[/123.192.29.190:51711] logged in with entity id 10679739 at ([world]-5361.043612613964, 69.0, -6473.850466161227)
-[13:15:32] [Server thread/INFO]: miemiesheep issued server command: /tp -900 70 200
-[13:15:32] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -899.5, 70.0, 200.5]
-[13:15:57] [Server thread/INFO]: miemiesheep lost connection: Disconnected
-[13:15:57] [Server thread/INFO]: miemiesheep left the game
-[14:50:50] [User Authenticator #41/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
-[14:50:51] [Server thread/INFO]: HTChen[/114.44.148.214:50498] logged in with entity id 10719660 at ([world]-5345.4607785989765, 68.0, -6399.699999988079)
-[14:52:45] [Server thread/INFO]: HTChen issued server command: /gamemode creative
-[14:52:45] [Server thread/INFO]: [HTChen: Set own game mode to Creative Mode]
-[15:06:17] [Server thread/INFO]: HTChen issued server command: /gamemode survival
-[15:06:17] [Server thread/INFO]: [HTChen: Set own game mode to Survival Mode]
-[15:50:55] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[15:50:55] [Server thread/INFO]: Found that the dragon has been killed in this world already.
-[16:04:33] [Server thread/INFO]: HTChen lost connection: Disconnected
-[16:04:34] [Server thread/INFO]: HTChen left the game
-[16:04:45] [User Authenticator #42/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
-[16:04:46] [Server thread/INFO]: HTChen[/114.44.148.214:50604] logged in with entity id 10762600 at ([world]-5357.505960929466, 73.0, -6392.959731510827)
-[16:23:31] [Server thread/INFO]: HTChen lost connection: Disconnected
-[16:23:31] [Server thread/INFO]: HTChen left the game
-[16:28:25] [User Authenticator #43/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
-[16:28:26] [Server thread/INFO]: HTChen[/114.44.148.214:50653] logged in with entity id 10774024 at ([world]-5349.849813755156, 69.0, -6408.619309319331)
-[16:37:21] [Server thread/INFO]: HTChen lost connection: Disconnected
-[16:37:21] [Server thread/INFO]: HTChen left the game
-[16:44:46] [User Authenticator #44/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
-[16:44:46] [Server thread/INFO]: HTChen[/114.44.148.214:50733] logged in with entity id 10780767 at ([world]-5355.699999988079, 68.0, -6387.449087913193)
-[17:13:52] [Server thread/INFO]: HTChen lost connection: Disconnected
-[17:13:52] [Server thread/INFO]: HTChen left the game
-[19:58:10] [User Authenticator #45/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
-[19:58:11] [Server thread/INFO]: HTChen[/114.44.148.214:51738] logged in with entity id 10850624 at ([world]-5367.811551638156, 71.0, -6490.715250784377)
-[20:28:53] [User Authenticator #46/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
-[20:28:54] [Server thread/INFO]: miemiesheep[/123.192.29.190:55975] logged in with entity id 10868074 at ([world]-937.3000000119209, 55.0, 76.35360430081951)
-[20:29:50] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
-[20:29:50] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
-[20:31:32] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
-[20:31:32] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
-[21:43:31] [Server thread/INFO]: HTChen lost connection: Disconnected
-[21:43:31] [Server thread/INFO]: HTChen left the game
-[21:43:38] [Server thread/INFO]: miemiesheep lost connection: Disconnected
-[21:43:38] [Server thread/INFO]: miemiesheep left the game
+[19:59:31] [User Authenticator #48/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[19:59:31] [Server thread/INFO]: miemiesheep[/123.192.29.190:55445] logged in with entity id 16723990 at ([world]-906.3000000119206, 65.0, 18.4348250458535)
+[19:59:53] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[19:59:53] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[20:00:56] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[20:00:56] [Server thread/INFO]: miemiesheep left the game
+[20:01:35] [User Authenticator #49/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[20:01:35] [Server thread/INFO]: miemiesheep[/123.192.29.190:55475] logged in with entity id 16727139 at ([world]-935.35584751525, 63.0, 54.515415353976785)
+[20:01:39] [User Authenticator #50/INFO]: UUID of player plumage29 is f752a604-eb4d-49ed-a1af-aaa2a3d1d880
+[20:01:40] [Server thread/INFO]: plumage29[/123.194.153.211:13744] logged in with entity id 16727275 at ([world]-1054.279170319071, 83.99882852721105, 151.23238829460183)
+[20:02:33] [Async Chat Thread - #19/INFO]: <miemiesheep> HI[m
+[20:02:55] [Async Chat Thread - #19/INFO]: <plumage29> ©_©Ç ­µ¼Ö¬O¦³·sªº¶Ü[m
+[20:03:01] [Async Chat Thread - #19/INFO]: <plumage29> «ç»ò·PÄ±³o­º§Ú¨SÅ¥¹L[m
+[20:03:14] [Async Chat Thread - #19/INFO]: <miemiesheep> ¤Á³Ð³y·|¦³¤@­º¥Í¦sÅ¥¤£¨ìªº[m
+[20:03:23] [Async Chat Thread - #19/INFO]: <plumage29> ³o»ò®£©Æ[m
+[20:03:27] [Async Chat Thread - #19/INFO]: <plumage29> §Ú¥ý¤Á¦^¨Ó[m
+[20:03:41] [Server thread/INFO]: plumage29 issued server command: /gamemode survival
+[20:03:41] [Server thread/INFO]: [plumage29: Set own game mode to Survival Mode]
+[20:03:57] [Async Chat Thread - #19/INFO]: <plumage29> ½c¤l¤§«áÀ³¸Ó³¡·|¦b?[m
+[20:04:29] [Async Chat Thread - #19/INFO]: <miemiesheep> ´f©É½Õªü[m
+[20:04:53] [Async Chat Thread - #19/INFO]: <miemiesheep> ¦³»Ý­n§ïªº¶Ü[m
+[20:04:57] [Async Chat Thread - #19/INFO]: <plumage29> «Üº}«GÕÙ ´Nª¾¹D§A¬O­º®u³]­p®v[m
+[20:05:06] [Async Chat Thread - #19/INFO]: <plumage29> ¸Ü»¡«Î¤l«ç»ò¤£«Ø¤F[m
+[20:05:39] [Async Chat Thread - #19/INFO]: <miemiesheep> ¥ý«e¨S¦³³Q¤À¨ì[m
+[20:05:51] [Async Chat Thread - #19/INFO]: <miemiesheep> ©Ò¥H·|­«·s³]­p[m
+[20:05:51] [Async Chat Thread - #19/INFO]: <plumage29> ¬O³á[m
+[20:05:57] [Async Chat Thread - #19/INFO]: <plumage29> ¦n°Ú ³Â·Ð§A·S[m
+[20:06:18] [Async Chat Thread - #19/INFO]: <miemiesheep> ¥@»¡ «Î¤º§Ú¥u°O±o­n®Ñ©Ð ÁÙ¦³¤°»ò°Ú?[m
+[20:06:24] [Async Chat Thread - #19/INFO]: <plumage29> ¸Ü»¡§Aserver¦³¥´ºâ¥Í¤Î¶Ü[m
+[20:06:36] [Async Chat Thread - #19/INFO]: <miemiesheep> ¦³ªü[m
+[20:06:46] [Async Chat Thread - #19/INFO]: <plumage29> ¼p©Ð ®Ñ©Ð ±K«Ç ª×«Ç «È©Ð[m
+[20:06:51] [Async Chat Thread - #19/INFO]: <miemiesheep> ¬Ý¤j¤j§A¹q¸£¤°»ò®É­Ô¯à§ó·s[m
+[20:07:01] [Async Chat Thread - #19/INFO]: <plumage29> §A¥i¥H¥ý¤É°Õ[m
+[20:07:08] [Async Chat Thread - #19/INFO]: <plumage29> µ¥§Ú¦n¤F´N·|¦Û¤v¦^¨Ó·S[m
+[20:07:21] [Async Chat Thread - #19/INFO]: <plumage29> ¥ý¤É¯Å§A¥i¥H¥ÎªºªF¦è¤~·|¦h[m
+[20:07:54] [Async Chat Thread - #19/INFO]: <miemiesheep> ¨º ©Ò¥H¤É¨ì­þ¤@ª©³£¦æ¶Ü[m
+[20:07:59] [Async Chat Thread - #19/INFO]: <plumage29> P P[m
+[20:08:05] [Async Chat Thread - #19/INFO]: <miemiesheep> ¦n³á[m
+[20:08:14] [Async Chat Thread - #19/INFO]: <plumage29> Âà²¾¨ì¦a©³£t[m
+[20:08:16] [Async Chat Thread - #19/INFO]: <miemiesheep> ´Nµ¥§A³o¥y¸ÜXD[m
+[20:08:24] [Async Chat Thread - #19/INFO]: <plumage29> E04[m
+[20:08:24] [Async Chat Thread - #19/INFO]: <miemiesheep> rup j03ur.4/g ru6[m
+[20:08:30] [Async Chat Thread - #19/INFO]: <miemiesheep> ¤µ±ß±Ï¥Í¤Î[m
+[20:08:40] [Async Chat Thread - #19/INFO]: <miemiesheep> ?[m
+[20:09:00] [Async Chat Thread - #19/INFO]: <plumage29> ¤@ª½¥dª`¦] ¡×¡×[m
+[20:09:17] [Async Chat Thread - #19/INFO]: <plumage29> IP & VERSION PLEASE[m
+[20:09:32] [Async Chat Thread - #19/INFO]: <miemiesheep> port change to 25566[m
+[20:09:38] [Async Chat Thread - #19/INFO]: <miemiesheep> same ip[m
+[20:10:00] [Async Chat Thread - #19/INFO]: <miemiesheep> version is 1.12.2[m
+[20:10:09] [Server thread/INFO]: plumage29 lost connection: Disconnected
+[20:10:09] [Server thread/INFO]: plumage29 left the game
+[20:10:19] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[20:10:19] [Server thread/INFO]: miemiesheep left the game
