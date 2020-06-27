@@ -1,0 +1,18 @@
+[22:15:08] [User Authenticator #7/INFO]: Disconnecting com.mojang.authlib.GameProfile@68346c42[id=e2763138-08ab-4054-b2ac-ec06f7628869,name=HTChen,properties={textures=[com.mojang.authlib.properties.Property@4f24569b]},legacy=false] (/114.44.118.47:63001): Failed to verify username!
+[22:15:09] [User Authenticator #7/WARN]: Exception verifying HTChen
+java.lang.IllegalStateException: AsyncPlayerPreLoginEvent cannot be triggered asynchronously from primary server thread.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:506) ~[spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener$LoginHandler.fireEvents(LoginListener.java:271) ~[spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener$2.run(LoginListener.java:221) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+[22:16:11] [User Authenticator #8/INFO]: Disconnecting com.mojang.authlib.GameProfile@4b5dae42[id=e2763138-08ab-4054-b2ac-ec06f7628869,name=HTChen,properties={textures=[com.mojang.authlib.properties.Property@48b25eac]},legacy=false] (/114.44.118.47:63082): Failed to verify username!
+[22:16:11] [User Authenticator #8/WARN]: Exception verifying HTChen
+java.lang.IllegalStateException: AsyncPlayerPreLoginEvent cannot be triggered asynchronously from primary server thread.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:506) ~[spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener$LoginHandler.fireEvents(LoginListener.java:271) ~[spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener$2.run(LoginListener.java:221) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+[22:16:30] [User Authenticator #9/INFO]: Disconnecting com.mojang.authlib.GameProfile@7da565d6[id=e2763138-08ab-4054-b2ac-ec06f7628869,name=HTChen,properties={textures=[com.mojang.authlib.properties.Property@7dd79c3e]},legacy=false] (/114.44.118.47:63089): Failed to verify username!
+[22:16:30] [User Authenticator #9/WARN]: Exception verifying HTChen
+java.lang.IllegalStateException: AsyncPlayerPreLoginEvent cannot be triggered asynchronously from primary server thread.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:506) ~[spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener$LoginHandler.fireEvents(LoginListener.java:271) ~[spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener$2.run(LoginListener.java:221) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
