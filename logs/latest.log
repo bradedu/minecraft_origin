@@ -1,1 +1,47 @@
-[13:02:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10792ms or 215 ticks behind
+[05:52:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17346ms or 346 ticks behind
+[10:53:34] [User Authenticator #12/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[10:53:34] [Server thread/INFO]: HTChen[/114.44.124.31:62103] logged in with entity id 618755 at ([world]-1080.1967928087122, 64.0, 29.969365719020846)
+[11:45:08] [Server thread/INFO]: HTChen issued server command: /gamemode survival
+[11:45:08] [Server thread/INFO]: [HTChen: Set own game mode to Survival Mode]
+[11:48:51] [Server thread/INFO]: HTChen issued server command: /gamemode creative
+[11:48:51] [Server thread/INFO]: [HTChen: Set own game mode to Creative Mode]
+[12:00:20] [User Authenticator #13/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[12:00:21] [Server thread/INFO]: miemiesheep[/123.192.29.190:62222] logged in with entity id 628507 at ([world]-1096.6434053038483, 63.0, 22.279076240060547)
+[12:00:34] [Async Chat Thread - #7/INFO]: <HTChen> HI[m
+[12:00:34] [Async Chat Thread - #7/INFO]: <miemiesheep> hi[m
+[12:01:14] [Async Chat Thread - #7/INFO]: <miemiesheep> ¦³·NÃäºÎ±o¦n¦wÃ­[m
+[12:01:32] [Async Chat Thread - #7/INFO]: <HTChen> GAN[m
+[12:02:19] [Async Chat Thread - #7/INFO]: <HTChen> §Ú»e¸Á­¸¨ì³oÕÙ[m
+[12:02:30] [Async Chat Thread - #7/INFO]: <miemiesheep> ¤]¤Ó¶Ô³Ò¤F£t[m
+[12:02:33] [Server thread/INFO]: HTChen issued server command: /gamemode survival
+[12:02:33] [Server thread/INFO]: [HTChen: Set own game mode to Survival Mode]
+[12:02:40] [Async Chat Thread - #7/INFO]: <HTChen> ¤£¬O¤Ó²Â£v[m
+[12:02:55] [Async Chat Thread - #7/INFO]: <HTChen> §ÚºØ¤F¤@¹ïªá³£¤£±Ä[m
+[12:03:31] [Async Chat Thread - #7/INFO]: <miemiesheep> ¨Ï³ßÅw±´ÀIªº»e¸Áªü[m
+[12:05:46] [Async Chat Thread - #8/INFO]: <miemiesheep> ¥@»¡ §A¬Q¤Ñ»¡©«­n¥Î¨Ó°µ¤°»ò°Ú?[m
+[12:06:04] [Async Chat Thread - #8/INFO]: <HTChen> ÅK?[m
+[12:06:20] [Async Chat Thread - #8/INFO]: <HTChen> ªá¬O­n¨Ó¥Í¤p»e¸Á°Õ[m
+[12:06:31] [Async Chat Thread - #8/INFO]: <HTChen> ¤õÃÄ°µ·Ï¤õ[m
+[12:06:47] [Async Chat Thread - #8/INFO]: <miemiesheep> ³á³á[m
+[12:07:05] [Async Chat Thread - #8/INFO]: <HTChen> ÅK´N¤£ª¾¹D¤F[m
+[12:07:08] [Async Chat Thread - #8/INFO]: <miemiesheep> ¬Q±ß¦L¶H¤¤¦n¹³¦³»¡ÅK¥¨¤H¶ð¤°»òªº °£¤FÃa±¼¤§¥~[m
+[12:08:32] [Async Chat Thread - #9/INFO]: <HTChen> §Ñ¤FXDD[m
+[12:08:41] [Async Chat Thread - #9/INFO]: <miemiesheep> ·d¤£¦n¬O§Ú°O¿ù¤F £~[m
+[12:10:17] [Async Chat Thread - #10/INFO]: <HTChen> º¡º¡der»e¸Á[m
+[12:10:19] [Async Chat Thread - #10/INFO]: <miemiesheep> ³¥¿ß³£¶]¨ì®ÇÃäªº®q¥Í¬¡¤F­CXD[m
+[12:10:26] [Async Chat Thread - #10/INFO]: <HTChen> ![m
+[12:10:59] [Async Chat Thread - #10/INFO]: <HTChen> HERE?[m
+[12:11:03] [Async Chat Thread - #10/INFO]: <miemiesheep> ¬O°Ú[m
+[12:11:24] [Async Chat Thread - #10/INFO]: <miemiesheep> ¤j·§4 5 ¤§[m
+[12:14:14] [Async Chat Thread - #11/INFO]: <HTChen> ¦n·Q¾iª°¯W[m
+[12:14:30] [Async Chat Thread - #11/INFO]: <miemiesheep> ¥h§äªüXD[m
+[12:16:07] [Async Chat Thread - #12/INFO]: <miemiesheep> ¥iÂÇTP£v[m
+[12:16:37] [Async Chat Thread - #12/INFO]: <HTChen> OK[m
+[12:16:40] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
+[12:16:40] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
+[12:16:53] [Async Chat Thread - #12/INFO]: <HTChen> §ï¤Ñ¦A§ä~µ¥µ¥¥Xªù[m
+[12:17:10] [Async Chat Thread - #12/INFO]: <miemiesheep> ¦n³á[m
+[12:17:13] [Server thread/INFO]: HTChen lost connection: Disconnected
+[12:17:13] [Server thread/INFO]: HTChen left the game
+[12:17:16] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[12:17:16] [Server thread/INFO]: miemiesheep left the game
