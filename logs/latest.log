@@ -1,12 +1,12 @@
-[00:00:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 66390ms or 1327 ticks behind
-[00:02:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 59192ms or 1183 ticks behind
-[00:04:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 68806ms or 1376 ticks behind
-[00:05:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 60283ms or 1205 ticks behind
-[00:07:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 66676ms or 1333 ticks behind
-[00:08:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 44301ms or 886 ticks behind
-[00:10:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 67521ms or 1350 ticks behind
-[00:12:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 106956ms or 2139 ticks behind
-[00:12:26] [Thread-3/INFO]: Stopping server
-[00:12:29] [Thread-3/INFO]: Saving players
-[00:12:29] [Thread-3/INFO]: Saving worlds
-[00:12:29] [Thread-3/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:00:44] [Server thread/INFO]: Stopping server
+[22:00:45] [Server thread/INFO]: Saving players
+[22:00:45] [Server thread/INFO]: Saving worlds
+[22:00:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:00:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:00:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:00:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:00:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:00:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:00:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:00:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:00:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

@@ -2773,6 +2773,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2020-10-18 18:31:24 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_bed": {
     "criteria": {
       "has_lime_wool": "2017-07-17 19:03:11 +0800"
@@ -3413,6 +3419,12 @@
   "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
       "has_white_wool": "2017-07-15 12:06:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_spruce_planks": "2020-10-18 17:53:33 +0800"
     },
     "done": true
   },
@@ -4247,6 +4259,12 @@
   "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_minecart": "2017-07-27 20:33:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2020-10-18 18:17:26 +0800"
     },
     "done": true
   },
