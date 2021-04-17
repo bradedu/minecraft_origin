@@ -1508,6 +1508,12 @@
     },
     "done": true
   },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2020-12-31 21:56:42 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_tulip": {
     "criteria": {
       "has_red_flower": "2017-07-16 12:45:19 +0800"
@@ -1591,6 +1597,13 @@
       "has_cod": "2020-11-21 21:19:13 +0800"
     },
     "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2020-12-31 21:54:26 +0800",
+      "minecraft:soul_sand_valley": "2020-12-31 21:51:04 +0800"
+    },
+    "done": false
   },
   "minecraft:recipes/food/cookie": {
     "criteria": {
@@ -3087,6 +3100,12 @@
   "minecraft:recipes/decorations/red_bed": {
     "criteria": {
       "has_red_wool": "2017-07-28 23:00:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2020-12-31 22:01:19 +0800"
     },
     "done": true
   },
