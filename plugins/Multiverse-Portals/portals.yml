@@ -1,0 +1,41 @@
+portals:
+  2res:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: miemiesheep
+    location: -941.0,65.0,217.0:-941.0,67.0,220.0
+    world: world
+    destination: p:2world
+  2world:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: miemiesheep
+    location: 173.0,64.0,-35.0:175.0,66.0,-35.0
+    world: res
+    destination: p:2res
+  return_world:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: miemiesheep
+    location: 57.0,52.0,-3.0:57.0,53.0,-3.0
+    world: world_the_end
+    destination: world
+  end_to_world:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: miemiesheep
+    location: -2.0,61.0,-2.0:2.0,61.0,2.0
+    world: world_the_end
+    destination: world
