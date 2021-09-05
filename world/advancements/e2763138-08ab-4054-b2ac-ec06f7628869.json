@@ -1142,6 +1142,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2021-09-05 16:44:24 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
       "has_cod": "2020-06-26 16:54:46 +0800"
@@ -1473,6 +1479,12 @@
   "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
       "has_sugar_cane": "2021-09-05 14:56:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2021-09-05 16:44:24 +0800"
     },
     "done": true
   },
@@ -2786,6 +2798,12 @@
   "minecraft:adventure/summon_iron_golem": {
     "criteria": {
       "summoned_golem": "2018-10-08 15:58:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2021-09-05 16:44:05 +0800"
     },
     "done": true
   },
