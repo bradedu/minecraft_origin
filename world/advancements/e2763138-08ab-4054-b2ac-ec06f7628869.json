@@ -2886,6 +2886,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2021-10-11 17:14:46 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
     "criteria": {
       "has_purple_dye": "2017-08-05 17:47:54 +0800"
@@ -3247,6 +3253,12 @@
   "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-08-27 20:26:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2021-10-10 23:43:49 +0800"
     },
     "done": true
   },
@@ -3880,6 +3892,12 @@
   "minecraft:recipes/building_blocks/acacia_stairs": {
     "criteria": {
       "has_planks": "2017-10-09 02:07:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2021-10-11 17:52:10 +0800"
     },
     "done": true
   },
@@ -4660,6 +4678,12 @@
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2017-07-24 14:48:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2021-10-10 23:43:49 +0800"
     },
     "done": true
   },
