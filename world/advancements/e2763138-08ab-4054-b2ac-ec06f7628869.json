@@ -335,6 +335,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2021-10-30 19:45:04 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2017-07-19 18:21:32 +0800"
@@ -4084,6 +4090,12 @@
   "minecraft:recipes/decorations/magenta_bed": {
     "criteria": {
       "has_magenta_wool": "2017-07-24 16:24:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2021-10-30 22:58:42 +0800"
     },
     "done": true
   },
