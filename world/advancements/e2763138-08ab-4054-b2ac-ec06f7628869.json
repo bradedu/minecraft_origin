@@ -3768,6 +3768,7 @@
       "minecraft:taiga": "2017-07-18 21:41:11 +0800",
       "minecraft:deep_ocean": "2022-02-05 20:42:25 +0800",
       "minecraft:frozen_river": "2020-06-07 01:11:42 +0800",
+      "minecraft:sunflower_plains": "2022-04-02 15:05:30 +0800",
       "minecraft:birch_forest": "2017-07-20 00:53:32 +0800",
       "minecraft:windswept_hills": "2017-07-18 21:03:22 +0800",
       "minecraft:wooded_badlands": "2018-10-03 17:51:23 +0800",
@@ -3794,6 +3795,7 @@
       "minecraft:snowy_beach": "2020-07-12 16:07:14 +0800",
       "minecraft:warm_ocean": "2018-07-30 20:57:43 +0800",
       "minecraft:deep_lukewarm_ocean": "2018-07-28 12:11:48 +0800",
+      "minecraft:windswept_gravelly_hills": "2022-04-02 19:40:43 +0800",
       "minecraft:savanna": "2017-07-19 18:13:52 +0800",
       "minecraft:plains": "2017-07-18 20:41:28 +0800"
     },
@@ -4744,6 +4746,12 @@
   "minecraft:recipes/redstone/redstone_from_blasting_redstone_ore": {
     "criteria": {
       "has_redstone_ore": "2021-10-16 21:35:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2022-04-02 15:03:48 +0800"
     },
     "done": true
   },
