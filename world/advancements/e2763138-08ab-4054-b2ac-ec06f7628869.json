@@ -71,6 +71,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2022-06-19 15:52:02 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
     "criteria": {
       "has_polished_blackstone_bricks": "2020-08-01 01:53:21 +0800"
@@ -134,6 +140,12 @@
   "minecraft:recipes/decorations/magenta_stained_glass_pane": {
     "criteria": {
       "has_glass": "2017-07-22 15:30:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2022-06-19 14:18:06 +0800"
     },
     "done": true
   },
@@ -296,6 +308,12 @@
   "minecraft:recipes/decorations/magenta_carpet": {
     "criteria": {
       "has_magenta_wool": "2017-07-24 16:24:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_planks": {
+    "criteria": {
+      "has_logs": "2022-06-19 14:34:53 +0800"
     },
     "done": true
   },
@@ -865,6 +883,12 @@
       "has_gold_ingot": "2017-07-20 21:18:04 +0800"
     },
     "done": true
+  },
+  "minecraft:husbandry/leash_all_frog_variants": {
+    "criteria": {
+      "minecraft:warm": "2022-06-19 16:13:47 +0800"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
@@ -1697,6 +1721,7 @@
       "minecraft:cat": "2020-06-26 17:07:40 +0800",
       "minecraft:fox": "2020-12-05 21:11:41 +0800",
       "minecraft:turtle": "2018-07-28 17:02:37 +0800",
+      "minecraft:frog": "2022-06-19 14:47:19 +0800",
       "minecraft:sheep": "2017-07-19 23:32:56 +0800",
       "minecraft:mooshroom": "2019-06-01 22:09:42 +0800",
       "minecraft:ocelot": "2017-09-12 22:42:14 +0800",
@@ -2520,6 +2545,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2022-06-19 14:34:50 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/quartz": {
     "criteria": {
       "has_nether_quartz_ore": "2019-07-13 23:19:52 +0800"
@@ -2766,6 +2797,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tadpole_in_a_bucket": {
+    "criteria": {
+      "tadpole_bucket": "2022-06-19 14:56:11 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purpur_stairs": {
     "criteria": {
       "has_purpur_block": "2017-09-10 14:03:51 +0800"
@@ -2925,6 +2962,12 @@
   "minecraft:recipes/building_blocks/dripstone_block": {
     "criteria": {
       "has_pointed_dripstone": "2021-09-05 16:44:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_wood": {
+    "criteria": {
+      "has_log": "2022-06-19 14:34:53 +0800"
     },
     "done": true
   },
@@ -3688,6 +3731,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2022-06-19 14:35:57 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2020-08-30 17:18:31 +0800"
@@ -3812,12 +3861,14 @@
       "minecraft:savanna_plateau": "2017-07-19 18:15:25 +0800",
       "minecraft:beach": "2017-07-18 20:41:39 +0800",
       "minecraft:dark_forest": "2017-07-20 21:05:23 +0800",
+      "minecraft:mangrove_swamp": "2022-06-19 14:34:50 +0800",
       "minecraft:sparse_jungle": "2017-09-12 21:38:38 +0800",
       "minecraft:river": "2017-07-18 20:57:51 +0800",
       "minecraft:lukewarm_ocean": "2018-07-28 12:01:58 +0800",
       "minecraft:snowy_plains": "2018-10-03 18:36:31 +0800",
       "minecraft:stony_shore": "2017-07-19 23:47:59 +0800",
       "minecraft:snowy_taiga": "2020-06-07 01:13:59 +0800",
+      "minecraft:dripstone_caves": "2022-06-19 15:40:55 +0800",
       "minecraft:swamp": "2017-07-19 18:17:04 +0800",
       "minecraft:cold_ocean": "2018-07-31 21:16:54 +0800",
       "minecraft:forest": "2017-07-19 18:03:31 +0800",
@@ -3831,6 +3882,7 @@
       "minecraft:jungle": "2017-07-20 21:29:45 +0800",
       "minecraft:ocean": "2022-02-05 20:42:24 +0800",
       "minecraft:snowy_beach": "2020-07-12 16:07:14 +0800",
+      "minecraft:windswept_savanna": "2022-06-19 14:38:53 +0800",
       "minecraft:warm_ocean": "2018-07-30 20:57:43 +0800",
       "minecraft:deep_lukewarm_ocean": "2018-07-28 12:11:48 +0800",
       "minecraft:old_growth_birch_forest": "2022-04-17 00:26:56 +0800",
@@ -5402,16 +5454,16 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
-      "textures/entity/cat/tabby.png": "2020-06-26 17:43:54 +0800",
-      "textures/entity/cat/white.png": "2020-06-26 16:57:38 +0800",
-      "textures/entity/cat/black.png": "2020-06-26 17:17:12 +0800",
-      "textures/entity/cat/jellie.png": "2020-06-26 21:22:34 +0800",
-      "textures/entity/cat/siamese.png": "2020-06-26 21:23:12 +0800",
-      "textures/entity/cat/ragdoll.png": "2020-06-26 21:24:36 +0800",
-      "textures/entity/cat/british_shorthair.png": "2020-06-26 21:20:58 +0800",
-      "textures/entity/cat/all_black.png": "2020-06-26 21:32:02 +0800",
-      "textures/entity/cat/persian.png": "2020-06-26 21:23:55 +0800",
-      "textures/entity/cat/calico.png": "2020-06-26 16:58:37 +0800"
+      "minecraft:white": "2020-06-26 16:57:38 +0800",
+      "minecraft:tabby": "2020-06-26 17:43:54 +0800",
+      "minecraft:calico": "2020-06-26 16:58:37 +0800",
+      "minecraft:siamese": "2020-06-26 21:23:12 +0800",
+      "minecraft:jellie": "2020-06-26 21:22:34 +0800",
+      "minecraft:persian": "2020-06-26 21:23:55 +0800",
+      "minecraft:black": "2020-06-26 17:17:12 +0800",
+      "minecraft:ragdoll": "2020-06-26 21:24:36 +0800",
+      "minecraft:all_black": "2020-06-26 21:32:02 +0800",
+      "minecraft:british_shorthair": "2020-06-26 21:20:58 +0800"
     },
     "done": false
   },
@@ -5493,5 +5545,5 @@
     },
     "done": true
   },
-  "DataVersion": 2860
+  "DataVersion": 3105
 }
