@@ -203,6 +203,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2022-08-07 11:09:11 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_button": {
     "criteria": {
       "has_planks": "2018-07-28 17:26:40 +0800"
@@ -260,6 +266,12 @@
   "minecraft:recipes/redstone/redstone_lamp": {
     "criteria": {
       "has_glowstone": "2017-07-22 00:32:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2022-08-12 22:09:15 +0800"
     },
     "done": true
   },
@@ -419,6 +431,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-08-07 11:15:25 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2022-02-04 20:27:15 +0800"
@@ -533,6 +551,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-08-07 11:15:25 +0800"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_boots": "2017-07-15 11:58:48 +0800",
@@ -543,6 +567,12 @@
   "minecraft:recipes/redstone/comparator": {
     "criteria": {
       "has_quartz": "2017-07-21 23:28:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2022-08-07 11:23:16 +0800"
     },
     "done": true
   },
@@ -717,6 +747,12 @@
   "minecraft:recipes/decorations/black_bed": {
     "criteria": {
       "has_black_wool": "2017-07-28 23:39:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-08-07 11:15:25 +0800"
     },
     "done": true
   },
@@ -1006,6 +1042,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2022-08-07 11:30:14 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2017-07-15 10:47:39 +0800"
@@ -1216,6 +1258,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2022-08-07 11:23:46 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2017-07-15 11:59:57 +0800"
@@ -1309,6 +1357,12 @@
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2017-07-15 11:32:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-08-07 11:15:25 +0800"
     },
     "done": true
   },
@@ -1586,6 +1640,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2022-02-04 17:28:12 +0800",
       "minecraft:old_growth_pine_taiga": "2017-09-17 19:07:09 +0800",
+      "minecraft:mushroom_fields": "2022-08-07 11:42:04 +0800",
       "minecraft:taiga": "2017-07-16 14:54:57 +0800",
       "minecraft:deep_ocean": "2022-02-04 16:49:33 +0800",
       "minecraft:frozen_river": "2017-07-27 19:46:47 +0800",
@@ -1619,6 +1674,7 @@
       "minecraft:warm_ocean": "2018-07-28 19:32:34 +0800",
       "minecraft:deep_lukewarm_ocean": "2018-07-28 19:10:05 +0800",
       "minecraft:flower_forest": "2022-02-04 16:53:15 +0800",
+      "minecraft:old_growth_birch_forest": "2022-08-07 11:03:10 +0800",
       "minecraft:windswept_gravelly_hills": "2022-02-04 16:57:22 +0800",
       "minecraft:savanna": "2017-07-16 16:34:48 +0800",
       "minecraft:plains": "2017-07-15 10:29:10 +0800"
@@ -1835,6 +1891,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2022-08-07 11:34:49 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_carpet": {
     "criteria": {
       "has_yellow_wool": "2017-07-18 18:11:59 +0800"
@@ -1864,9 +1926,10 @@
       "minecraft:crimson_forest": "2021-05-22 15:27:47 +0800",
       "minecraft:nether_wastes": "2020-12-31 21:54:26 +0800",
       "minecraft:soul_sand_valley": "2020-12-31 21:51:04 +0800",
-      "minecraft:basalt_deltas": "2021-05-22 15:25:41 +0800"
+      "minecraft:basalt_deltas": "2021-05-22 15:25:41 +0800",
+      "minecraft:warped_forest": "2022-08-12 22:12:28 +0800"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/food/cookie": {
     "criteria": {
@@ -1943,6 +2006,12 @@
   "minecraft:recipes/building_blocks/acacia_stairs": {
     "criteria": {
       "has_planks": "2017-07-22 20:08:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2022-08-12 22:09:15 +0800"
     },
     "done": true
   },
@@ -2123,6 +2192,12 @@
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_coal": "2021-05-22 15:46:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2022-08-07 11:11:42 +0800"
     },
     "done": true
   },
@@ -2616,6 +2691,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-08-07 11:15:25 +0800"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2017-07-15 10:59:19 +0800"
@@ -2856,6 +2937,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2022-08-07 11:30:14 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2017-07-21 23:34:43 +0800"
@@ -2967,6 +3054,12 @@
   "minecraft:recipes/building_blocks/jack_o_lantern": {
     "criteria": {
       "has_carved_pumpkin": "2018-07-29 20:33:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-08-07 11:15:25 +0800"
     },
     "done": true
   },
@@ -3105,6 +3198,12 @@
   "minecraft:husbandry/tactical_fishing": {
     "criteria": {
       "cod_bucket": "2018-08-03 23:05:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2022-08-07 11:11:42 +0800"
     },
     "done": true
   },
@@ -3426,6 +3525,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-08-07 11:15:25 +0800"
+    },
+    "done": true
+  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2017-07-18 23:16:16 +0800"
@@ -3537,6 +3642,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2017-07-15 11:32:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2022-08-07 11:35:29 +0800"
     },
     "done": true
   },
@@ -3858,5 +3969,5 @@
     },
     "done": true
   },
-  "DataVersion": 2860
+  "DataVersion": 3105
 }
