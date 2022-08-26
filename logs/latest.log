@@ -1,71 +1,26 @@
-[15:50:44] [User Authenticator #6/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
-[15:50:44] [Server thread/INFO]: miemiesheep joined the game
-[15:50:45] [Server thread/INFO]: miemiesheep[/180.176.42.49:54796] logged in with entity id 67706 at ([world]-937.0441067395126, 70.0, 256.25509768994925)
-[15:51:17] [Server thread/INFO]: miemiesheep lost connection: Disconnected
-[15:51:17] [Server thread/INFO]: miemiesheep left the game
-[16:08:57] [User Authenticator #7/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
-[16:08:57] [Server thread/INFO]: HTChen joined the game
-[16:08:57] [Server thread/INFO]: HTChen[/114.44.154.50:61766] logged in with entity id 68793 at ([world]-1165.162188491228, 72.0, 152.9275542254354)
-[16:10:21] [User Authenticator #8/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
-[16:10:22] [Server thread/INFO]: miemiesheep joined the game
-[16:10:22] [Server thread/INFO]: miemiesheep[/180.176.42.49:50783] logged in with entity id 69917 at ([world]-930.806715742409, 85.11500375326827, 29.390906713904773)
-[16:15:16] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
-[16:15:16] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
-[16:15:33] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[16:15:33] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[16:16:08] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
-[16:16:08] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
-[16:16:08] [Server thread/WARN]: miemiesheep moved too quickly! -65.06059480548488,-51.0,39.408264954325915
-[16:16:34] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[16:16:34] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[16:28:42] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[16:28:42] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[16:31:53] [Server thread/INFO]: miemiesheep issued server command: /weather thunder
-[16:31:53] [Server thread/INFO]: [miemiesheep: Set the weather to rain & thunder]
-[16:32:43] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
-[16:32:43] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
-[16:39:27] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[16:39:27] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[16:40:41] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
-[16:40:41] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
-[16:40:57] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[16:40:57] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[16:47:23] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
-[16:47:23] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
-[16:53:01] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
-[16:53:01] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
-[16:53:01] [Server thread/WARN]: miemiesheep moved too quickly! -5091.097088278134,-1.0,-1207.7474154167703
-[17:16:56] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
-[17:16:56] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
-[17:17:14] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[17:17:14] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[17:51:19] [Server thread/INFO]: miemiesheep lost connection: Disconnected
-[17:51:19] [Server thread/INFO]: miemiesheep left the game
-[17:55:57] [Server thread/INFO]: HTChen lost connection: Disconnected
-[17:55:57] [Server thread/INFO]: HTChen left the game
-[18:44:07] [Server thread/INFO]: Stopping the server
-[18:44:07] [Server thread/INFO]: Stopping server
-[18:44:07] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
-[18:44:07] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[18:44:07] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
-[18:44:07] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
-[18:44:07] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時30ms
-[18:44:08] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時676ms
-[18:44:08] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
-[18:44:08] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.47
-[18:44:08] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[18:44:08] [Server thread/INFO]: [LuckPerms] Closing storage...
-[18:44:08] [Server thread/INFO]: [LuckPerms] Goodbye!
-[18:44:08] [Server thread/INFO]: Saving players
-[18:44:08] [Server thread/INFO]: Saving worlds
-[18:44:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:44:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:44:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:44:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
-[18:44:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
-[18:44:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:44:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:44:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:44:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
-[18:44:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:44:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:58:40] [Server thread/INFO]: Stopping the server
+[18:58:40] [Server thread/INFO]: Stopping server
+[18:58:40] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
+[18:58:40] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[18:58:40] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
+[18:58:40] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
+[18:58:40] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時24ms
+[18:58:41] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時714ms
+[18:58:41] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
+[18:58:41] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.47
+[18:58:41] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:58:41] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:58:41] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:58:41] [Server thread/INFO]: Saving players
+[18:58:41] [Server thread/INFO]: Saving worlds
+[18:58:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:59:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:59:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:59:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
+[18:59:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
+[18:59:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:59:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:59:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:59:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
+[18:59:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:59:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
