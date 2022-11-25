@@ -1,4 +1,4 @@
-[03:32:48] [pool-10-thread-1/WARN]: [DiscordSRV] 
+[02:36:54] [pool-10-thread-1/WARN]: [DiscordSRV] 
 
 The current build of DiscordSRV is outdated by 147 commits! Get the latest build at your favorite distribution center.
 
@@ -6,7 +6,7 @@ Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
 Github: https://github.com/DiscordSRV/DiscordSRV/releases
 Direct Download: https://get.discordsrv.com
 
-[09:32:48] [pool-10-thread-1/WARN]: [DiscordSRV] 
+[08:36:54] [pool-10-thread-1/WARN]: [DiscordSRV] 
 
 The current build of DiscordSRV is outdated by 147 commits! Get the latest build at your favorite distribution center.
 
@@ -14,7 +14,7 @@ Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
 Github: https://github.com/DiscordSRV/DiscordSRV/releases
 Direct Download: https://get.discordsrv.com
 
-[15:32:49] [pool-10-thread-1/WARN]: [DiscordSRV] 
+[14:36:54] [pool-10-thread-1/WARN]: [DiscordSRV] 
 
 The current build of DiscordSRV is outdated by 147 commits! Get the latest build at your favorite distribution center.
 
@@ -22,37 +22,31 @@ Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
 Github: https://github.com/DiscordSRV/DiscordSRV/releases
 Direct Download: https://get.discordsrv.com
 
-[21:32:50] [pool-10-thread-1/WARN]: [DiscordSRV] 
-
-The current build of DiscordSRV is outdated by 147 commits! Get the latest build at your favorite distribution center.
-
-Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
-Github: https://github.com/DiscordSRV/DiscordSRV/releases
-Direct Download: https://get.discordsrv.com
-
-[22:05:44] [Server thread/INFO]: Stopping the server
-[22:05:44] [Server thread/INFO]: Stopping server
-[22:05:44] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
-[22:05:44] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[22:05:44] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
-[22:05:44] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
-[22:05:44] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時46ms
-[22:05:44] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時732ms
-[22:05:44] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
-[22:05:44] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.47
-[22:05:44] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[22:05:44] [Server thread/INFO]: [LuckPerms] Closing storage...
-[22:05:45] [Server thread/INFO]: [LuckPerms] Goodbye!
-[22:05:45] [Server thread/INFO]: Saving players
-[22:05:45] [Server thread/INFO]: Saving worlds
-[22:05:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:06:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:06:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:06:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
-[22:06:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
-[22:06:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:06:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:06:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:06:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
-[22:06:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:06:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:32:31] [Server thread/INFO]: Stopping the server
+[17:32:31] [Server thread/INFO]: Stopping server
+[17:32:31] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
+[17:32:31] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[17:32:31] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
+[17:32:31] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
+[17:32:31] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時28ms
+[17:32:31] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: null
+[17:32:31] [DiscordSRV - JDA Callback 0/ERROR]: [DiscordSRV] DiscordSRV encountered an unknown Discord error: -1: java.io.InterruptedIOException
+[17:32:32] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時726ms
+[17:32:32] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
+[17:32:32] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.47
+[17:32:32] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[17:32:32] [Server thread/INFO]: [LuckPerms] Closing storage...
+[17:32:32] [Server thread/INFO]: [LuckPerms] Goodbye!
+[17:32:32] [Server thread/INFO]: Saving players
+[17:32:32] [Server thread/INFO]: Saving worlds
+[17:32:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:32:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:32:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:32:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
+[17:32:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
+[17:32:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:32:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:32:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:32:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
+[17:32:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:32:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
