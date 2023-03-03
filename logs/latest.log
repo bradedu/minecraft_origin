@@ -1,30 +1,50 @@
-[01:13:08] [Server thread/INFO]: HTChen issued server command: /STOP
-[01:13:11] [Server thread/INFO]: HTChen issued server command: /stop
-[01:13:11] [Server thread/INFO]: [HTChen: Stopping the server]
-[01:13:11] [Server thread/INFO]: Stopping server
-[01:13:11] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
-[01:13:11] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[01:13:11] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
-[01:13:11] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
-[01:13:11] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時21ms
-[01:13:12] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時647ms
-[01:13:12] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
-[01:13:12] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.47
-[01:13:12] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[01:13:12] [Server thread/INFO]: [LuckPerms] Closing storage...
-[01:13:12] [Server thread/INFO]: [LuckPerms] Goodbye!
-[01:13:12] [Server thread/INFO]: Saving players
-[01:13:12] [Server thread/INFO]: HTChen lost connection: Server closed
-[01:13:12] [Server thread/INFO]: HTChen left the game.
-[01:13:12] [Server thread/INFO]: Saving worlds
-[01:13:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:13:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:13:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:13:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
-[01:13:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
-[01:13:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:13:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:13:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:13:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
-[01:13:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:13:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:51:14] [pool-10-thread-1/WARN]: [DiscordSRV] 
+
+The current build of DiscordSRV is outdated by 233 commits! Get the latest build at your favorite distribution center.
+
+Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
+Github: https://github.com/DiscordSRV/DiscordSRV/releases
+Direct Download: https://get.discordsrv.com
+
+[11:51:14] [pool-10-thread-1/WARN]: [DiscordSRV] 
+
+The current build of DiscordSRV is outdated by 233 commits! Get the latest build at your favorite distribution center.
+
+Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
+Github: https://github.com/DiscordSRV/DiscordSRV/releases
+Direct Download: https://get.discordsrv.com
+
+[17:51:14] [pool-10-thread-1/WARN]: [DiscordSRV] 
+
+The current build of DiscordSRV is outdated by 233 commits! Get the latest build at your favorite distribution center.
+
+Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
+Github: https://github.com/DiscordSRV/DiscordSRV/releases
+Direct Download: https://get.discordsrv.com
+
+[21:22:15] [Server thread/INFO]: Stopping the server
+[21:22:15] [Server thread/INFO]: Stopping server
+[21:22:15] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
+[21:22:15] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[21:22:16] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
+[21:22:16] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
+[21:22:16] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時82ms
+[21:22:16] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時787ms
+[21:22:16] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
+[21:22:16] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.47
+[21:22:16] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[21:22:16] [Server thread/INFO]: [LuckPerms] Closing storage...
+[21:22:17] [Server thread/INFO]: [LuckPerms] Goodbye!
+[21:22:17] [Server thread/INFO]: Saving players
+[21:22:17] [Server thread/INFO]: Saving worlds
+[21:22:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:22:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:22:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:22:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
+[21:22:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
+[21:22:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:22:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:22:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:22:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
+[21:22:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:22:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
