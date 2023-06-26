@@ -1,29 +1,178 @@
-[00:10:56] [Server thread/INFO]: HTChen issued server command: /stop
-[00:10:56] [Server thread/INFO]: [HTChen: Stopping the server]
-[00:10:56] [Server thread/INFO]: Stopping server
-[00:10:56] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
-[00:10:56] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[00:10:56] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
-[00:10:56] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
-[00:10:56] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] ¤wÀx¦s¤w³sµ²±b¸¹¡A¯Ó®É25ms
-[00:10:57] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] ¦øªA¾¹¤wÃö³¬¡A¯Ó®É695ms
-[00:10:57] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
-[00:10:57] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.47
-[00:10:57] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[00:10:57] [Server thread/INFO]: [LuckPerms] Closing storage...
-[00:10:57] [Server thread/INFO]: [LuckPerms] Goodbye!
-[00:10:57] [Server thread/INFO]: Saving players
-[00:10:57] [Server thread/INFO]: HTChen lost connection: Server closed
-[00:10:57] [Server thread/INFO]: HTChen left the game.
-[00:10:57] [Server thread/INFO]: Saving worlds
-[00:11:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:11:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:11:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:11:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
-[00:11:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
-[00:11:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:11:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:11:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:11:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
-[00:11:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:11:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:05:20] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
+[00:05:20] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
+[00:05:28] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[00:05:28] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[00:10:49] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[00:10:49] [Server thread/INFO]: miemiesheep left the game
+[00:10:57] [Server thread/INFO]: HTChen lost connection: Disconnected
+[00:10:57] [Server thread/INFO]: HTChen left the game
+[05:54:26] [pool-11-thread-1/WARN]: [DiscordSRV] 
+
+The current build of DiscordSRV is outdated by 256 commits! Get the latest build at your favorite distribution center.
+
+Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
+Github: https://github.com/DiscordSRV/DiscordSRV/releases
+Direct Download: https://get.discordsrv.com
+
+[08:47:30] [Server thread/INFO]: com.mojang.authlib.GameProfile@552e87e2[id=<null>,name=miemiesheep,properties={},legacy=false] (/123.193.155.173:62019) lost connection: Disconnected
+[08:47:40] [User Authenticator #11/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[08:47:40] [Server thread/INFO]: miemiesheep joined the game
+[08:47:40] [Server thread/INFO]: miemiesheep[/123.193.155.173:62027] logged in with entity id 113896 at ([world]-943.7266890536611, 64.0, 66.45824586589877)
+[08:52:23] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[08:52:23] [Server thread/INFO]: miemiesheep left the game
+[08:53:18] [User Authenticator #12/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[08:53:18] [Server thread/INFO]: miemiesheep joined the game
+[08:53:18] [Server thread/INFO]: miemiesheep[/123.193.155.173:62240] logged in with entity id 115548 at ([world]-904.661666787651, 66.0, -1.6717050455322042)
+[09:11:46] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[09:11:46] [Server thread/INFO]: miemiesheep left the game
+[11:54:26] [pool-11-thread-1/WARN]: [DiscordSRV] 
+
+The current build of DiscordSRV is outdated by 256 commits! Get the latest build at your favorite distribution center.
+
+Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
+Github: https://github.com/DiscordSRV/DiscordSRV/releases
+Direct Download: https://get.discordsrv.com
+
+[14:22:32] [User Authenticator #13/INFO]: UUID of player plumage29 is f752a604-eb4d-49ed-a1af-aaa2a3d1d880
+[14:22:32] [Server thread/INFO]: plumage29 joined the game
+[14:22:32] [Server thread/INFO]: plumage29[/1.161.114.6:51637] logged in with entity id 127602 at ([world]-890.5580383095389, 65.0625, 234.15812892179503)
+[14:45:22] [User Authenticator #14/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[14:45:22] [Server thread/INFO]: HTChen joined the game
+[14:45:22] [Server thread/INFO]: HTChen[/114.44.114.68:57505] logged in with entity id 134303 at ([world]-883.6138488853403, 64.0, 117.25151928162421)
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -22].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -21].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -20].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -19].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -18].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -17].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -16].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -15].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -14].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -13].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -12].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -11].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -10].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-82, -22].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -9].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-81, -22].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -8].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-80, -22].
+[14:57:40] [Server thread/WARN]: Found invalid structure reference [ minecraft:end_city @ [-74, -13] ] for chunk [-83, -7].
+[15:01:25] [Server thread/INFO]: plumage29 issued server command: /gamemode creative
+[15:01:25] [Server thread/INFO]: [plumage29: Set own game mode to Creative Mode]
+[15:03:28] [Server thread/INFO]: plumage29 issued server command: /gamemode survival
+[15:03:28] [Server thread/INFO]: [plumage29: Set own game mode to Survival Mode]
+[15:20:51] [User Authenticator #15/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[15:20:51] [Server thread/INFO]: miemiesheep joined the game
+[15:20:51] [Server thread/INFO]: miemiesheep[/123.193.155.173:56400] logged in with entity id 147530 at ([world]-963.7567599217791, 65.0, 13.723173688170904)
+[15:20:56] [Async Chat Thread - #13/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> HI[m
+[15:21:11] [Async Chat Thread - #14/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> hi[m
+[15:23:16] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[15:23:16] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[15:23:19] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[15:23:19] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[15:25:00] [Async Chat Thread - #15/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> ¦b»·¥j¿ò¸ñ±´ÀI£v[m
+[15:25:27] [Async Chat Thread - #16/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> ¨SÕÙ ¦b®aªþªñ¾ã¦a[m
+[15:25:39] [Async Chat Thread - #15/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> ¤W¦¸¾ãªº¨ºÃä¶ý[m
+[15:25:48] [Async Chat Thread - #16/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> ­ì¥»¬O[m
+[15:26:01] [Async Chat Thread - #15/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> «á¨Ó¬ÝKFCªþªñªº¬}¦³ÂI¤£¶¶²´[m
+[15:26:17] [Async Chat Thread - #16/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> ¶ñ±¼¶Ü[m
+[15:26:34] [Async Chat Thread - #15/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> ­ì¥»·Q¶ñ±¼ «á¨Ó·Q·Q°®¯Ü«õ¤@­Ó¬}¦n¤F[m
+[15:26:38] [Async Chat Thread - #16/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> ¬Ý¤§«á­n©ñ¤°»ò?[m
+[15:29:13] [Async Chat Thread - #17/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> §Ñ°O¬°¤°»ò³o¸Ì»\¤F¤@­Ó¤ô¹q±è[m
+[15:29:23] [Async Chat Thread - #18/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> ¥vµÜ©i¹A³õªºÀ¨[m
+[15:31:16] [Async Chat Thread - #19/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> ¬Ý°_¨Ó´N¬O¨ÏµÜ©i¹A³õªº[m
+[15:31:34] [Async Chat Thread - #20/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> ¬Ý¨ì§A¤FXD[m
+[15:33:20] [Server thread/INFO]: plumage29 issued server command: /gamemode spectator
+[15:33:20] [Server thread/INFO]: [plumage29: Set own game mode to Spectator Mode]
+[15:33:54] [Server thread/INFO]: plumage29 issued server command: /gamemode survival
+[15:33:54] [Server thread/INFO]: [plumage29: Set own game mode to Survival Mode]
+[15:34:03] [Async Chat Thread - #21/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> ³o­Ó¬}¤£ª¾¹D¯à·F¹À[m
+[15:34:50] [Async Chat Thread - #22/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> ¥Ø«e¨S·Qªk[m
+[15:44:13] [Server thread/INFO]: plumage29 has made the advancement [Planting the Past]
+[15:52:36] [Async Chat Thread - #23/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> §A¸ô¹Lªº®É­Ô484§l¨«¤FÅK­y[m
+[15:52:49] [Async Chat Thread - #24/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> ¤W¦¸¶ý[m
+[15:52:53] [Async Chat Thread - #23/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> ÁÙ¬O­è­è?[m
+[15:52:53] [Async Chat Thread - #24/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> ­è­è[m
+[15:52:56] [Async Chat Thread - #23/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> «ç»ò®ø¥¢¤F[m
+[15:53:00] [Async Chat Thread - #24/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> §Ú¥á¦b¸ô¤Wªº[m
+[15:53:01] [Async Chat Thread - #23/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> ­è­èªº¸Ü ¨S¦³[m
+[15:53:14] [Async Chat Thread - #24/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> ¦n³á[m
+[15:53:30] [Async Chat Thread - #23/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> ½c¤lªº¨º¨Ç¤£¬O³á?[m
+[15:53:51] [Async Chat Thread - #24/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> ­è­è¥]¥]º¡¤F §Ú¥ý©ñ¤@¨Ç¦b¸ô¤WXD[m
+[15:53:59] [Async Chat Thread - #23/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> ©ñ§¹½c¤l­n¦^¥hÀË´N®ø¥¢¤F[m
+[15:54:07] [Async Chat Thread - #24/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> ¨S®t ¦³»Ý­n¦A°µ[m
+[15:58:53] [Async Chat Thread - #25/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> ¬O³o°ï¤p¤s³£­n¶Ð±¼¶Ü[m
+[15:59:18] [Async Chat Thread - #26/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> ³£¥i¥H?[m
+[16:07:55] [Async Chat Thread - #27/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> µ¥µ¥ÁÙ­n§â¤U­±ÅK¹Dªº«Î³»¸É¿ò¤U[m
+[16:08:52] [Async Chat Thread - #28/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> ­ì¨Ó§A¤w¸g¦b¸É¤F[m
+[16:08:58] [Async Chat Thread - #27/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> ³o«Î³»·|¤£·|¤Ó¸G[m
+[16:09:14] [Async Chat Thread - #28/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> ÁÙ¥i¥H[m
+[16:28:34] [Async Chat Thread - #29/INFO]: [[0;37;1mworld[0;37;1m]<plumage29> ·PÁÂ¨â¦ìÀ°¦£«õ ¥ýºM°h~ 88[m
+[16:28:38] [Async Chat Thread - #30/INFO]: [[0;37;1mworld[0;37;1m]<HTChen> 88[m
+[16:28:40] [Async Chat Thread - #29/INFO]: [[0;37;1mworld[0;37;1m]<miemiesheep> 88[m
+[16:28:42] [Server thread/INFO]: plumage29 lost connection: Disconnected
+[16:28:42] [Server thread/INFO]: plumage29 left the game
+[16:33:27] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[16:33:27] [Server thread/INFO]: miemiesheep left the game
+[16:50:39] [User Authenticator #16/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[16:50:39] [Server thread/INFO]: miemiesheep joined the game
+[16:50:39] [Server thread/INFO]: miemiesheep[/123.193.155.173:63094] logged in with entity id 186464 at ([world]-1063.4002953584513, 64.0, 81.356175059805)
+[16:56:40] [Server thread/INFO]: HTChen lost connection: Disconnected
+[16:56:40] [Server thread/INFO]: HTChen left the game
+[16:57:06] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[16:57:06] [Server thread/INFO]: miemiesheep left the game
+[17:30:37] [User Authenticator #17/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[17:30:37] [Server thread/INFO]: miemiesheep joined the game
+[17:30:37] [Server thread/INFO]: miemiesheep[/123.193.155.173:64743] logged in with entity id 189262 at ([world]-983.7368541447266, 65.0, 103.91166605989278)
+[17:32:15] [User Authenticator #18/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[17:32:15] [Server thread/INFO]: HTChen joined the game
+[17:32:15] [Server thread/INFO]: HTChen[/114.44.114.68:63610] logged in with entity id 190096 at ([world]-982.501457559154, 65.0, 104.4708756159143)
+[17:44:09] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[17:44:09] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[17:48:21] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[17:48:21] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[17:48:25] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[17:48:25] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[17:48:31] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[17:48:31] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[17:54:26] [pool-11-thread-1/WARN]: [DiscordSRV] 
+
+The current build of DiscordSRV is outdated by 256 commits! Get the latest build at your favorite distribution center.
+
+Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
+Github: https://github.com/DiscordSRV/DiscordSRV/releases
+Direct Download: https://get.discordsrv.com
+
+[18:10:01] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[18:10:01] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[18:33:50] [Server thread/INFO]: HTChen lost connection: Disconnected
+[18:33:50] [Server thread/INFO]: HTChen left the game
+[18:33:52] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[18:33:52] [Server thread/INFO]: miemiesheep left the game
+[18:33:59] [Server thread/INFO]: Stopping the server
+[18:33:59] [Server thread/INFO]: Stopping server
+[18:33:59] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
+[18:33:59] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[18:33:59] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
+[18:33:59] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
+[18:33:59] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] ¤wÀx¦s¤w³sµ²±b¸¹¡A¯Ó®É49ms
+[18:34:00] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] ¦øªA¾¹¤wÃö³¬¡A¯Ó®É970ms
+[18:34:00] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
+[18:34:00] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.47
+[18:34:00] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:34:00] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:34:00] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:34:00] [Server thread/INFO]: Saving players
+[18:34:00] [Server thread/INFO]: Saving worlds
+[18:34:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:34:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:34:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:34:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
+[18:34:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
+[18:34:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:34:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:34:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:34:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
+[18:34:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:34:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
