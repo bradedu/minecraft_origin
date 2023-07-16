@@ -1,4 +1,4 @@
-[04:35:59] [pool-11-thread-1/WARN]: [DiscordSRV] 
+[04:59:23] [pool-11-thread-1/WARN]: [DiscordSRV] 
 
 The current build of DiscordSRV is outdated by 256 commits! Get the latest build at your favorite distribution center.
 
@@ -6,18 +6,7 @@ Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
 Github: https://github.com/DiscordSRV/DiscordSRV/releases
 Direct Download: https://get.discordsrv.com
 
-[10:09:29] [User Authenticator #3/INFO]: Disconnecting /198.199.72.162:54476: Failed to verify username!
-[10:09:29] [User Authenticator #3/ERROR]: Username 'Herobrine' tried to join with an invalid session
-[10:09:29] [Server thread/INFO]: /198.199.72.162:54476 lost connection: Failed to verify username!
-[10:09:40] [User Authenticator #4/INFO]: UUID of player matscan is ff47729b-d0d2-4af0-98b1-1c0a7e1b0eef
-[10:09:40] [Server thread/INFO]: matscan joined the game
-[10:09:40] [Server thread/INFO]: matscan[/198.199.72.162:39854] logged in with entity id 106548 at ([world]-895.5, 120.0, 221.5)
-[10:09:41] [Async Chat Thread - #3/INFO]: [[0;37;1mworld[0;37;1m]<matscan> Hello. I'm a friendly bot that scans the internet for Minecraft servers.[m
-[10:09:41] [Async Chat Thread - #3/INFO]: [[0;37;1mworld[0;37;1m]<matscan> If this server was meant to be private, you should strongly consider enabling a whitelist. Otherwise, at least make sure you have backups enabled to prevent malicious players from doing permanent damage.[m
-[10:09:41] [Async Chat Thread - #3/INFO]: [[0;37;1mworld[0;37;1m]<matscan> - mat | FAQ: https://matdoes.dev/matscan[m
-[10:09:44] [Server thread/INFO]: matscan lost connection: Disconnected
-[10:09:44] [Server thread/INFO]: matscan left the game
-[10:35:59] [pool-11-thread-1/WARN]: [DiscordSRV] 
+[10:59:23] [pool-11-thread-1/WARN]: [DiscordSRV] 
 
 The current build of DiscordSRV is outdated by 256 commits! Get the latest build at your favorite distribution center.
 
@@ -25,7 +14,12 @@ Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
 Github: https://github.com/DiscordSRV/DiscordSRV/releases
 Direct Download: https://get.discordsrv.com
 
-[16:35:59] [pool-11-thread-1/WARN]: [DiscordSRV] 
+[14:22:20] [Server thread/INFO]: com.mojang.authlib.GameProfile@35243bef[id=<null>,name=Bunger,properties={},legacy=false] (/3.126.207.56:46948) lost connection: Disconnected
+[16:19:00] [User Authenticator #9/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[16:19:00] [Server thread/INFO]: miemiesheep joined the game
+[16:19:00] [Server thread/INFO]: miemiesheep[/123.193.155.173:64211] logged in with entity id 349792 at ([world]-923.3304282641586, 70.0, 218.26631017453647)
+[16:45:01] [Server thread/WARN]: HTChen moved wrongly!
+[16:59:23] [pool-11-thread-1/WARN]: [DiscordSRV] 
 
 The current build of DiscordSRV is outdated by 256 commits! Get the latest build at your favorite distribution center.
 
@@ -33,31 +27,129 @@ Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
 Github: https://github.com/DiscordSRV/DiscordSRV/releases
 Direct Download: https://get.discordsrv.com
 
-[16:57:50] [Server thread/INFO]: HTChen lost connection: Disconnected
-[16:57:50] [Server thread/INFO]: HTChen left the game
-[17:07:05] [Server thread/INFO]: Stopping the server
-[17:07:05] [Server thread/INFO]: Stopping server
-[17:07:05] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
-[17:07:05] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[17:07:05] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
-[17:07:05] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
-[17:07:05] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] ¤wÀx¦s¤w³sµ²±b¸¹¡A¯Ó®É6ms
-[17:07:06] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] ¦øªA¾¹¤wÃö³¬¡A¯Ó®É715ms
-[17:07:06] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
-[17:07:06] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.47
-[17:07:06] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[17:07:06] [Server thread/INFO]: [LuckPerms] Closing storage...
-[17:07:06] [Server thread/INFO]: [LuckPerms] Goodbye!
-[17:07:06] [Server thread/INFO]: Saving players
-[17:07:06] [Server thread/INFO]: Saving worlds
-[17:07:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:07:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:07:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:07:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
-[17:07:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
-[17:07:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:07:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:07:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:07:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
-[17:07:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:07:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 1.0.0.1 failed to resolve discord.com
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Receive timed out, No route to host: no further information
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.DiscordSRV$3.lookupPublic(DiscordSRV.java:758)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.DiscordSRV$3.lookup(DiscordSRV.java:753)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[17:02:00] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[17:03:35] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[17:03:35] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[17:04:02] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[17:04:02] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[17:07:46] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[17:07:46] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[17:08:35] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[17:08:35] [Server thread/INFO]: miemiesheep left the game
+[17:09:15] [User Authenticator #10/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[17:09:15] [Server thread/INFO]: miemiesheep joined the game
+[17:09:15] [Server thread/INFO]: miemiesheep[/123.193.155.173:63362] logged in with entity id 364188 at ([world]-960.3527276097747, 75.0, 2.3384177181797074)
+[17:09:29] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
+[17:09:29] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
+[17:09:48] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[17:09:48] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[17:11:29] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
+[17:11:29] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
+[17:11:43] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[17:11:43] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[17:14:04] [Server thread/WARN]: HTChen moved too quickly! 12.48160807952604,2.0013359791121417,-7.784181642510504
+[17:21:56] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[17:21:56] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[17:22:12] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[17:22:12] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[17:29:26] [Server thread/WARN]: miemiesheep moved too quickly! -9.993092310506881,1.0013359791121417,-1.2446998369274702
+[17:29:50] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[17:29:50] [Server thread/INFO]: miemiesheep left the game
+[17:29:51] [Server thread/INFO]: HTChen lost connection: Disconnected
+[17:29:51] [Server thread/INFO]: HTChen left the game
+[17:29:51] [Server thread/INFO]: com.mojang.authlib.GameProfile@1f73022e[id=<null>,name=HTChen,properties={},legacy=false] (/220.129.125.240:55532) lost connection: Disconnected
+[17:29:55] [Server thread/INFO]: com.mojang.authlib.GameProfile@7a41c9bb[id=<null>,name=HTChen,properties={},legacy=false] (/220.129.125.240:55536) lost connection: Disconnected
+[17:30:04] [User Authenticator #11/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[17:30:04] [Server thread/INFO]: miemiesheep joined the game
+[17:30:04] [Server thread/INFO]: miemiesheep[/123.193.155.173:52762] logged in with entity id 374837 at ([world]-920.5275280826218, 71.0, -19.02612790793917)
+[17:30:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@67cae284[id=<null>,name=HTChen,properties={},legacy=false] (/220.129.125.240:55543) lost connection: Disconnected
+[17:30:50] [Server thread/INFO]: com.mojang.authlib.GameProfile@49772699[id=<null>,name=HTChen,properties={},legacy=false] (/220.129.125.240:55580) lost connection: Disconnected
+[17:30:59] [Server thread/INFO]: com.mojang.authlib.GameProfile@4d6dfcb1[id=<null>,name=HTChen,properties={},legacy=false] (/220.129.125.240:55589) lost connection: Disconnected
+[17:31:45] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[17:31:45] [Server thread/INFO]: miemiesheep left the game
+[17:31:53] [User Authenticator #12/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[17:31:53] [Server thread/INFO]: miemiesheep joined the game
+[17:31:53] [Server thread/INFO]: miemiesheep[/123.193.155.173:49890] logged in with entity id 375423 at ([world]-922.0772015080945, 69.0, -17.192361989404713)
+[17:32:30] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[17:32:30] [Server thread/INFO]: miemiesheep left the game
+[17:33:06] [User Authenticator #13/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[17:33:06] [Server thread/INFO]: HTChen joined the game
+[17:33:06] [Server thread/INFO]: HTChen[/220.129.125.240:55747] logged in with entity id 375993 at ([world]-882.6052893622755, 65.9375, -756.3478581863602)
+[17:33:35] [User Authenticator #14/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[17:33:35] [Server thread/INFO]: miemiesheep joined the game
+[17:33:35] [Server thread/INFO]: miemiesheep[/123.193.155.173:63978] logged in with entity id 376499 at ([world]-946.0036949193402, 64.0, 71.77539674362026)
+[17:33:52] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[17:33:52] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[17:40:03] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[17:40:03] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[17:46:54] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[17:46:54] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[17:57:56] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[17:57:56] [Server thread/INFO]: miemiesheep left the game
+[17:59:56] [Server thread/INFO]: HTChen lost connection: Disconnected
+[17:59:56] [Server thread/INFO]: HTChen left the game
+[18:05:39] [Server thread/INFO]: Stopping the server
+[18:05:39] [Server thread/INFO]: Stopping server
+[18:05:39] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
+[18:05:39] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[18:05:39] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
+[18:05:39] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
+[18:05:39] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] ¤wÀx¦s¤w³sµ²±b¸¹¡A¯Ó®É5ms
+[18:05:39] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] ¦øªA¾¹¤wÃö³¬¡A¯Ó®É899ms
+[18:05:39] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
+[18:05:39] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.47
+[18:05:39] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:05:39] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:05:40] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:05:40] [Server thread/INFO]: Saving players
+[18:05:40] [Server thread/INFO]: Saving worlds
+[18:05:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
+[18:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
+[18:05:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:05:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:05:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:05:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
+[18:05:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:05:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
