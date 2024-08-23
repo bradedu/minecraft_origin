@@ -585,6 +585,7 @@
       "minecraft:cow": "2017-07-19 01:01:23 +0800",
       "minecraft:camel": "2023-08-03 14:29:46 +0800",
       "minecraft:chicken": "2017-07-19 00:32:35 +0800",
+      "minecraft:armadillo": "2024-08-23 23:31:38 +0800",
       "minecraft:wolf": "2017-08-05 17:48:58 +0800",
       "minecraft:panda": "2023-04-29 23:44:21 +0800",
       "minecraft:horse": "2018-09-23 21:57:37 +0800",
@@ -2598,12 +2599,6 @@
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2018-08-25 09:55:26 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/turtle_helmet": {
-    "criteria": {
-      "has_scute": "2018-08-26 18:58:33 +0800"
     },
     "done": true
   },
@@ -6193,5 +6188,35 @@
     },
     "done": true
   },
-  "DataVersion": 3463
+  "minecraft:recipes/redstone/copper_door": {
+    "criteria": {
+      "has_copper_ingot": "2024-08-17 22:13:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_trapdoor": {
+    "criteria": {
+      "has_copper_ingot": "2024-08-17 22:13:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2024-08-17 22:36:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wolf_armor": {
+    "criteria": {
+      "has_armadillo_scute": "2024-08-18 17:34:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/brush_armadillo": {
+    "criteria": {
+      "brush_armadillo": "2024-08-18 17:34:49 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
 }

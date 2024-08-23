@@ -1,59 +1,40 @@
-[00:15:33] [User Authenticator #2/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
-[00:15:33] [Server thread/INFO]: miemiesheep joined the game
-[00:15:34] [Server thread/INFO]: miemiesheep[/123.193.155.173:63556] logged in with entity id 37100 at ([world]-1001.2913374175575, 69.0, 307.1525090023603)
-[00:18:33] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
-[00:18:33] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
-[00:20:13] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
-[00:20:13] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
-[00:20:13] [Server thread/WARN]: miemiesheep moved too quickly! 40.64764808077837,-25.276341273878018,233.80695973749312
-[00:39:01] [Server thread/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;3247,-49,12305],type:"minecraft:block"}}]
-[00:39:01] [Server thread/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;3244,-53,12306],type:"minecraft:block"}}]
-[00:39:04] [Server thread/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;3286,-52,12344],type:"minecraft:block"}}]
-[00:39:09] [Server thread/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;3370,-49,12347],type:"minecraft:block"}}]
-[00:39:09] [Server thread/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;3375,-48,12337],type:"minecraft:block"}}]
-[00:39:09] [Server thread/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;3365,-49,12346],type:"minecraft:block"}}]
-[00:39:09] [Server thread/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;3367,-50,12339],type:"minecraft:block"}}]
-[00:39:09] [Server thread/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;3365,-50,12342],type:"minecraft:block"}}]
-[00:39:09] [Server thread/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;3368,-50,12340],type:"minecraft:block"}}]
-[00:39:09] [Server thread/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;3370,-50,12339],type:"minecraft:block"}}]
-[00:39:09] [Server thread/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;3371,-49,12349],type:"minecraft:block"}}]
-[00:39:09] [Server thread/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;3370,-50,12350],type:"minecraft:block"}}]
-[00:39:16] [Server thread/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;3532,-49,12401],type:"minecraft:block"}}]
-[00:39:17] [Server thread/INFO]: HTChen has completed the challenge [With Our Powers Combined!]
-[00:39:20] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
-[00:39:20] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
-[00:39:53] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
-[00:39:53] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
-[00:40:05] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
-[00:40:05] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
-[00:48:05] [Server thread/WARN]: HTChen moved wrongly!
-[01:02:43] [Server thread/INFO]: HTChen lost connection: Disconnected
-[01:02:43] [Server thread/INFO]: HTChen left the game
-[01:02:46] [Server thread/INFO]: miemiesheep lost connection: Disconnected
-[01:02:46] [Server thread/INFO]: miemiesheep left the game
-[01:12:13] [Server thread/INFO]: Stopping the server
-[01:12:13] [Server thread/INFO]: Stopping server
-[01:12:13] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
-[01:12:13] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[01:12:13] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
-[01:12:13] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
-[01:12:13] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] §w¿x¶s§w≥sµ≤±b∏π°AØ”Æ…6ms
-[01:12:13] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] ¶¯™Aæπ§w√ˆ≥¨°AØ”Æ…673ms
-[01:12:13] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
-[01:12:13] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.47
-[01:12:13] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[01:12:13] [Server thread/INFO]: [LuckPerms] Closing storage...
-[01:12:14] [Server thread/INFO]: [LuckPerms] Goodbye!
-[01:12:14] [Server thread/INFO]: Saving players
-[01:12:14] [Server thread/INFO]: Saving worlds
-[01:12:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:12:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:12:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:12:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
-[01:12:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
-[01:12:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:12:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:12:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:12:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
-[01:12:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:12:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:03:32] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[01:03:32] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[01:03:39] [Server thread/INFO]: miemiesheep issued server command: /tp -26 66 107
+[01:03:39] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -25.500000, 66.000000, 107.500000]
+[01:04:38] [Server thread/INFO]: miemiesheep issued server command: /tp -888 65 225
+[01:04:38] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to -887.500000, 65.000000, 225.500000]
+[01:04:38] [Server thread/WARN]: miemiesheep moved too quickly! -882.8689435546219,-3.0,139.26457491700128
+[01:04:38] [Server thread/WARN]: miemiesheep moved too quickly! -882.8689435546219,-3.0,139.26457491700128
+[01:04:38] [Server thread/WARN]: miemiesheep moved too quickly! -882.8689435546219,-3.0,139.26457491700128
+[01:04:38] [Server thread/WARN]: miemiesheep moved too quickly! -882.8689435546219,-3.0,139.26457491700128
+[01:14:27] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[01:14:27] [Server thread/INFO]: miemiesheep left the game
+[01:14:41] [Server thread/INFO]: Stopping the server
+[01:14:41] [Server thread/INFO]: Stopping server
+[01:14:41] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
+[01:14:41] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[01:14:41] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
+[01:14:41] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
+[01:14:41] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Â∑≤ÂÑ≤Â≠òÂ∑≤ÈÄ£ÁµêÂ∏≥ËôüÔºåËÄóÊôÇ28ms
+[01:14:41] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] ‰º∫ÊúçÂô®Â∑≤ÈóúÈñâÔºåËÄóÊôÇ626ms
+[01:14:41] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
+[01:14:41] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.47
+[01:14:41] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[01:14:41] [Server thread/INFO]: [LuckPerms] Closing storage...
+[01:14:42] [Server thread/INFO]: [LuckPerms] Goodbye!
+[01:14:42] [Server thread/INFO]: Saving players
+[01:14:42] [Server thread/INFO]: HTChen lost connection: Server closed
+[01:14:42] [Server thread/INFO]: HTChen left the game.
+[01:14:42] [Server thread/INFO]: Saving worlds
+[01:14:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:14:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:14:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:14:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
+[01:14:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
+[01:14:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:14:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:14:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:14:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
+[01:14:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:14:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
