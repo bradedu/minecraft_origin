@@ -1,6 +1,710 @@
-[00:19:40] [Server thread/INFO]: HTChen lost connection: Disconnected
-[00:19:40] [Server thread/INFO]: HTChen left the game
-[03:00:32] [pool-11-thread-1/WARN]: [DiscordSRV] 
+[00:04:50] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:232) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:47) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:43) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:365) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.a(Container.java:332) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.d(Container.java:269) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2946) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1319) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:210) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1298) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1291) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:147) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1248) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.x_(MinecraftServer.java:1258) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1101) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 29 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[00:04:50] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:232) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:47) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:43) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:365) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.a(Container.java:332) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.d(Container.java:269) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2946) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1319) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:210) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1298) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1291) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:147) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1248) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.x_(MinecraftServer.java:1258) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1101) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 29 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[00:04:50] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:232) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:47) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:43) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:365) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.a(Container.java:332) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.d(Container.java:269) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2946) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1319) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:210) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1298) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1291) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:147) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1248) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.x_(MinecraftServer.java:1258) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1101) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 29 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[00:04:50] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:232) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:47) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:43) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:365) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.a(Container.java:332) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.d(Container.java:269) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2946) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1319) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:210) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1298) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1291) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:147) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1248) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.x_(MinecraftServer.java:1258) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1101) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 29 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[00:04:50] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:232) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:47) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:43) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:365) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.a(Container.java:332) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.d(Container.java:269) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2946) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1319) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:210) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1298) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1291) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:147) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1248) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.x_(MinecraftServer.java:1258) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1101) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 29 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[00:04:50] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:232) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:47) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:43) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:365) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.a(Container.java:332) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.d(Container.java:269) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2946) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1319) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:210) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1298) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1291) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:147) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1248) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.x_(MinecraftServer.java:1258) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1101) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 29 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[00:04:50] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:232) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:47) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:43) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:365) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.a(Container.java:332) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.d(Container.java:269) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2946) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1319) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:210) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1298) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1291) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:147) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1248) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.x_(MinecraftServer.java:1258) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1101) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 29 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[00:04:50] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:232) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:47) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:43) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:365) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.a(Container.java:332) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.d(Container.java:269) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2946) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1319) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:210) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1298) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1291) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:147) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1248) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.x_(MinecraftServer.java:1258) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1101) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 29 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[00:04:50] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:232) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:47) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:43) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:365) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.a(Container.java:332) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.d(Container.java:269) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2946) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1319) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:210) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1298) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1291) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:147) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1248) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.x_(MinecraftServer.java:1258) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1101) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 29 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[00:11:37] [Server thread/INFO]: HTChen issued server command: /gamemode spectator
+[00:11:37] [Server thread/INFO]: [HTChen: Set own game mode to Spectator Mode]
+[00:13:00] [Server thread/INFO]: miemiesheep issued server command: /data get storage reward_player
+[00:13:59] [Server thread/INFO]: HTChen issued server command: /gamemode survival
+[00:13:59] [Server thread/INFO]: [HTChen: Set own game mode to Survival Mode]
+[00:15:28] [Server thread/INFO]: miemiesheep issued server command: /data get block -3780 -16 -2054
+[00:15:43] [Server thread/INFO]: miemiesheep issued server command: /data get block -3780 -16 -2054 rewarded_player
+[00:16:35] [Server thread/INFO]: miemiesheep issued server command: /data get block -3780 -16 -2054 server_data.rewarded_player
+[00:16:50] [Server thread/INFO]: miemiesheep issued server command: /data get block -3780 -16 -2054 server_data.rewarded_player get value
+[00:17:25] [Server thread/INFO]: miemiesheep issued server command: /data get block -3780 -16 -2054 server_data.rewarded_players
+[00:18:32] [Server thread/INFO]: miemiesheep issued server command: /data modify block -3780 -16 -2054 server_data.rewarded_players set value []
+[00:18:32] [Server thread/INFO]: [miemiesheep: Modified block data of -3780, -16, -2054]
+[00:19:20] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:232) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:47) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:43) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:365) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.a(Container.java:332) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.d(Container.java:269) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer.a(EntityPlayer.java:1579) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.item.EntityItem.a_(EntityItem.java:494) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.player.EntityHuman.d(EntityHuman.java:650) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.player.EntityHuman.d_(EntityHuman.java:614) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.EntityLiving.h(EntityLiving.java:3149) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.player.EntityHuman.h(EntityHuman.java:286) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer.i(EntityPlayer.java:980) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.d(PlayerConnection.java:355) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.NetworkManager.b(NetworkManager.java:436) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:181) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 28 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[00:19:20] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:232) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:47) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:43) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:365) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.a(Container.java:332) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.inventory.Container.d(Container.java:269) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer.a(EntityPlayer.java:1579) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.item.EntityItem.a_(EntityItem.java:494) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.player.EntityHuman.d(EntityHuman.java:650) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.player.EntityHuman.d_(EntityHuman.java:614) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.EntityLiving.h(EntityLiving.java:3149) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.player.EntityHuman.h(EntityHuman.java:286) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer.i(EntityPlayer.java:980) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.d(PlayerConnection.java:355) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.NetworkManager.b(NetworkManager.java:436) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:181) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 28 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[00:19:43] [Server thread/INFO]: miemiesheep issued server command: /data modify block -3780 -16 -2054 server_data.rewarded_players set value []
+[00:19:43] [Server thread/INFO]: [miemiesheep: Modified block data of -3780, -16, -2054]
+[00:20:41] [Server thread/INFO]: miemiesheep issued server command: /data modify block -3780 -16 -2054 server_data.rewarded_players set value []
+[00:20:41] [Server thread/INFO]: [miemiesheep: Modified block data of -3780, -16, -2054]
+[00:34:04] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[00:34:04] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[00:35:22] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[00:35:22] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[00:40:20] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_21_R3.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:947) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer.a(EntityPlayer.java:1173) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.EntityLiving.a(EntityLiving.java:1533) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.player.EntityHuman.a(EntityHuman.java:942) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer.a(EntityPlayer.java:1323) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.Entity.b(Entity.java:2004) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.projectile.EntityArrow.a(EntityArrow.java:482) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.projectile.IProjectile.a(IProjectile.java:316) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.projectile.IProjectile.b(IProjectile.java:281) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.projectile.IProjectile.preHitTargetOrDeflectSelf(IProjectile.java:249) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.projectile.EntityArrow.b(EntityArrow.java:319) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.projectile.EntityArrow.h(EntityArrow.java:278) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.projectile.EntityTippedArrow.h(EntityTippedArrow.java:76) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.level.World.a(World.java:687) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.WorldServer.lambda$tick$2(WorldServer.java:448) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.level.entity.EntityTickList.a(SourceFile:54) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:430) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1549) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerDeathListener.onPlayerDeath(PlayerDeathListener.java:57) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 26 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[00:40:20] [Server thread/INFO]: HTChen was shot by Stray
+[00:40:49] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_21_R3.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:947) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer.a(EntityPlayer.java:1173) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.EntityLiving.a(EntityLiving.java:1533) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.player.EntityHuman.a(EntityHuman.java:942) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer.a(EntityPlayer.java:1323) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.Entity.b(Entity.java:2004) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.projectile.EntityArrow.a(EntityArrow.java:482) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.projectile.IProjectile.a(IProjectile.java:316) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.projectile.IProjectile.b(IProjectile.java:281) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.projectile.IProjectile.preHitTargetOrDeflectSelf(IProjectile.java:249) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.projectile.EntityArrow.b(EntityArrow.java:319) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.projectile.EntityArrow.h(EntityArrow.java:278) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.projectile.EntityTippedArrow.h(EntityTippedArrow.java:76) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.level.World.a(World.java:687) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.WorldServer.lambda$tick$2(WorldServer.java:448) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.level.entity.EntityTickList.a(SourceFile:54) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:430) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1549) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerDeathListener.onPlayerDeath(PlayerDeathListener.java:57) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 26 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[00:40:49] [Server thread/INFO]: HTChen was shot by Stray
+[00:41:36] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_21_R3.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:947) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer.a(EntityPlayer.java:1173) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.EntityLiving.a(EntityLiving.java:1533) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.player.EntityHuman.a(EntityHuman.java:942) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.EntityPlayer.a(EntityPlayer.java:1323) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.EntityInsentient.c(EntityInsentient.java:1653) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.ai.goal.PathfinderGoalMeleeAttack.a(SourceFile:151) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.ai.goal.PathfinderGoalMeleeAttack.a(SourceFile:144) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.ai.goal.PathfinderGoalWrapped.a(SourceFile:65) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.ai.goal.PathfinderGoalSelector.a(SourceFile:108) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.EntityInsentient.fu(EntityInsentient.java:903) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.EntityLiving.d_(EntityLiving.java:3458) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.EntityInsentient.d_(EntityInsentient.java:669) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.monster.EntityMonster.d_(SourceFile:45) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.EntityLiving.h(EntityLiving.java:3149) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.EntityInsentient.h(EntityInsentient.java:426) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.entity.monster.EntitySilverfish.h(EntitySilverfish.java:105) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:877) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.level.World.a(World.java:687) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.WorldServer.lambda$tick$2(WorldServer.java:448) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.level.entity.EntityTickList.a(SourceFile:54) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.WorldServer.a(WorldServer.java:430) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1549) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerDeathListener.onPlayerDeath(PlayerDeathListener.java:57) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 30 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[00:41:36] [Server thread/INFO]: HTChen was slain by Silverfish
+[00:44:17] [Server thread/INFO]: miemiesheep issued server command: /data modify block -3780 -16 -2054 server_data.rewarded_players set value []
+[00:44:17] [Server thread/INFO]: [miemiesheep: Modified block data of -3780, -16, -2054]
+[00:44:39] [Server thread/INFO]: miemiesheep issued server command: /data modify block -3780 -16 -2054 server_data.rewarded_players set value []
+[00:44:39] [Server thread/INFO]: [miemiesheep: Modified block data of -3780, -16, -2054]
+[00:46:22] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:232) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.advancements.critereon.ItemUsedOnLocationTrigger.a(SourceFile:42) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.item.ItemAxe.a(SourceFile:79) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.world.item.ItemStack.a(ItemStack.java:439) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.level.PlayerInteractManager.a(PlayerInteractManager.java:574) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1659) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInUseItem.a(PacketPlayInUseItem.java:44) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.game.PacketPlayInUseItem.a(PacketPlayInUseItem.java:11) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1319) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:210) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1298) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1291) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:147) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1248) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.x_(MinecraftServer.java:1258) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1101) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 28 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[00:46:22] [Server thread/INFO]: miemiesheep has made the advancement [Wax Off]
+[01:01:13] [Server thread/INFO]: miemiesheep issued server command: /data modify block -3785 -15 -2141 server_data.rewarded_players set value []
+[01:01:13] [Server thread/INFO]: [miemiesheep: Modified block data of -3785, -15, -2141]
+[01:02:29] [Server thread/INFO]: miemiesheep issued server command: /data modify block -3785 -15 -2141 server_data.rewarded_players set value []
+[01:02:29] [Server thread/INFO]: [miemiesheep: Modified block data of -3785, -15, -2141]
+[01:02:48] [Server thread/INFO]: miemiesheep issued server command: /data modify block -3785 -15 -2141 server_data.rewarded_players set value []
+[01:02:48] [Server thread/INFO]: [miemiesheep: Modified block data of -3785, -15, -2141]
+[01:03:09] [Server thread/INFO]: miemiesheep issued server command: /data modify block -3785 -15 -2141 server_data.rewarded_players set value []
+[01:03:09] [Server thread/INFO]: [miemiesheep: Modified block data of -3785, -15, -2141]
+[01:05:20] [Server thread/INFO]: miemiesheep issued server command: /data modify block -3785 -15 -2141 server_data.rewarded_players set value []
+[01:05:20] [Server thread/INFO]: [miemiesheep: Modified block data of -3785, -15, -2141]
+[01:06:40] [Server thread/INFO]: miemiesheep issued server command: /give miemiesheep minecraft:milk_bucket
+[01:06:40] [Server thread/INFO]: [miemiesheep: Gave 1 [Milk Bucket] to miemiesheep]
+[01:34:20] [Server thread/INFO]: HTChen lost connection: Disconnected
+[01:34:20] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:466) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.PlayerQuitEvent(PlayerJoinLeaveListener.java:109) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[01:34:20] [Server thread/INFO]: HTChen left the game
+[01:34:37] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[01:34:37] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:466) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.PlayerQuitEvent(PlayerJoinLeaveListener.java:109) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[01:34:37] [Server thread/INFO]: miemiesheep left the game
+[01:35:37] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[04:30:08] [pool-194-thread-1/WARN]: [DiscordSRV] 
 
 The current build of DiscordSRV is outdated by 505 commits! Get the latest build at your favorite distribution center.
 
@@ -8,7 +712,7 @@ Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
 Github: https://github.com/DiscordSRV/DiscordSRV/releases
 Direct Download: https://get.discordsrv.com
 
-[09:00:33] [pool-11-thread-1/WARN]: [DiscordSRV] 
+[10:30:09] [pool-194-thread-1/WARN]: [DiscordSRV] 
 
 The current build of DiscordSRV is outdated by 505 commits! Get the latest build at your favorite distribution center.
 
@@ -16,31 +720,179 @@ Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
 Github: https://github.com/DiscordSRV/DiscordSRV/releases
 Direct Download: https://get.discordsrv.com
 
-[10:16:48] [Server thread/INFO]: Stopping the server
-[10:16:48] [Server thread/INFO]: Stopping server
-[10:16:48] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
-[10:16:48] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[10:16:48] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
-[10:16:48] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
-[10:16:48] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時35ms
-[10:16:49] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時716ms
-[10:16:49] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
-[10:16:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.47
-[10:16:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[10:16:49] [Server thread/INFO]: [LuckPerms] Closing storage...
-[10:16:49] [Server thread/INFO]: [LuckPerms] Goodbye!
-[10:16:49] [Server thread/INFO]: Saving players
-[10:16:49] [Server thread/INFO]: Saving worlds
-[10:16:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:16:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[10:16:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[10:16:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
-[10:16:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
-[10:16:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[map]'/minecraft:map
-[10:16:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:16:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:16:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:16:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
-[10:16:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:16:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (map): All chunks are saved
-[10:16:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:08:47] [User Authenticator #8/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[11:08:47] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:299) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.a(ServerConfigurationPacketListenerImpl.java:168) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(SourceFile:22) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(SourceFile:8) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1319) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:210) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1298) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1291) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:147) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1248) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.x_(MinecraftServer.java:1258) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1101) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.onPlayerJoin(PlayerJoinLeaveListener.java:69) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 22 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[11:08:47] [Server thread/INFO]: HTChen joined the game
+[11:08:47] [Server thread/INFO]: HTChen[/36.226.167.46:61782] logged in with entity id 120525 at ([world]-892.3418416290699, 65.0, 228.11583431320943)
+[11:16:38] [User Authenticator #9/INFO]: UUID of player miemiesheep is c11c193f-d692-49e9-8929-8ab41b0e7bbe
+[11:16:38] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:299) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.a(ServerConfigurationPacketListenerImpl.java:168) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(SourceFile:22) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(SourceFile:8) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1319) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:210) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1298) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1291) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:147) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1248) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.x_(MinecraftServer.java:1258) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1101) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.onPlayerJoin(PlayerJoinLeaveListener.java:69) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 22 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[11:16:38] [Server thread/INFO]: miemiesheep joined the game
+[11:16:38] [Server thread/INFO]: miemiesheep[/180.176.42.49:57980] logged in with entity id 128334 at ([world]-893.5791494360127, 65.0, 226.846259793505)
+[11:18:24] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[11:18:24] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[11:27:55] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[11:27:55] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[11:28:02] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[11:28:02] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[11:28:56] [Server thread/INFO]: miemiesheep issued server command: /tp HTChen
+[11:28:56] [Server thread/INFO]: [miemiesheep: Teleported miemiesheep to HTChen]
+[11:30:12] [Server thread/INFO]: miemiesheep issued server command: /gamemode spectator
+[11:30:12] [Server thread/INFO]: [miemiesheep: Set own game mode to Spectator Mode]
+[11:30:24] [Server thread/INFO]: miemiesheep issued server command: /gamemode creative
+[11:30:24] [Server thread/INFO]: [miemiesheep: Set own game mode to Creative Mode]
+[11:36:56] [Server thread/INFO]: miemiesheep issued server command: /gamemode survival
+[11:36:56] [Server thread/INFO]: [miemiesheep: Set own game mode to Survival Mode]
+[11:44:02] [Server thread/INFO]: HTChen lost connection: Disconnected
+[11:44:02] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:466) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.PlayerQuitEvent(PlayerJoinLeaveListener.java:109) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[11:44:02] [Server thread/INFO]: HTChen left the game
+[11:55:09] [Server thread/INFO]: miemiesheep lost connection: Disconnected
+[11:55:09] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:466) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1821) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1808) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.network.NetworkManager.n(NetworkManager.java:675) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:201) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1596) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:388) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1564) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1391) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1093) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[spigot-1.21.4-R0.1-SNAPSHOT.jar:4437-Spigot-d421948-29e1e9f]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.PlayerQuitEvent(PlayerJoinLeaveListener.java:109) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
+[11:55:09] [Server thread/INFO]: miemiesheep left the game
+[11:55:15] [Server thread/INFO]: Stopping the server
+[11:55:15] [Server thread/INFO]: Stopping server
+[11:55:15] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
+[11:55:15] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[11:55:15] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
+[11:55:15] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
+[11:55:15] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時10ms
+[11:55:15] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: null
+[11:55:15] [DiscordSRV - JDA Callback 0/ERROR]: [DiscordSRV] DiscordSRV encountered an unknown Discord error: -1: java.io.InterruptedIOException
+[11:55:15] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時621ms
+[11:55:15] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
+[11:55:15] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.154
+[11:55:15] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[11:55:15] [Server thread/INFO]: [LuckPerms] Closing storage...
+[11:55:15] [Server thread/INFO]: [LuckPerms] Goodbye!
+[11:55:15] [Server thread/INFO]: Saving players
+[11:55:15] [Server thread/INFO]: Saving worlds
+[11:55:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:55:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:55:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:55:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
+[11:55:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
+[11:55:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[map]'/minecraft:map
+[11:55:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:55:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:55:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:55:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
+[11:55:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:55:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (map): All chunks are saved
+[11:55:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
