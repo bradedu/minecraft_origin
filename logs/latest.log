@@ -1,192 +1,270 @@
-[16:17:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:17:48] [ServerMain/ERROR]: Failed to start the minecraft server
-java.io.IOException: 程序無法存取檔案，因為另一個程序已鎖定檔案的一部分。
-	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
-	at java.base/sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:75) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:81) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
-	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:303) ~[?:?]
-	at net.minecraft.util.SessionLock.a(SourceFile:37) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.level.storage.Convertable$ConversionSession.<init>(Convertable.java:419) ~[spigot-1.21.7-R[16:19:27] [User Authenticator #2/INFO]: UUID of player plumage29 is f752a604-eb4d-49ed-a1af-aaa2a3d1d880
-[16:19:27] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / minecraft:shulker_box_coloring] removed now.
-[16:19:27] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to DiscordSRV v1.25.1
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:297) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.a(ServerConfigurationPacketListenerImpl.java:171) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(SourceFile:22) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(SourceFile:8) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1292) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:208) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1275) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1268) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:147) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1225) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.w_(MinecraftServer.java:1235) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1078) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:327) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
-Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
-	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.onPlayerJoin(PlayerJoinLeaveListener.java:69) ~[?:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	... 22 more
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
-	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
-	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
-[16:19:27] [Server thread/INFO]: plumage29 joined the game
-[16:19:27] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:190) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:45) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:41) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:403) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.inventory.Container.a(Container.java:328) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.inventory.Container.d(Container.java:274) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.inventory.Container.a(Container.java:204) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.level.EntityPlayer.a(EntityPlayer.java:780) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.level.EntityPlayer.c(EntityPlayer.java:786) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:348) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.a(ServerConfigurationPacketListenerImpl.java:171) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(SourceFile:22) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(SourceFile:8) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1292) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:208) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1275) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1268) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:147) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1225) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.w_(MinecraftServer.java:1235) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1078) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:327) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
-Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
-	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	... 33 more
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
-	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
-	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
-[16:19:27] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:190) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:45) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:41) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:403) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.inventory.Container.a(Container.java:328) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.inventory.Container.d(Container.java:274) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.inventory.Container.a(Container.java:204) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.level.EntityPlayer.a(EntityPlayer.java:780) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.level.EntityPlayer.c(EntityPlayer.java:786) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:348) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.a(ServerConfigurationPacketListenerImpl.java:171) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(SourceFile:22) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(SourceFile:8) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1292) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:208) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1275) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1268) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:147) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1225) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.w_(MinecraftServer.java:1235) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1078) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:327) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
-Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
-	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	... 33 more
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
-	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
-	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
-[16:19:27] [Server thread/INFO]: plumage29[/125.228.54.189:57845] logged in with entity id 2420 at ([world]-916.4371929202811, 66.0, 181.54104714287084)
-[16:23:13] [Server thread/INFO]: plumage29 issued server command: /gamemode adventure
-[16:23:22] [Server thread/INFO]: plumage29 issued server command: /gamemode adventure
-[16:23:33] [Server thread/INFO]: plumage29 issued server command: /gamemode creative
-[16:23:33] [Server thread/INFO]: [plumage29: Set own game mode to Creative Mode]
-[16:24:32] [Server thread/INFO]: plumage29 issued server command: /gamemode spectator
-[16:24:32] [Server thread/INFO]: [plumage29: Set own game mode to Spectator Mode]
-[16:24:35] [Server thread/INFO]: plumage29 issued server command: /gamemode
-[16:24:39] [Server thread/INFO]: plumage29 issued server command: /gamemode survival
-[16:24:39] [Server thread/INFO]: [plumage29: Set own game mode to Survival Mode]
-[16:26:24] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:190) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.advancements.critereon.CriterionTriggerEnterBlock.a(SourceFile:23) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.level.EntityPlayer.a(EntityPlayer.java:803) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.entity.Entity.lambda$checkInsideBlocks$0(Entity.java:1478) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.level.IBlockAccess.a(IBlockAccess.java:187) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.entity.Entity.a(Entity.java:1459) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.entity.Entity.a(Entity.java:1443) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.entity.Entity.b(Entity.java:1120) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.entity.Entity.aL(Entity.java:1077) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.entity.EntityLiving.e_(EntityLiving.java:3587) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.entity.player.EntityHuman.e_(EntityHuman.java:581) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.entity.EntityLiving.g(EntityLiving.java:3278) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.entity.player.EntityHuman.g(EntityHuman.java:308) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.level.EntityPlayer.h(EntityPlayer.java:892) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.network.PlayerConnection.d(PlayerConnection.java:372) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.network.NetworkManager.b(NetworkManager.java:424) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:172) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1563) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:373) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1534) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1364) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1070) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:327) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
-Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
-	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	... 29 more
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
-	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
-	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
-[18:44:38] [pool-9-thread-1/WARN]: [DiscordSRV] 
+[17:40:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[17:40:59] [ServerMain/INFO]: Loaded 1470 recipes
+[17:41:01] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[17:41:01] [Server thread/INFO]: Loading properties
+[17:41:01] [Server thread/INFO]: This server is running CraftBukkit version 4583-Spigot-66411b9-ecdf5f6 (MC: 1.21.11) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[17:41:01] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[17:41:01] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[17:41:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:41:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:41:01] [Server thread/INFO]: Debug logging is disabled
+[17:41:01] [Server thread/INFO]: Default game type: SURVIVAL
+[17:41:01] [Server thread/INFO]: Generating keypair
+[17:41:01] [Server thread/INFO]: Starting Minecraft server on *:25566
+[17:41:02] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.154
+[17:41:03] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.2.2-b812
+[17:41:03] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.25.1
+[17:41:03] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v4.2.1-b834
+[17:41:03] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v4.2.1-b786
+[17:41:03] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.154
+[17:41:03] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[17:41:03] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.154[m
+[17:41:03] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[17:41:03] [Server thread/INFO]: [m
+[17:41:03] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:41:04] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:41:04] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:41:04] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:41:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 931ms)
+[17:41:04] [Server thread/INFO]: Preparing level "world"
+[17:41:04] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:41:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:41:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:41:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:41:04] [Server thread/INFO]: Simulation Distance: 10
+[17:41:04] [Server thread/INFO]: View Distance: 10
+[17:41:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:41:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:41:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:41:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:41:04] [Server thread/INFO]: Mob Spawn Range: 6
+[17:41:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:41:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:41:04] [Server thread/INFO]: Max TNT Explosions: 100
+[17:41:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:41:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:41:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:41:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:41:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:41:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:41:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:41:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:41:05] [Server thread/INFO]: Simulation Distance: 10
+[17:41:05] [Server thread/INFO]: View Distance: 10
+[17:41:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:41:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:41:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:41:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:41:05] [Server thread/INFO]: Mob Spawn Range: 6
+[17:41:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:41:05] [Server thread/INFO]: Max TNT Explosions: 100
+[17:41:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:41:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:41:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:41:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:41:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:41:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:41:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:41:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:41:05] [Server thread/INFO]: Simulation Distance: 10
+[17:41:05] [Server thread/INFO]: View Distance: 10
+[17:41:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:41:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:41:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:41:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:41:05] [Server thread/INFO]: Mob Spawn Range: 6
+[17:41:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:41:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:41:05] [Server thread/INFO]: Max TNT Explosions: 100
+[17:41:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:41:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:41:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:41:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:41:05] [Server thread/INFO]: Loading 50 persistent chunks...
+[17:41:05] [Server thread/INFO]: Preparing spawn area: 16%
+[17:41:05] [Server thread/INFO]: Preparing spawn area: 16%
+[17:41:06] [Server thread/INFO]: Preparing spawn area: 16%
+[17:41:07] [Server thread/INFO]: Time elapsed: 1593 ms
+[17:41:07] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.2.2-b812
+[17:41:07] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.2.2-b812" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[17:41:07] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[17:41:07] [Server thread/INFO]: -------- World Settings For [res] --------
+[17:41:07] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:41:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:41:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:41:07] [Server thread/INFO]: Simulation Distance: 10
+[17:41:07] [Server thread/INFO]: View Distance: 10
+[17:41:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:41:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:41:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:41:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:41:07] [Server thread/INFO]: Mob Spawn Range: 6
+[17:41:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:41:07] [Server thread/INFO]: Max TNT Explosions: 100
+[17:41:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:41:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:41:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:41:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:41:07] [Server thread/INFO]: -------- World Settings For [res_nether] --------
+[17:41:07] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:41:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:41:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:41:07] [Server thread/INFO]: Simulation Distance: 10
+[17:41:07] [Server thread/INFO]: View Distance: 10
+[17:41:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:41:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:41:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:41:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:41:07] [Server thread/INFO]: Mob Spawn Range: 6
+[17:41:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:41:07] [Server thread/INFO]: Max TNT Explosions: 100
+[17:41:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:41:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:41:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:41:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:41:07] [Server thread/INFO]: -------- World Settings For [map] --------
+[17:41:07] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:41:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:41:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:41:07] [Server thread/INFO]: Simulation Distance: 10
+[17:41:07] [Server thread/INFO]: View Distance: 10
+[17:41:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:41:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:41:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:41:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:41:07] [Server thread/INFO]: Mob Spawn Range: 6
+[17:41:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:41:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:41:07] [Server thread/INFO]: Max TNT Explosions: 100
+[17:41:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:41:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:41:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:41:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:41:07] [Server thread/INFO]: [Multiverse-Core] 6 - World(s) loaded.
+[17:41:07] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled!
+[17:41:07] [Server thread/INFO]: [Multiverse-Core] Version 4.2.2-b812 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[17:41:07] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.25.1
+[17:41:07] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.1-b834
+[17:41:07] [Server thread/INFO]: [Multiverse-Portals] 6 - Portals(s) loaded
+[17:41:07] [Server thread/INFO]: [Multiverse-Portals 4.2.1-b834]  Enabled - By Rigby and fernferret
+[17:41:07] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v4.2.1-b786
+[17:41:07] [Server thread/INFO]: [Multiverse-NetherPortals 4.2.1-b786]  Enabled - By Rigby and fernferret
+[17:41:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:41:07] [Server thread/INFO]: Done (3.043s)! For help, type "help"
+[17:41:08] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[17:41:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[17:41:09] [pool-9-thread-1/WARN]: [DiscordSRV] 
 
 The current build of DiscordSRV is outdated by 558 commits! Get the latest build at your favorite distribution center.
 
@@ -194,276 +272,494 @@ Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
 Github: https://github.com/DiscordSRV/DiscordSRV/releases
 Direct Download: https://get.discordsrv.com
 
-[20:17:29] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[20:17:37] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[20:17:45] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[20:17:53] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[20:22:15] [Server thread/INFO]: [Not Secure] [Server] HI
-[21:16:08] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:190) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.advancements.critereon.CriterionTriggerAbstract.a(SourceFile:71) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:45) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.advancements.critereon.CriterionTriggerInventoryChanged.a(SourceFile:41) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:403) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.inventory.Container.a(Container.java:328) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.world.inventory.Container.d(Container.java:274) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:3048) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:54) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:35) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:164) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1292) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:208) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandler.B(SourceFile:138) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.bv(MinecraftServer.java:1275) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.B(MinecraftServer.java:1268) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.util.thread.IAsyncTaskHandler.bA(SourceFile:123) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.w_(MinecraftServer.java:1231) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1078) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:327) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+[17:41:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[17:41:10] [DiscordSRV - Presence Updater/WARN]: Exception in thread "DiscordSRV - Presence Updater" java.lang.ExceptionInInitializerError
+[17:41:10] [DiscordSRV - Presence Updater/WARN]: 	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79)
+[17:41:10] [DiscordSRV - Presence Updater/WARN]: Caused by: java.lang.NullPointerException: Cannot read the array length because "<local0>" is null
+[17:41:10] [DiscordSRV - Presence Updater/WARN]: 	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81)
+[17:41:10] [DiscordSRV - Presence Updater/WARN]: 	... 1 more
+[17:41:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 已找到伺服器 G:原味(783244318986731530)
+[17:41:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:一般(783244318986731532)
+[17:41:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:剪輯與精選(783244318986731533)
+[17:41:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:伺服器_版本1_21_11(783247490265907241)
+[17:41:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:server_log(1007556913166303293)
+[17:41:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:server_control(1007589908308824086)
+[17:41:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 控制台轉送已指派至頻道 TC:server_log(1007556913166303293)
+[17:41:10] [DiscordSRV - Initialization/WARN]: [DiscordSRV] 這個控制台頻道已指派給聊天用頻道。 請確認設定中的頻道ID是否正確。
+[17:41:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 啟用鉤取 LuckPerms
+[17:41:10] [DiscordSRV - Channel Topic Updater/WARN]: Exception in thread "DiscordSRV - Channel Topic Updater" java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+[17:41:10] [DiscordSRV - Channel Topic Updater/WARN]: 	at github.scarsz.discordsrv.objects.threads.ChannelTopicUpdater.applyPlaceholders(ChannelTopicUpdater.java:77)
+[17:41:10] [DiscordSRV - Channel Topic Updater/WARN]: 	at github.scarsz.discordsrv.objects.threads.ChannelTopicUpdater.run(ChannelTopicUpdater.java:47)
+[17:41:10] [DiscordSRV - Channel Topic Updater/WARN]: Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+[17:41:10] [DiscordSRV - Channel Topic Updater/WARN]: 	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81)
+[17:41:10] [DiscordSRV - Channel Topic Updater/WARN]: 	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79)
+[17:42:07] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[17:43:17] [User Authenticator #1/INFO]: UUID of player HTChen is e2763138-08ab-4054-b2ac-ec06f7628869
+[17:43:17] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/chain' in progress file .\world\advancements\e2763138-08ab-4054-b2ac-ec06f7628869.json - it doesn't exist anymore?
+[17:43:19] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / minecraft:chain] removed now.
+[17:43:19] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588)
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:250)
+	at net.minecraft.server.network.config.PrepareSpawnTask$b.a(PrepareSpawnTask.java:241)
+	at net.minecraft.server.network.config.PrepareSpawnTask.a(PrepareSpawnTask.java:124)
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.a(ServerConfigurationPacketListenerImpl.java:204)
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(SourceFile:22)
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(SourceFile:8)
+	at net.minecraft.network.PacketProcessor$a.a(PacketProcessor.java:58)
+	at net.minecraft.network.PacketProcessor.b(PacketProcessor.java:42)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1454)
+	at net.minecraft.server.MinecraftServer.A(MinecraftServer.java:1122)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
-	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81) ~[?:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	... 28 more
-Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
-	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
-	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
-[21:50:12] [Server thread/INFO]: plumage29 lost connection: Disconnected
-[21:50:12] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to DiscordSRV v1.25.1
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:458) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.network.PlayerConnection.q(PlayerConnection.java:1949) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1936) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.network.NetworkManager.n(NetworkManager.java:663) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:192) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.G(MinecraftServer.java:1563) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.dedicated.DedicatedServer.G(DedicatedServer.java:373) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1534) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1364) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1070) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:327) ~[spigot-1.21.7-R0.1-SNAPSHOT.jar:4520-Spigot-6e79c50-d257c87]
-	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
-Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
-	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.PlayerQuitEvent(PlayerJoinLeaveListener.java:109) ~[?:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.onPlayerJoin(PlayerJoinLeaveListener.java:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306)
 	... 15 more
 Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
-	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81) ~[?:?]
-	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79) ~[?:?]
-[21:50:12] [Server thread/INFO]: plumage29 left the game
-[21:51:12] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[21:54:59] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[21:55:02] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[21:55:17] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
-[21:55:17] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
-[21:55:17] [Server thread/INFO]: [0;37;22m[0;33;22mAliases: [0;37;1mLists command aliases[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22mDiscordSRV: [0;37;1mAll commands for DiscordSRV[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22mLuckPerms: [0;37;1mAll commands for LuckPerms[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22mMultiverse-Core: [0;37;1mAll commands for Multiverse-Core[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22mMultiverse-NetherPortals: [0;37;1mAll commands for Multiverse-NetherPortals[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22mMultiverse-Portals: [0;37;1mAll commands for Multiverse-Portals[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/advancement: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/attribute: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/ban: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/bossbar: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/clear: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/clone: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/damage: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/data: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/datapack: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/debug: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/deop: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/dialog: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/discord: [0;37;1mDiscordSRV commands[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/effect: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/execute: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/experience: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/fill: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/fillbiome: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/forceload: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/function: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/give: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/help: [0;37;1mShows the help menu[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/item: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/jfr: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/kick: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/kill: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/list: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/locate: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/loot: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/luckperms: [0;37;1mManage permissions[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/me: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:reload: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/minecraft:version: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/msg: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mv: [0;37;1mGeneric Multiverse Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvanchors: [0;37;1mCreating and removing Anchors command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvcheck: [0;37;1mValidate your multiverse settings command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvclone: [0;37;1mWorld clone command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvconfig: [0;37;1mConfiguration command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvconfirm: [0;37;1mConfirms sensitive decisions like deleting a world.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvcoord: [0;37;1mDisplay World, Coordinates, Direction & Compression for a world.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvcreate: [0;37;1mWorld create command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvdebug: [0;37;1mTurns on debugging.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvdelete: [0;37;1mDelete world from server folders command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvenv: [0;37;1mTells the user all possible environment types.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvgamerule: [0;37;1mSets a gamerule.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvgamerules: [0;37;1mLists the gamerules[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvgenerators: [0;37;1mDisplays all found world generators.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvhelp: [0;37;1mDisplays the Multiverse Help.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvimport: [0;37;1mWorld import command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvinfo: [0;37;1mGets world info.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvlist: [0;37;1mPrint list of loaded Worlds[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvload: [0;37;1mLoads a world into Multiverse.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvmadd: [0;37;1mModify the settings of an existing world[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvmclear: [0;37;1mModify the settings of an existing world[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvmodify: [0;37;1mModify the settings of an existing world[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvmremove: [0;37;1mModify the settings of an existing world[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvmset: [0;37;1mModify the settings of an existing world[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvnp: [0;37;1mGeneric Multiverse-NetherPortals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvnpl: [0;37;1mGeneric Multiverse-NetherPortals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvnpli: [0;37;1mGeneric Multiverse-NetherPortals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvnplink: [0;37;1mGeneric Multiverse-NetherPortals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvnplist: [0;37;1mGeneric Multiverse-NetherPortals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvnps: [0;37;1mGeneric Multiverse-NetherPortals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvnpshow: [0;37;1mGeneric Multiverse-NetherPortals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvnpu: [0;37;1mGeneric Multiverse-NetherPortals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvnpunlink: [0;37;1mGeneric Multiverse-NetherPortals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvp: [0;37;1mGeneric Multiverse-Portals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvpc: [0;37;1mGeneric Multiverse-Portals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvpcreate: [0;37;1mGeneric Multiverse-Portals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvpl: [0;37;1mGeneric Multiverse-Portals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvplist: [0;37;1mGeneric Multiverse-Portals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvpm: [0;37;1mGeneric Multiverse-Portals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvpmodify: [0;37;1mGeneric Multiverse-Portals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvpms: [0;37;1mGeneric Multiverse-Portals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvpr: [0;37;1mGeneric Multiverse-Portals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvpremove: [0;37;1mGeneric Multiverse-Portals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvps: [0;37;1mGeneric Multiverse-Portals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvpselect: [0;37;1mGeneric Multiverse-Portals Command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvpurge: [0;37;1mPurge the targetted world of creatures.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvregen: [0;37;1mRegenerates a world Multiverse already knows about.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvreload: [0;37;1mReload Configuration files.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvremove: [0;37;1mRemove world from multiverse command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvscript: [0;37;1mRuns a script from the Multiverse scripts directory.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvsetspawn: [0;37;1mSet the spawn area for a particular world[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvsilent: [0;37;1mReduces startup messages[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvspawn: [0;37;1mTeleport to the spawn area[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvtp: [0;37;1mCommand to teleport between Worlds[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvunload: [0;37;1mWorld unload command[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvversion: [0;37;1mPrints out version info.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/mvwho: [0;37;1mDisplay online users per world.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/op: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/particle: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/perf: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/place: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/random: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/recipe: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/restart: [0;37;1mRestarts the server[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/return: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/ride: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/rotate: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/say: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/schedule: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/seed: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/spectate: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/spigot: [0;37;1mSpigot related commands[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/stop: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/stopsound: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/summon: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/tag: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/team: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/teammsg: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/teleport: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/tell: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/test: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/tick: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/time: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/timings: [0;37;1mManages Spigot Timings data to see performance of the server.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/title: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/tm: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/tp: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/transfer: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/w: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/waypoint: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/weather: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
-[21:55:17] [Server thread/INFO]: [0;37;1m[0;33;22m/xp: [0;37;1mA Mojang provided command.[m
-[21:55:44] [Server thread/INFO]: Stopping the server
-[21:55:44] [Server thread/INFO]: Stopping server
-[21:55:44] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
-[21:55:44] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[21:55:44] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
-[21:55:44] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
-[21:55:44] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時19ms
-[21:55:44] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: null
-[21:55:44] [DiscordSRV - JDA Callback 0/ERROR]: [DiscordSRV] DiscordSRV encountered an unknown Discord error: -1: java.io.InterruptedIOException
-[21:55:44] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: interrupted
-[21:55:44] [DiscordSRV - JDA Callback 0/ERROR]: [DiscordSRV] DiscordSRV encountered an unknown Discord error: -1: java.io.InterruptedIOException
-[21:55:44] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時661ms
-[21:55:44] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
-[21:55:44] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.154
-[21:55:44] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[21:55:44] [Server thread/INFO]: [LuckPerms] Closing storage...
-[21:55:45] [Server thread/INFO]: [LuckPerms] Goodbye!
-[21:55:45] [Server thread/INFO]: Saving players
-[21:55:45] [Server thread/INFO]: Saving worlds
-[21:55:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:55:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:55:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:55:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
-[21:55:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
-[21:55:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[map]'/minecraft:map
-[21:55:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:55:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:55:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:55:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
-[21:55:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:55:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (map): All chunks are saved
-[21:55:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81)
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79)
+[17:43:19] [Server thread/INFO]: HTChen joined the game
+[17:43:19] [Server thread/INFO]: HTChen[/118.160.19.128:54265] logged in with entity id 34 at ([world]-890.5727083589562, 65.0, 219.76249998807907)
+[17:53:07] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588)
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:189)
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21)
+	at net.minecraft.advancements.criterion.CriterionTriggerAbstract.a(SourceFile:71)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:45)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:41)
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:411)
+	at net.minecraft.world.inventory.Container.a(Container.java:326)
+	at net.minecraft.world.inventory.Container.d(Container.java:272)
+	at net.minecraft.server.level.EntityPlayer.a(EntityPlayer.java:1543)
+	at net.minecraft.world.entity.item.EntityItem.a_(EntityItem.java:443)
+	at net.minecraft.world.entity.player.EntityHuman.d(EntityHuman.java:517)
+	at net.minecraft.world.entity.player.EntityHuman.d_(EntityHuman.java:498)
+	at net.minecraft.world.entity.EntityLiving.g(EntityLiving.java:3379)
+	at net.minecraft.world.entity.player.EntityHuman.g(EntityHuman.java:276)
+	at net.minecraft.server.level.EntityPlayer.h(EntityPlayer.java:810)
+	at net.minecraft.server.network.PlayerConnection.t(PlayerConnection.java:393)
+	at net.minecraft.server.network.PlayerConnection.d(PlayerConnection.java:375)
+	at net.minecraft.network.NetworkManager.b(NetworkManager.java:400)
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:149)
+	at net.minecraft.server.MinecraftServer.K(MinecraftServer.java:1647)
+	at net.minecraft.server.dedicated.DedicatedServer.K(DedicatedServer.java:567)
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1607)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1421)
+	at net.minecraft.server.dedicated.DedicatedServer.a(DedicatedServer.java:429)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1456)
+	at net.minecraft.server.MinecraftServer.A(MinecraftServer.java:1122)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306)
+	... 31 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81)
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79)
+[17:55:31] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588)
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:189)
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21)
+	at net.minecraft.advancements.criterion.CriterionTriggerAbstract.a(SourceFile:71)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:45)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:41)
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:411)
+	at net.minecraft.world.inventory.Container.a(Container.java:326)
+	at net.minecraft.world.inventory.Container.d(Container.java:272)
+	at net.minecraft.server.level.EntityPlayer.a(EntityPlayer.java:1543)
+	at net.minecraft.world.entity.item.EntityItem.a_(EntityItem.java:443)
+	at net.minecraft.world.entity.player.EntityHuman.d(EntityHuman.java:517)
+	at net.minecraft.world.entity.player.EntityHuman.d_(EntityHuman.java:498)
+	at net.minecraft.world.entity.EntityLiving.g(EntityLiving.java:3379)
+	at net.minecraft.world.entity.player.EntityHuman.g(EntityHuman.java:276)
+	at net.minecraft.server.level.EntityPlayer.h(EntityPlayer.java:810)
+	at net.minecraft.server.network.PlayerConnection.t(PlayerConnection.java:393)
+	at net.minecraft.server.network.PlayerConnection.d(PlayerConnection.java:375)
+	at net.minecraft.network.NetworkManager.b(NetworkManager.java:400)
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:149)
+	at net.minecraft.server.MinecraftServer.K(MinecraftServer.java:1647)
+	at net.minecraft.server.dedicated.DedicatedServer.K(DedicatedServer.java:567)
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1607)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1421)
+	at net.minecraft.server.dedicated.DedicatedServer.a(DedicatedServer.java:429)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1456)
+	at net.minecraft.server.MinecraftServer.A(MinecraftServer.java:1122)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306)
+	... 31 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81)
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79)
+[18:04:16] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588)
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:189)
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21)
+	at net.minecraft.advancements.criterion.CriterionTriggerAbstract.a(SourceFile:71)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:45)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:41)
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:411)
+	at net.minecraft.world.inventory.Container.a(Container.java:326)
+	at net.minecraft.world.inventory.Container.d(Container.java:272)
+	at net.minecraft.server.level.EntityPlayer.a(EntityPlayer.java:1543)
+	at net.minecraft.world.entity.item.EntityItem.a_(EntityItem.java:443)
+	at net.minecraft.world.entity.player.EntityHuman.d(EntityHuman.java:517)
+	at net.minecraft.world.entity.player.EntityHuman.d_(EntityHuman.java:498)
+	at net.minecraft.world.entity.EntityLiving.g(EntityLiving.java:3379)
+	at net.minecraft.world.entity.player.EntityHuman.g(EntityHuman.java:276)
+	at net.minecraft.server.level.EntityPlayer.h(EntityPlayer.java:810)
+	at net.minecraft.server.network.PlayerConnection.t(PlayerConnection.java:393)
+	at net.minecraft.server.network.PlayerConnection.d(PlayerConnection.java:375)
+	at net.minecraft.network.NetworkManager.b(NetworkManager.java:400)
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:149)
+	at net.minecraft.server.MinecraftServer.K(MinecraftServer.java:1647)
+	at net.minecraft.server.dedicated.DedicatedServer.K(DedicatedServer.java:567)
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1607)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1421)
+	at net.minecraft.server.dedicated.DedicatedServer.a(DedicatedServer.java:429)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1456)
+	at net.minecraft.server.MinecraftServer.A(MinecraftServer.java:1122)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306)
+	... 31 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81)
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79)
+[18:07:06] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588)
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:189)
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21)
+	at net.minecraft.advancements.criterion.CriterionTriggerAbstract.a(SourceFile:71)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:45)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:41)
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:411)
+	at net.minecraft.world.inventory.Container.a(Container.java:326)
+	at net.minecraft.world.inventory.Container.d(Container.java:272)
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:3122)
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:54)
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14)
+	at net.minecraft.network.PacketProcessor$a.a(PacketProcessor.java:58)
+	at net.minecraft.network.PacketProcessor.b(PacketProcessor.java:42)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1454)
+	at net.minecraft.server.MinecraftServer.A(MinecraftServer.java:1122)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306)
+	... 20 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81)
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79)
+[18:07:41] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588)
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:189)
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21)
+	at net.minecraft.advancements.criterion.CriterionTriggerAbstract.a(SourceFile:71)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:45)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:41)
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:411)
+	at net.minecraft.world.inventory.Container.a(Container.java:326)
+	at net.minecraft.world.inventory.Container.d(Container.java:272)
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:3122)
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:54)
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14)
+	at net.minecraft.network.PacketProcessor$a.a(PacketProcessor.java:58)
+	at net.minecraft.network.PacketProcessor.b(PacketProcessor.java:42)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1454)
+	at net.minecraft.server.MinecraftServer.A(MinecraftServer.java:1122)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306)
+	... 20 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81)
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79)
+[18:07:41] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588)
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:189)
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21)
+	at net.minecraft.advancements.criterion.CriterionTriggerAbstract.a(SourceFile:71)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:45)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:41)
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:411)
+	at net.minecraft.world.inventory.Container.a(Container.java:326)
+	at net.minecraft.world.inventory.Container.d(Container.java:272)
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:3122)
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:54)
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14)
+	at net.minecraft.network.PacketProcessor$a.a(PacketProcessor.java:58)
+	at net.minecraft.network.PacketProcessor.b(PacketProcessor.java:42)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1454)
+	at net.minecraft.server.MinecraftServer.A(MinecraftServer.java:1122)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306)
+	... 20 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81)
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79)
+[18:07:41] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588)
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:189)
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21)
+	at net.minecraft.advancements.criterion.CriterionTriggerAbstract.a(SourceFile:71)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:45)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:41)
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:411)
+	at net.minecraft.world.inventory.Container.a(Container.java:326)
+	at net.minecraft.world.inventory.Container.d(Container.java:272)
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:3122)
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:54)
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14)
+	at net.minecraft.network.PacketProcessor$a.a(PacketProcessor.java:58)
+	at net.minecraft.network.PacketProcessor.b(PacketProcessor.java:42)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1454)
+	at net.minecraft.server.MinecraftServer.A(MinecraftServer.java:1122)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306)
+	... 20 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81)
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79)
+[18:10:17] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588)
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:189)
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21)
+	at net.minecraft.advancements.criterion.CriterionTriggerAbstract.a(SourceFile:71)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:45)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:41)
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:411)
+	at net.minecraft.world.inventory.Container.a(Container.java:326)
+	at net.minecraft.world.inventory.Container.d(Container.java:272)
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:3122)
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:54)
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14)
+	at net.minecraft.network.PacketProcessor$a.a(PacketProcessor.java:58)
+	at net.minecraft.network.PacketProcessor.b(PacketProcessor.java:42)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1454)
+	at net.minecraft.server.MinecraftServer.A(MinecraftServer.java:1122)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306)
+	... 20 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81)
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79)
+[18:10:45] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588)
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:189)
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21)
+	at net.minecraft.advancements.criterion.CriterionTriggerAbstract.a(SourceFile:71)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:45)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:41)
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:411)
+	at net.minecraft.world.inventory.Container.a(Container.java:326)
+	at net.minecraft.world.inventory.Container.d(Container.java:272)
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:3122)
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:54)
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:14)
+	at net.minecraft.network.PacketProcessor$a.a(PacketProcessor.java:58)
+	at net.minecraft.network.PacketProcessor.b(PacketProcessor.java:42)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1454)
+	at net.minecraft.server.MinecraftServer.A(MinecraftServer.java:1122)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306)
+	... 20 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81)
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79)
+[18:13:36] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588)
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:189)
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21)
+	at net.minecraft.advancements.criterion.CriterionTriggerAbstract.a(SourceFile:71)
+	at net.minecraft.advancements.criterion.SpearMobsTrigger.a(SourceFile:19)
+	at net.minecraft.world.item.component.KineticWeapon.a(SourceFile:134)
+	at net.minecraft.world.item.ItemStack.b(ItemStack.java:1402)
+	at net.minecraft.world.entity.EntityLiving.a_(EntityLiving.java:4110)
+	at net.minecraft.server.level.EntityPlayer.a_(EntityPlayer.java:2570)
+	at net.minecraft.world.entity.EntityLiving.N(EntityLiving.java:4068)
+	at net.minecraft.world.entity.EntityLiving.g(EntityLiving.java:3338)
+	at net.minecraft.world.entity.player.EntityHuman.g(EntityHuman.java:276)
+	at net.minecraft.server.level.EntityPlayer.h(EntityPlayer.java:810)
+	at net.minecraft.server.network.PlayerConnection.t(PlayerConnection.java:393)
+	at net.minecraft.server.network.PlayerConnection.d(PlayerConnection.java:375)
+	at net.minecraft.network.NetworkManager.b(NetworkManager.java:400)
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:149)
+	at net.minecraft.server.MinecraftServer.K(MinecraftServer.java:1647)
+	at net.minecraft.server.dedicated.DedicatedServer.K(DedicatedServer.java:567)
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1607)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1421)
+	at net.minecraft.server.dedicated.DedicatedServer.a(DedicatedServer.java:429)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1456)
+	at net.minecraft.server.MinecraftServer.A(MinecraftServer.java:1122)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306)
+	... 28 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81)
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79)
+[18:13:36] [Server thread/INFO]: HTChen has reached the goal [Mob Kabob]
+[18:15:30] [Server thread/ERROR]: Could not pass event PlayerAdvancementDoneEvent to DiscordSRV v1.25.1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:601)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:588)
+	at net.minecraft.server.AdvancementDataPlayer.a(AdvancementDataPlayer.java:189)
+	at net.minecraft.advancements.CriterionTrigger$a.a(SourceFile:21)
+	at net.minecraft.advancements.criterion.CriterionTriggerAbstract.a(SourceFile:71)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:45)
+	at net.minecraft.advancements.criterion.CriterionTriggerInventoryChanged.a(SourceFile:41)
+	at net.minecraft.server.level.EntityPlayer$2.a(EntityPlayer.java:411)
+	at net.minecraft.world.inventory.Container.a(Container.java:326)
+	at net.minecraft.world.inventory.Container.d(Container.java:272)
+	at net.minecraft.server.level.EntityPlayer.a(EntityPlayer.java:1543)
+	at net.minecraft.world.entity.item.EntityItem.a_(EntityItem.java:443)
+	at net.minecraft.world.entity.player.EntityHuman.d(EntityHuman.java:517)
+	at net.minecraft.world.entity.player.EntityHuman.d_(EntityHuman.java:498)
+	at net.minecraft.world.entity.EntityLiving.g(EntityLiving.java:3379)
+	at net.minecraft.world.entity.player.EntityHuman.g(EntityHuman.java:276)
+	at net.minecraft.server.level.EntityPlayer.h(EntityPlayer.java:810)
+	at net.minecraft.server.network.PlayerConnection.t(PlayerConnection.java:393)
+	at net.minecraft.server.network.PlayerConnection.d(PlayerConnection.java:375)
+	at net.minecraft.network.NetworkManager.b(NetworkManager.java:400)
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:149)
+	at net.minecraft.server.MinecraftServer.K(MinecraftServer.java:1647)
+	at net.minecraft.server.dedicated.DedicatedServer.K(DedicatedServer.java:567)
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1607)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1421)
+	at net.minecraft.server.dedicated.DedicatedServer.a(DedicatedServer.java:429)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1456)
+	at net.minecraft.server.MinecraftServer.A(MinecraftServer.java:1122)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class github.scarsz.discordsrv.util.PlayerUtil
+	at github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.onPlayerAdvancementDone(PlayerAdvancementDoneListener.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306)
+	... 31 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NullPointerException [in thread "DiscordSRV - Presence Updater"]
+	at github.scarsz.discordsrv.util.PlayerUtil.<clinit>(PlayerUtil.java:81)
+	at github.scarsz.discordsrv.objects.threads.PresenceUpdater.run(PresenceUpdater.java:79)
+[18:21:06] [Server thread/INFO]: Stopping the server
+[18:21:06] [Server thread/INFO]: Stopping server
+[18:21:06] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
+[18:21:06] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[18:21:06] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
+[18:21:06] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.25.1
+[18:21:06] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時17ms
+[18:21:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: null
+[18:21:06] [DiscordSRV - JDA Callback 0/ERROR]: [DiscordSRV] DiscordSRV encountered an unknown Discord error: -1: java.io.InterruptedIOException
+[18:21:06] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時708ms
+[18:21:06] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
+[18:21:06] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.154
+[18:21:06] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:21:06] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:21:06] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:21:06] [Server thread/INFO]: Saving players
+[18:21:06] [Server thread/INFO]: HTChen lost connection: Server closed
+[18:21:06] [Server thread/INFO]: HTChen left the game.
+[18:21:07] [Server thread/INFO]: Saving worlds
+[18:21:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:21:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:21:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:21:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res]'/minecraft:res
+[18:21:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[res_nether]'/minecraft:res_nether
+[18:21:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[map]'/minecraft:map
+[18:21:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:21:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:21:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:21:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (res): All chunks are saved
+[18:21:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:21:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (map): All chunks are saved
+[18:21:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
